@@ -1,0 +1,837 @@
+{
+  "generated_by": "retention_seed_level.py",
+  "definition": "retention = P4 / (P3 + P4), per seed",
+  "sources": {
+    "AM+single": "../results/t6_mechanism/nophase/seed_*/mechanism.json",
+    "Ours": "../results/t6_mechanism/ours/seed_*/mechanism.json",
+    "AM+rotate": "../results/t6_mechanism/amphase/seed_*/mechanism.json",
+    "Agent Modification": "../results/t6_mechanism/am/seed_*/mechanism.json",
+    "SkiMo": "../results/t6_mechanism/skimo/seed_*/mechanism.json"
+  },
+  "budget_note": "every arm consumes 200k environment steps per iteration (AM+single 1x200k, rotating arms 4x50k), so cutting all arms to the same iteration count matches cumulative interaction exactly",
+  "primary": {
+    "window_iterations": 8,
+    "arms": {
+      "AM+single": {
+        "per_seed": [
+          {
+            "seed": 7,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 20,
+            "P3": 38,
+            "P4": 165,
+            "reached": 203,
+            "retention": 0.812807881773399
+          },
+          {
+            "seed": 42,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 7,
+            "P3": 38,
+            "P4": 170,
+            "reached": 208,
+            "retention": 0.8173076923076923
+          },
+          {
+            "seed": 123,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 4,
+            "P3": 14,
+            "P4": 52,
+            "reached": 66,
+            "retention": 0.7878787878787878
+          },
+          {
+            "seed": 2024,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 29,
+            "P3": 88,
+            "P4": 95,
+            "reached": 183,
+            "retention": 0.5191256830601093
+          }
+        ],
+        "n_seeds_with_data": 4,
+        "seed_mean": 0.7342800112549971,
+        "seed_min": 0.5191256830601093,
+        "seed_max": 0.8173076923076923,
+        "pooled_episode_level": 0.7303030303030303,
+        "pooled_wilson_ci": [
+          0.6951838018319981,
+          0.762756864513325
+        ],
+        "seeds_outside_own_pooled_wilson": [
+          7,
+          42,
+          123,
+          2024
+        ],
+        "cluster_bootstrap_over_seeds": {
+          "draws": 20000,
+          "ci_lo": 0.5903614457831325,
+          "ci_hi": 0.8150851581508516
+        },
+        "homogeneity_across_seeds": {
+          "applicable": true,
+          "k_seeds": 4,
+          "df": 3,
+          "pooled_rate": 0.7303030303030303,
+          "chi2_pearson": 57.55561962963257,
+          "p_pearson": 1.9556813147785687e-12,
+          "g_statistic": 54.337097820752945,
+          "p_g": 9.508679588524338e-12
+        },
+        "total_episodes": 960,
+        "P0_fraction_pooled": 0.0625,
+        "reached_fraction_pooled": 0.6875
+      },
+      "Ours": {
+        "per_seed": [
+          {
+            "seed": 7,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 1,
+            "P3": 105,
+            "P4": 2,
+            "reached": 107,
+            "retention": 0.018691588785046728
+          },
+          {
+            "seed": 42,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 1,
+            "P3": 57,
+            "P4": 2,
+            "reached": 59,
+            "retention": 0.03389830508474576
+          },
+          {
+            "seed": 123,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 1,
+            "P3": 47,
+            "P4": 1,
+            "reached": 48,
+            "retention": 0.020833333333333332
+          },
+          {
+            "seed": 2024,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 6,
+            "P3": 54,
+            "P4": 1,
+            "reached": 55,
+            "retention": 0.01818181818181818
+          }
+        ],
+        "n_seeds_with_data": 4,
+        "seed_mean": 0.022901261346235997,
+        "seed_min": 0.01818181818181818,
+        "seed_max": 0.03389830508474576,
+        "pooled_episode_level": 0.022304832713754646,
+        "pooled_wilson_ci": [
+          0.010261659230230511,
+          0.04779938064679495
+        ],
+        "seeds_outside_own_pooled_wilson": [],
+        "cluster_bootstrap_over_seeds": {
+          "draws": 20000,
+          "ci_lo": 0.018518518518518517,
+          "ci_hi": 0.03017241379310345
+        },
+        "homogeneity_across_seeds": {
+          "applicable": true,
+          "k_seeds": 4,
+          "df": 3,
+          "pooled_rate": 0.022304832713754646,
+          "chi2_pearson": 0.4753422049505624,
+          "p_pearson": 0.9242742493220254,
+          "g_statistic": 0.4326983914817665,
+          "p_g": 0.9334079448232091
+        },
+        "total_episodes": 960,
+        "P0_fraction_pooled": 0.009375,
+        "reached_fraction_pooled": 0.28020833333333334
+      },
+      "AM+rotate": {
+        "per_seed": [
+          {
+            "seed": 7,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 32,
+            "P3": 44,
+            "P4": 2,
+            "reached": 46,
+            "retention": 0.043478260869565216
+          },
+          {
+            "seed": 42,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 32,
+            "P3": 42,
+            "P4": 3,
+            "reached": 45,
+            "retention": 0.06666666666666667
+          },
+          {
+            "seed": 123,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 9,
+            "P3": 96,
+            "P4": 4,
+            "reached": 100,
+            "retention": 0.04
+          },
+          {
+            "seed": 2024,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 1,
+            "P3": 29,
+            "P4": 14,
+            "reached": 43,
+            "retention": 0.32558139534883723
+          }
+        ],
+        "n_seeds_with_data": 4,
+        "seed_mean": 0.11893158072126728,
+        "seed_min": 0.04,
+        "seed_max": 0.32558139534883723,
+        "pooled_episode_level": 0.09829059829059829,
+        "pooled_wilson_ci": [
+          0.06639147631001649,
+          0.14316601239622717
+        ],
+        "seeds_outside_own_pooled_wilson": [
+          7,
+          123,
+          2024
+        ],
+        "cluster_bootstrap_over_seeds": {
+          "draws": 20000,
+          "ci_lo": 0.0410958904109589,
+          "ci_hi": 0.25142857142857145
+        },
+        "homogeneity_across_seeds": {
+          "applicable": true,
+          "k_seeds": 4,
+          "df": 3,
+          "pooled_rate": 0.09829059829059829,
+          "chi2_pearson": 30.964978297226626,
+          "p_pearson": 8.646042866690488e-07,
+          "g_statistic": 24.020705218257934,
+          "p_g": 2.473257236777075e-05
+        },
+        "total_episodes": 960,
+        "P0_fraction_pooled": 0.07708333333333334,
+        "reached_fraction_pooled": 0.24375
+      },
+      "Agent Modification": {
+        "per_seed": [
+          {
+            "seed": 7,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 19,
+            "P3": 2,
+            "P4": 0,
+            "reached": 2,
+            "retention": 0.0
+          },
+          {
+            "seed": 42,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 138,
+            "P3": 1,
+            "P4": 0,
+            "reached": 1,
+            "retention": 0.0
+          }
+        ],
+        "n_seeds_with_data": 2,
+        "seed_mean": 0.0,
+        "seed_min": 0.0,
+        "seed_max": 0.0,
+        "pooled_episode_level": 0.0,
+        "pooled_wilson_ci": [
+          5.551115123125783e-17,
+          0.5614970317550454
+        ],
+        "seeds_outside_own_pooled_wilson": [
+          7,
+          42
+        ],
+        "cluster_bootstrap_over_seeds": {
+          "draws": 20000,
+          "ci_lo": 0.0,
+          "ci_hi": 0.0
+        },
+        "homogeneity_across_seeds": {
+          "applicable": true,
+          "k_seeds": 2,
+          "df": 1,
+          "pooled_rate": 0.0,
+          "chi2_pearson": 0.0,
+          "p_pearson": 1.0,
+          "g_statistic": 0.0,
+          "p_g": 1.0,
+          "chi2_yates": 0.0,
+          "p_yates": 1.0
+        },
+        "total_episodes": 480,
+        "P0_fraction_pooled": 0.32708333333333334,
+        "reached_fraction_pooled": 0.00625
+      },
+      "SkiMo": {
+        "per_seed": [
+          {
+            "seed": 7,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 116,
+            "P3": 6,
+            "P4": 0,
+            "reached": 6,
+            "retention": 0.0
+          },
+          {
+            "seed": 42,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 65,
+            "P3": 2,
+            "P4": 0,
+            "reached": 2,
+            "retention": 0.0
+          }
+        ],
+        "n_seeds_with_data": 2,
+        "seed_mean": 0.0,
+        "seed_min": 0.0,
+        "seed_max": 0.0,
+        "pooled_episode_level": 0.0,
+        "pooled_wilson_ci": [
+          0.0,
+          0.32440756488388023
+        ],
+        "seeds_outside_own_pooled_wilson": [],
+        "cluster_bootstrap_over_seeds": {
+          "draws": 20000,
+          "ci_lo": 0.0,
+          "ci_hi": 0.0
+        },
+        "homogeneity_across_seeds": {
+          "applicable": true,
+          "k_seeds": 2,
+          "df": 1,
+          "pooled_rate": 0.0,
+          "chi2_pearson": 0.0,
+          "p_pearson": 1.0,
+          "g_statistic": 0.0,
+          "p_g": 1.0,
+          "chi2_yates": 0.0,
+          "p_yates": 1.0
+        },
+        "total_episodes": 480,
+        "P0_fraction_pooled": 0.3770833333333333,
+        "reached_fraction_pooled": 0.016666666666666666
+      }
+    },
+    "seed_level_tests": {
+      "AM+single vs Ours": {
+        "values_a": [
+          0.812807881773399,
+          0.8173076923076923,
+          0.7878787878787878,
+          0.5191256830601093
+        ],
+        "values_b": [
+          0.018691588785046728,
+          0.03389830508474576,
+          0.020833333333333332,
+          0.01818181818181818
+        ],
+        "n_a": 4,
+        "n_b": 4,
+        "U": 16.0,
+        "p_two_sided_exact": 0.02857142857142857,
+        "min_attainable_p": 0.02857142857142857,
+        "n_permutations": 70,
+        "cliffs_delta": 1.0,
+        "complete_separation": true
+      },
+      "AM+single vs AM+rotate": {
+        "values_a": [
+          0.812807881773399,
+          0.8173076923076923,
+          0.7878787878787878,
+          0.5191256830601093
+        ],
+        "values_b": [
+          0.043478260869565216,
+          0.06666666666666667,
+          0.04,
+          0.32558139534883723
+        ],
+        "n_a": 4,
+        "n_b": 4,
+        "U": 16.0,
+        "p_two_sided_exact": 0.02857142857142857,
+        "min_attainable_p": 0.02857142857142857,
+        "n_permutations": 70,
+        "cliffs_delta": 1.0,
+        "complete_separation": true
+      },
+      "AM+rotate vs Ours": {
+        "values_a": [
+          0.043478260869565216,
+          0.06666666666666667,
+          0.04,
+          0.32558139534883723
+        ],
+        "values_b": [
+          0.018691588785046728,
+          0.03389830508474576,
+          0.020833333333333332,
+          0.01818181818181818
+        ],
+        "n_a": 4,
+        "n_b": 4,
+        "U": 16.0,
+        "p_two_sided_exact": 0.02857142857142857,
+        "min_attainable_p": 0.02857142857142857,
+        "n_permutations": 70,
+        "cliffs_delta": 1.0,
+        "complete_separation": true
+      }
+    }
+  },
+  "secondary_full_window": {
+    "window_iterations": null,
+    "arms": {
+      "AM+single": {
+        "per_seed": [
+          {
+            "seed": 7,
+            "iterations": 10,
+            "episodes": 300,
+            "P0": 20,
+            "P3": 45,
+            "P4": 218,
+            "reached": 263,
+            "retention": 0.8288973384030418
+          },
+          {
+            "seed": 42,
+            "iterations": 10,
+            "episodes": 300,
+            "P0": 7,
+            "P3": 44,
+            "P4": 214,
+            "reached": 258,
+            "retention": 0.8294573643410853
+          },
+          {
+            "seed": 123,
+            "iterations": 10,
+            "episodes": 300,
+            "P0": 5,
+            "P3": 15,
+            "P4": 53,
+            "reached": 68,
+            "retention": 0.7794117647058824
+          },
+          {
+            "seed": 2024,
+            "iterations": 10,
+            "episodes": 300,
+            "P0": 29,
+            "P3": 126,
+            "P4": 117,
+            "reached": 243,
+            "retention": 0.48148148148148145
+          }
+        ],
+        "n_seeds_with_data": 4,
+        "seed_mean": 0.7298119872328727,
+        "seed_min": 0.48148148148148145,
+        "seed_max": 0.8294573643410853,
+        "pooled_episode_level": 0.7235576923076923,
+        "pooled_wilson_ci": [
+          0.6921931305055841,
+          0.7528673484575706
+        ],
+        "seeds_outside_own_pooled_wilson": [
+          7,
+          42,
+          123,
+          2024
+        ],
+        "cluster_bootstrap_over_seeds": {
+          "draws": 20000,
+          "ci_lo": 0.5466237942122186,
+          "ci_hi": 0.8291746641074856
+        },
+        "homogeneity_across_seeds": {
+          "applicable": true,
+          "k_seeds": 4,
+          "df": 3,
+          "pooled_rate": 0.7235576923076923,
+          "chi2_pearson": 101.30848640672198,
+          "p_pearson": 8.130734497200212e-22,
+          "g_statistic": 96.33974299105446,
+          "p_g": 9.514219988339883e-21
+        },
+        "total_episodes": 1200,
+        "P0_fraction_pooled": 0.050833333333333335,
+        "reached_fraction_pooled": 0.6933333333333334
+      },
+      "Ours": {
+        "per_seed": [
+          {
+            "seed": 7,
+            "iterations": 20,
+            "episodes": 600,
+            "P0": 7,
+            "P3": 270,
+            "P4": 9,
+            "reached": 279,
+            "retention": 0.03225806451612903
+          },
+          {
+            "seed": 42,
+            "iterations": 20,
+            "episodes": 600,
+            "P0": 3,
+            "P3": 152,
+            "P4": 27,
+            "reached": 179,
+            "retention": 0.15083798882681565
+          },
+          {
+            "seed": 123,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 1,
+            "P3": 47,
+            "P4": 1,
+            "reached": 48,
+            "retention": 0.020833333333333332
+          },
+          {
+            "seed": 2024,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 6,
+            "P3": 54,
+            "P4": 1,
+            "reached": 55,
+            "retention": 0.01818181818181818
+          }
+        ],
+        "n_seeds_with_data": 4,
+        "seed_mean": 0.05552780121452405,
+        "seed_min": 0.01818181818181818,
+        "seed_max": 0.15083798882681565,
+        "pooled_episode_level": 0.0677361853832442,
+        "pooled_wilson_ci": [
+          0.04974494054642549,
+          0.09160703986130049
+        ],
+        "seeds_outside_own_pooled_wilson": [
+          7,
+          42,
+          123,
+          2024
+        ],
+        "cluster_bootstrap_over_seeds": {
+          "draws": 20000,
+          "ci_lo": 0.019417475728155338,
+          "ci_hi": 0.13851351351351351
+        },
+        "homogeneity_across_seeds": {
+          "applicable": true,
+          "k_seeds": 4,
+          "df": 3,
+          "pooled_rate": 0.0677361853832442,
+          "chi2_pearson": 28.9476870688065,
+          "p_pearson": 2.29683318043009e-06,
+          "g_statistic": 26.882777217672132,
+          "p_g": 6.230077073579017e-06
+        },
+        "total_episodes": 1680,
+        "P0_fraction_pooled": 0.01011904761904762,
+        "reached_fraction_pooled": 0.3339285714285714
+      },
+      "AM+rotate": {
+        "per_seed": [
+          {
+            "seed": 7,
+            "iterations": 20,
+            "episodes": 600,
+            "P0": 38,
+            "P3": 116,
+            "P4": 19,
+            "reached": 135,
+            "retention": 0.14074074074074075
+          },
+          {
+            "seed": 42,
+            "iterations": 20,
+            "episodes": 600,
+            "P0": 46,
+            "P3": 155,
+            "P4": 61,
+            "reached": 216,
+            "retention": 0.2824074074074074
+          },
+          {
+            "seed": 123,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 9,
+            "P3": 96,
+            "P4": 4,
+            "reached": 100,
+            "retention": 0.04
+          },
+          {
+            "seed": 2024,
+            "iterations": 8,
+            "episodes": 240,
+            "P0": 1,
+            "P3": 29,
+            "P4": 14,
+            "reached": 43,
+            "retention": 0.32558139534883723
+          }
+        ],
+        "n_seeds_with_data": 4,
+        "seed_mean": 0.19718238587424636,
+        "seed_min": 0.04,
+        "seed_max": 0.32558139534883723,
+        "pooled_episode_level": 0.19838056680161945,
+        "pooled_wilson_ci": [
+          0.1656010159674209,
+          0.23581484701451363
+        ],
+        "seeds_outside_own_pooled_wilson": [
+          7,
+          42,
+          123,
+          2024
+        ],
+        "cluster_bootstrap_over_seeds": {
+          "draws": 20000,
+          "ci_lo": 0.07580174927113703,
+          "ci_hi": 0.28957528957528955
+        },
+        "homogeneity_across_seeds": {
+          "applicable": true,
+          "k_seeds": 4,
+          "df": 3,
+          "pooled_rate": 0.19838056680161945,
+          "chi2_pearson": 32.5593243350377,
+          "p_pearson": 3.9891693167479543e-07,
+          "g_statistic": 37.481674641824995,
+          "p_g": 3.63883597137139e-08
+        },
+        "total_episodes": 1680,
+        "P0_fraction_pooled": 0.055952380952380955,
+        "reached_fraction_pooled": 0.29404761904761906
+      },
+      "Agent Modification": {
+        "per_seed": [
+          {
+            "seed": 7,
+            "iterations": 20,
+            "episodes": 600,
+            "P0": 216,
+            "P3": 38,
+            "P4": 91,
+            "reached": 129,
+            "retention": 0.7054263565891473
+          },
+          {
+            "seed": 42,
+            "iterations": 20,
+            "episodes": 600,
+            "P0": 494,
+            "P3": 2,
+            "P4": 1,
+            "reached": 3,
+            "retention": 0.3333333333333333
+          }
+        ],
+        "n_seeds_with_data": 2,
+        "seed_mean": 0.5193798449612403,
+        "seed_min": 0.3333333333333333,
+        "seed_max": 0.7054263565891473,
+        "pooled_episode_level": 0.696969696969697,
+        "pooled_wilson_ci": [
+          0.6139164910834847,
+          0.7688826959352455
+        ],
+        "seeds_outside_own_pooled_wilson": [
+          42
+        ],
+        "cluster_bootstrap_over_seeds": {
+          "draws": 20000,
+          "ci_lo": 0.3333333333333333,
+          "ci_hi": 0.7054263565891473
+        },
+        "homogeneity_across_seeds": {
+          "applicable": true,
+          "k_seeds": 2,
+          "df": 1,
+          "pooled_rate": 0.696969696969697,
+          "chi2_pearson": 1.9219413549039432,
+          "p_pearson": 0.1656428044602224,
+          "g_statistic": 1.7225460468552953,
+          "p_g": 0.18936564246855403,
+          "chi2_yates": 0.5639029322548027,
+          "p_yates": 0.4526919523510098
+        },
+        "total_episodes": 1200,
+        "P0_fraction_pooled": 0.5916666666666667,
+        "reached_fraction_pooled": 0.11
+      },
+      "SkiMo": {
+        "per_seed": [
+          {
+            "seed": 7,
+            "iterations": 20,
+            "episodes": 600,
+            "P0": 388,
+            "P3": 22,
+            "P4": 12,
+            "reached": 34,
+            "retention": 0.35294117647058826
+          },
+          {
+            "seed": 42,
+            "iterations": 20,
+            "episodes": 600,
+            "P0": 416,
+            "P3": 2,
+            "P4": 0,
+            "reached": 2,
+            "retention": 0.0
+          }
+        ],
+        "n_seeds_with_data": 2,
+        "seed_mean": 0.17647058823529413,
+        "seed_min": 0.0,
+        "seed_max": 0.35294117647058826,
+        "pooled_episode_level": 0.3333333333333333,
+        "pooled_wilson_ci": [
+          0.2021461882430531,
+          0.4966600212884348
+        ],
+        "seeds_outside_own_pooled_wilson": [
+          42
+        ],
+        "cluster_bootstrap_over_seeds": {
+          "draws": 20000,
+          "ci_lo": 0.0,
+          "ci_hi": 0.35294117647058826
+        },
+        "homogeneity_across_seeds": {
+          "applicable": true,
+          "k_seeds": 2,
+          "df": 1,
+          "pooled_rate": 0.3333333333333333,
+          "chi2_pearson": 1.0588235294117647,
+          "p_pearson": 0.3034836640248423,
+          "g_statistic": 1.6801319860054527,
+          "p_g": 0.19490691560315287,
+          "chi2_yates": 0.06617647058823528,
+          "p_yates": 0.7969874262088126
+        },
+        "total_episodes": 1200,
+        "P0_fraction_pooled": 0.67,
+        "reached_fraction_pooled": 0.03
+      }
+    },
+    "seed_level_tests": {
+      "AM+single vs Ours": {
+        "values_a": [
+          0.8288973384030418,
+          0.8294573643410853,
+          0.7794117647058824,
+          0.48148148148148145
+        ],
+        "values_b": [
+          0.03225806451612903,
+          0.15083798882681565,
+          0.020833333333333332,
+          0.01818181818181818
+        ],
+        "n_a": 4,
+        "n_b": 4,
+        "U": 16.0,
+        "p_two_sided_exact": 0.02857142857142857,
+        "min_attainable_p": 0.02857142857142857,
+        "n_permutations": 70,
+        "cliffs_delta": 1.0,
+        "complete_separation": true
+      },
+      "AM+single vs AM+rotate": {
+        "values_a": [
+          0.8288973384030418,
+          0.8294573643410853,
+          0.7794117647058824,
+          0.48148148148148145
+        ],
+        "values_b": [
+          0.14074074074074075,
+          0.2824074074074074,
+          0.04,
+          0.32558139534883723
+        ],
+        "n_a": 4,
+        "n_b": 4,
+        "U": 16.0,
+        "p_two_sided_exact": 0.02857142857142857,
+        "min_attainable_p": 0.02857142857142857,
+        "n_permutations": 70,
+        "cliffs_delta": 1.0,
+        "complete_separation": true
+      },
+      "AM+rotate vs Ours": {
+        "values_a": [
+          0.14074074074074075,
+          0.2824074074074074,
+          0.04,
+          0.32558139534883723
+        ],
+        "values_b": [
+          0.03225806451612903,
+          0.15083798882681565,
+          0.020833333333333332,
+          0.01818181818181818
+        ],
+        "n_a": 4,
+        "n_b": 4,
+        "U": 14.0,
+        "p_two_sided_exact": 0.11428571428571428,
+        "min_attainable_p": 0.02857142857142857,
+        "n_permutations": 70,
+        "cliffs_delta": 0.75,
+        "complete_separation": false
+      }
+    }
+  }
+}

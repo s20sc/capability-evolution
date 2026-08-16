@@ -1,0 +1,66 @@
+{
+  "task": "T6_TwoArmPegInHole",
+  "method": "amphase",
+  "generated_at": "2026-07-05T12:52:03",
+  "per_seed": {
+    "123": {
+      "peak_success": 73.33333333333333,
+      "peak_reward": 436.77132111870304,
+      "final_success": 60.0,
+      "final_reward": 419.2113981304459,
+      "max_policy_drift": 2.534745693206787,
+      "final_policy_drift": 2.3505847454071045,
+      "n_iters": 20
+    },
+    "2024": {
+      "peak_success": 43.333333333333336,
+      "peak_reward": 406.5835464561703,
+      "final_success": 3.3333333333333335,
+      "final_reward": 290.9850782238639,
+      "max_policy_drift": 2.5614264011383057,
+      "final_policy_drift": 2.39162278175354,
+      "n_iters": 20
+    },
+    "42": {
+      "peak_success": 46.666666666666664,
+      "peak_reward": 377.680293867873,
+      "final_success": 0.0,
+      "final_reward": 287.6733478352515,
+      "max_policy_drift": 2.471696138381958,
+      "final_policy_drift": 2.30972957611084,
+      "n_iters": 20
+    },
+    "7": {
+      "peak_success": 50.0,
+      "peak_reward": 351.62720768909645,
+      "final_success": 43.333333333333336,
+      "final_reward": 351.62720768909645,
+      "max_policy_drift": 2.4346489906311035,
+      "final_policy_drift": 2.3458640575408936,
+      "n_iters": 20
+    }
+  },
+  "aggregate": {
+    "peak_success": {
+      "mean": 53.33333333333333,
+      "std": 13.608276348795432,
+      "ci95": 21.65380439375562,
+      "n": 4,
+      "values": [
+        73.33333333333333,
+        43.333333333333336,
+        46.666666666666664,
+        50.0
+      ]
+    },
+    "max_policy_drift": {
+      "mean": 2.5006293058395386,
+      "values": [
+        2.534745693206787,
+        2.5614264011383057,
+        2.471696138381958,
+        2.4346489906311035
+      ]
+    }
+  }
+}

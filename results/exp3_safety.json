@@ -1,0 +1,146 @@
+{
+  "T1_Pick": {
+    "with_governance": {
+      "total_actions": 25000,
+      "blocked_actions": 24997,
+      "blocking_rate": 99.988,
+      "overhead_ms": 0.022616712618619205,
+      "avg_overhead_ms": 0.022616712618619205,
+      "max_overhead_ms": 0.529994023963809,
+      "total_safety_violations": 0,
+      "unsafe_episodes": 0,
+      "unsafe_exec_pct": 0.0
+    },
+    "without_governance": {
+      "total_actions": 25000,
+      "blocked_actions": 0,
+      "blocking_rate": 0.0,
+      "overhead_ms": 0.0003307092911563814,
+      "avg_overhead_ms": 0.0003307092911563814,
+      "max_overhead_ms": 0.11222099419683218,
+      "total_safety_violations": 3761,
+      "unsafe_episodes": 40,
+      "unsafe_exec_pct": 80.0
+    }
+  },
+  "T2_Place": {
+    "with_governance": {
+      "total_actions": 25000,
+      "blocked_actions": 25000,
+      "blocking_rate": 100.0,
+      "overhead_ms": 0.022415197576629,
+      "avg_overhead_ms": 0.022415197576629,
+      "max_overhead_ms": 0.26023699319921434,
+      "total_safety_violations": 0,
+      "unsafe_episodes": 0,
+      "unsafe_exec_pct": 0.0
+    },
+    "without_governance": {
+      "total_actions": 25000,
+      "blocked_actions": 0,
+      "blocking_rate": 0.0,
+      "overhead_ms": 0.0003574316471349448,
+      "avg_overhead_ms": 0.0003574316471349448,
+      "max_overhead_ms": 0.47039700439199805,
+      "total_safety_violations": 0,
+      "unsafe_episodes": 0,
+      "unsafe_exec_pct": 0.0
+    }
+  },
+  "T3_Stack": {
+    "with_governance": {
+      "total_actions": 25000,
+      "blocked_actions": 25000,
+      "blocking_rate": 100.0,
+      "overhead_ms": 0.02886452731443569,
+      "avg_overhead_ms": 0.02886452731443569,
+      "max_overhead_ms": 0.5432100151665509,
+      "total_safety_violations": 0,
+      "unsafe_episodes": 0,
+      "unsafe_exec_pct": 0.0
+    },
+    "without_governance": {
+      "total_actions": 25000,
+      "blocked_actions": 0,
+      "blocking_rate": 0.0,
+      "overhead_ms": 0.000433280459837988,
+      "avg_overhead_ms": 0.000433280459837988,
+      "max_overhead_ms": 0.020298000890761614,
+      "total_safety_violations": 0,
+      "unsafe_episodes": 0,
+      "unsafe_exec_pct": 0.0
+    }
+  },
+  "T4_NutAssembly": {
+    "with_governance": {
+      "total_actions": 25000,
+      "blocked_actions": 25000,
+      "blocking_rate": 100.0,
+      "overhead_ms": 0.029026541534112767,
+      "avg_overhead_ms": 0.029026541534112767,
+      "max_overhead_ms": 3.037747024791315,
+      "total_safety_violations": 0,
+      "unsafe_episodes": 0,
+      "unsafe_exec_pct": 0.0
+    },
+    "without_governance": {
+      "total_actions": 25000,
+      "blocked_actions": 0,
+      "blocking_rate": 0.0,
+      "overhead_ms": 0.00044359172461554407,
+      "avg_overhead_ms": 0.00044359172461554407,
+      "max_overhead_ms": 0.01868401886895299,
+      "total_safety_violations": 0,
+      "unsafe_episodes": 0,
+      "unsafe_exec_pct": 0.0
+    }
+  },
+  "T5_PickPlaceMulti": {
+    "with_governance": {
+      "total_actions": 25000,
+      "blocked_actions": 25000,
+      "blocking_rate": 100.0,
+      "overhead_ms": 0.025898988681146876,
+      "avg_overhead_ms": 0.025898988681146876,
+      "max_overhead_ms": 3.0278490157797933,
+      "total_safety_violations": 0,
+      "unsafe_episodes": 0,
+      "unsafe_exec_pct": 0.0
+    },
+    "without_governance": {
+      "total_actions": 25000,
+      "blocked_actions": 0,
+      "blocking_rate": 0.0,
+      "overhead_ms": 0.00035052246064879,
+      "avg_overhead_ms": 0.00035052246064879,
+      "max_overhead_ms": 0.2360199869144708,
+      "total_safety_violations": 0,
+      "unsafe_episodes": 0,
+      "unsafe_exec_pct": 0.0
+    }
+  },
+  "T6_TwoArmPegInHole": {
+    "with_governance": {
+      "total_actions": 25000,
+      "blocked_actions": 15252,
+      "blocking_rate": 61.007999999999996,
+      "overhead_ms": 0.020795124939177186,
+      "avg_overhead_ms": 0.020795124939177186,
+      "max_overhead_ms": 0.5365610122680664,
+      "total_safety_violations": 0,
+      "unsafe_episodes": 0,
+      "unsafe_exec_pct": 0.0
+    },
+    "without_governance": {
+      "total_actions": 25000,
+      "blocked_actions": 0,
+      "blocking_rate": 0.0,
+      "overhead_ms": 0.00032476381515152754,
+      "avg_overhead_ms": 0.00032476381515152754,
+      "max_overhead_ms": 0.23204099852591753,
+      "total_safety_violations": 0,
+      "unsafe_episodes": 0,
+      "unsafe_exec_pct": 0.0
+    }
+  }
+}

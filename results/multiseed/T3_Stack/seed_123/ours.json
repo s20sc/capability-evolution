@@ -1,0 +1,16 @@
+{
+  "iterations": [
+    1
+  ],
+  "metrics": [
+    {
+      "success_rate": 0.0,
+      "avg_reward": 0.7577875164190729,
+      "avg_time": 500.0,
+      "reward_variance": 1.5751356011887778,
+      "policy_drift": 0.0,
+      "iteration": 1,
+      "wall_time": 4227.646170377731
+    }
+  ]
+}

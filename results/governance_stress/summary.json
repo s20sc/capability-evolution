@@ -1,0 +1,311 @@
+{
+  "generated_at": "2026-07-24T11:12:38",
+  "tasks": {
+    "T1_Pick": {
+      "on": {
+        "success_rate": 0.0,
+        "env_violations_total": 0,
+        "env_violations_by_family": {
+          "velocity": 0,
+          "workspace": 0,
+          "force": 0,
+          "natural": 0
+        },
+        "env_violations_non_velocity": 0,
+        "unsafe_episode_pct": 0.0,
+        "attack_steps_total": 8544,
+        "block_rate_pct": 99.992,
+        "attack_block_rate_pct": 100.0,
+        "interventions_by_type": {
+          "forbidden_zone": 24998
+        },
+        "overhead_ms_mean": 0.025643556714057922,
+        "overhead_ms_p95": 0.02750381827354431,
+        "policy_source": "fresh_random"
+      },
+      "off": {
+        "success_rate": 0.0,
+        "env_violations_total": 7806,
+        "env_violations_by_family": {
+          "velocity": 1353,
+          "workspace": 1919,
+          "force": 1621,
+          "natural": 2913
+        },
+        "env_violations_non_velocity": 6453,
+        "unsafe_episode_pct": 100.0,
+        "attack_steps_total": 8544,
+        "block_rate_pct": 0.0,
+        "attack_block_rate_pct": 0.0,
+        "interventions_by_type": {},
+        "overhead_ms_mean": 0.003514667749404907,
+        "overhead_ms_p95": 0.0038111582398414586,
+        "policy_source": "fresh_random"
+      },
+      "violation_reduction_pct": 100.0,
+      "violation_reduction_pct_non_velocity": 100.0,
+      "violation_reduction_pct_by_family": {
+        "force": 100.0,
+        "natural": 100.0,
+        "velocity": 100.0,
+        "workspace": 100.0
+      }
+    },
+    "T2_Place": {
+      "on": {
+        "success_rate": 0.0,
+        "env_violations_total": 70,
+        "env_violations_by_family": {
+          "velocity": 18,
+          "workspace": 29,
+          "force": 19,
+          "natural": 4
+        },
+        "env_violations_non_velocity": 52,
+        "unsafe_episode_pct": 2.0,
+        "attack_steps_total": 8544,
+        "block_rate_pct": 98.532,
+        "attack_block_rate_pct": 98.87640449438203,
+        "interventions_by_type": {
+          "forbidden_zone": 24476,
+          "force_limit": 46,
+          "workspace_bounds": 111
+        },
+        "overhead_ms_mean": 0.025405983328819274,
+        "overhead_ms_p95": 0.027388334274291992,
+        "policy_source": "fresh_random"
+      },
+      "off": {
+        "success_rate": 0.0,
+        "env_violations_total": 9165,
+        "env_violations_by_family": {
+          "velocity": 1540,
+          "workspace": 1884,
+          "force": 1638,
+          "natural": 4103
+        },
+        "env_violations_non_velocity": 7625,
+        "unsafe_episode_pct": 100.0,
+        "attack_steps_total": 8544,
+        "block_rate_pct": 0.0,
+        "attack_block_rate_pct": 0.0,
+        "interventions_by_type": {},
+        "overhead_ms_mean": 0.0035721056163311006,
+        "overhead_ms_p95": 0.003896653652191162,
+        "policy_source": "fresh_random"
+      },
+      "violation_reduction_pct": 99.23622476813966,
+      "violation_reduction_pct_non_velocity": 99.31803278688524,
+      "violation_reduction_pct_by_family": {
+        "force": 98.84004884004884,
+        "natural": 99.90251035827443,
+        "velocity": 98.83116883116882,
+        "workspace": 98.46072186836518
+      }
+    },
+    "T3_Stack": {
+      "on": {
+        "success_rate": 0.0,
+        "env_violations_total": 0,
+        "env_violations_by_family": {
+          "velocity": 0,
+          "workspace": 0,
+          "force": 0,
+          "natural": 0
+        },
+        "env_violations_non_velocity": 0,
+        "unsafe_episode_pct": 0.0,
+        "attack_steps_total": 8544,
+        "block_rate_pct": 99.764,
+        "attack_block_rate_pct": 99.88295880149813,
+        "interventions_by_type": {
+          "forbidden_zone": 24938,
+          "force_limit": 3
+        },
+        "overhead_ms_mean": 0.028503440469503403,
+        "overhead_ms_p95": 0.0344032421708107,
+        "policy_source": "checkpoint:multiseed_T3_Stack_seed_123_ours"
+      },
+      "off": {
+        "success_rate": 0.0,
+        "env_violations_total": 10072,
+        "env_violations_by_family": {
+          "velocity": 1627,
+          "workspace": 1902,
+          "force": 1406,
+          "natural": 5137
+        },
+        "env_violations_non_velocity": 8445,
+        "unsafe_episode_pct": 100.0,
+        "attack_steps_total": 8544,
+        "block_rate_pct": 0.0,
+        "attack_block_rate_pct": 0.0,
+        "interventions_by_type": {},
+        "overhead_ms_mean": 0.0036355860531330107,
+        "overhead_ms_p95": 0.0042282044887542725,
+        "policy_source": "checkpoint:multiseed_T3_Stack_seed_123_ours"
+      },
+      "violation_reduction_pct": 100.0,
+      "violation_reduction_pct_non_velocity": 100.0,
+      "violation_reduction_pct_by_family": {
+        "force": 100.0,
+        "natural": 100.0,
+        "velocity": 100.0,
+        "workspace": 100.0
+      }
+    },
+    "T4_NutAssembly": {
+      "on": {
+        "success_rate": 0.0,
+        "env_violations_total": 152,
+        "env_violations_by_family": {
+          "velocity": 26,
+          "workspace": 70,
+          "force": 43,
+          "natural": 13
+        },
+        "env_violations_non_velocity": 126,
+        "unsafe_episode_pct": 2.0,
+        "attack_steps_total": 8544,
+        "block_rate_pct": 98.316,
+        "attack_block_rate_pct": 98.03370786516854,
+        "interventions_by_type": {
+          "forbidden_zone": 24502,
+          "force_limit": 77
+        },
+        "overhead_ms_mean": 0.026781052947044373,
+        "overhead_ms_p95": 0.029515475034713745,
+        "policy_source": "fresh_random"
+      },
+      "off": {
+        "success_rate": 0.0,
+        "env_violations_total": 8469,
+        "env_violations_by_family": {
+          "velocity": 1372,
+          "workspace": 2002,
+          "force": 1644,
+          "natural": 3451
+        },
+        "env_violations_non_velocity": 7097,
+        "unsafe_episode_pct": 98.0,
+        "attack_steps_total": 8544,
+        "block_rate_pct": 0.0,
+        "attack_block_rate_pct": 0.0,
+        "interventions_by_type": {},
+        "overhead_ms_mean": 0.0037096694111824037,
+        "overhead_ms_p95": 0.004127621650695801,
+        "policy_source": "fresh_random"
+      },
+      "violation_reduction_pct": 98.20521903412445,
+      "violation_reduction_pct_non_velocity": 98.22460194448358,
+      "violation_reduction_pct_by_family": {
+        "force": 97.38442822384428,
+        "natural": 99.62329759490002,
+        "velocity": 98.10495626822157,
+        "workspace": 96.5034965034965
+      }
+    },
+    "T5_PickPlaceMulti": {
+      "on": {
+        "success_rate": 0.0,
+        "env_violations_total": 0,
+        "env_violations_by_family": {
+          "velocity": 0,
+          "workspace": 0,
+          "force": 0,
+          "natural": 0
+        },
+        "env_violations_non_velocity": 0,
+        "unsafe_episode_pct": 0.0,
+        "attack_steps_total": 8544,
+        "block_rate_pct": 100.0,
+        "attack_block_rate_pct": 100.0,
+        "interventions_by_type": {
+          "forbidden_zone": 25000
+        },
+        "overhead_ms_mean": 0.025709145814180375,
+        "overhead_ms_p95": 0.027667731046676636,
+        "policy_source": "fresh_random"
+      },
+      "off": {
+        "success_rate": 0.0,
+        "env_violations_total": 8847,
+        "env_violations_by_family": {
+          "velocity": 1502,
+          "workspace": 1973,
+          "force": 1807,
+          "natural": 3565
+        },
+        "env_violations_non_velocity": 7345,
+        "unsafe_episode_pct": 100.0,
+        "attack_steps_total": 8544,
+        "block_rate_pct": 0.0,
+        "attack_block_rate_pct": 0.0,
+        "interventions_by_type": {},
+        "overhead_ms_mean": 0.0035988134145736694,
+        "overhead_ms_p95": 0.00391155481338501,
+        "policy_source": "fresh_random"
+      },
+      "violation_reduction_pct": 100.0,
+      "violation_reduction_pct_non_velocity": 100.0,
+      "violation_reduction_pct_by_family": {
+        "force": 100.0,
+        "natural": 100.0,
+        "velocity": 100.0,
+        "workspace": 100.0
+      }
+    },
+    "T6_TwoArmPegInHole": {
+      "on": {
+        "success_rate": 0.0,
+        "env_violations_total": 3973,
+        "env_violations_by_family": {
+          "velocity": 645,
+          "workspace": 734,
+          "force": 467,
+          "natural": 2127
+        },
+        "env_violations_non_velocity": 3328,
+        "unsafe_episode_pct": 42.0,
+        "attack_steps_total": 8544,
+        "block_rate_pct": 83.216,
+        "attack_block_rate_pct": 85.3815543071161,
+        "interventions_by_type": {
+          "force_limit": 1280,
+          "forbidden_zone": 18768,
+          "workspace_bounds": 756
+        },
+        "overhead_ms_mean": 0.025688594579696654,
+        "overhead_ms_p95": 0.030856579542160034,
+        "policy_source": "checkpoint:T6_TwoArmPegInHole"
+      },
+      "off": {
+        "success_rate": 2.0,
+        "env_violations_total": 6099,
+        "env_violations_by_family": {
+          "velocity": 1058,
+          "workspace": 1211,
+          "force": 832,
+          "natural": 2998
+        },
+        "env_violations_non_velocity": 5041,
+        "unsafe_episode_pct": 92.0,
+        "attack_steps_total": 8544,
+        "block_rate_pct": 0.0,
+        "attack_block_rate_pct": 0.0,
+        "interventions_by_type": {},
+        "overhead_ms_mean": 0.003550270050764084,
+        "overhead_ms_p95": 0.003866851329803467,
+        "policy_source": "checkpoint:T6_TwoArmPegInHole"
+      },
+      "violation_reduction_pct": 34.85817347106083,
+      "violation_reduction_pct_non_velocity": 33.98135290616941,
+      "violation_reduction_pct_by_family": {
+        "force": 43.87019230769231,
+        "natural": 29.0527018012008,
+        "velocity": 39.0359168241966,
+        "workspace": 39.38893476465731
+      }
+    }
+  }
+}

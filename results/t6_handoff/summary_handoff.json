@@ -1,0 +1,95 @@
+{
+ "experiment": "state_conditioned_handoff",
+ "per_seed": [
+  {
+   "method": "ours",
+   "seed": 123,
+   "clock": {
+    "reached": 9,
+    "retention": 0.0,
+    "success_rate": 0.0
+   },
+   "hold": {
+    "reached": 9,
+    "retention": 0.6666666666666666,
+    "success_rate": 20.0,
+    "holds_engaged": 9,
+    "mean_hold_step": 209.77777777777777
+   }
+  },
+  {
+   "method": "ours",
+   "seed": 2024,
+   "clock": {
+    "reached": 27,
+    "retention": 0.0,
+    "success_rate": 0.0
+   },
+   "hold": {
+    "reached": 25,
+    "retention": 0.6,
+    "success_rate": 50.0,
+    "holds_engaged": 25,
+    "mean_hold_step": 128.28
+   }
+  },
+  {
+   "method": "ours",
+   "seed": 42,
+   "clock": {
+    "reached": 8,
+    "retention": 0.375,
+    "success_rate": 10.0
+   },
+   "hold": {
+    "reached": 13,
+    "retention": 0.46153846153846156,
+    "success_rate": 20.0,
+    "holds_engaged": 13,
+    "mean_hold_step": 304.46153846153845
+   }
+  },
+  {
+   "method": "ours",
+   "seed": 7,
+   "clock": {
+    "reached": 14,
+    "retention": 0.07142857142857142,
+    "success_rate": 3.3333333333333335
+   },
+   "hold": {
+    "reached": 9,
+    "retention": 0.5555555555555556,
+    "success_rate": 16.666666666666664,
+    "holds_engaged": 9,
+    "mean_hold_step": 98.33333333333333
+   }
+  }
+ ],
+ "paired": {
+  "ours": {
+   "n_seeds": 4,
+   "clock_retention": [
+    0.0,
+    0.0,
+    0.375,
+    0.07142857142857142
+   ],
+   "hold_retention": [
+    0.6666666666666666,
+    0.6,
+    0.46153846153846156,
+    0.5555555555555556
+   ],
+   "gain": [
+    0.6666666666666666,
+    0.6,
+    0.08653846153846156,
+    0.4841269841269842
+   ],
+   "n_positive": 4,
+   "sign_test_p_two_sided": 0.125,
+   "smallest_attainable_p": 0.125
+  }
+ }
+}

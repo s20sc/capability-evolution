@@ -1,0 +1,159 @@
+# ============================================================
+# Capability Evolution — Experiment Configuration
+# ============================================================
+
+seed: 42
+
+# --- Environment ---
+env:
+  robot: Panda                    # Franka Panda arm
+  controller: OSC_POSE            # Operational Space Control
+  horizon: 500                    # max steps per episode
+  reward_shaping: true
+  # Stochastic perturbations (paper Section IV-A)
+  object_pos_noise: 0.05         # ±5cm uniform noise on object placement
+  obs_noise_std: 0.01            # Gaussian noise on point cloud (σ=0.01m)
+  actuation_failure_prob: 0.05   # 5% per-step actuation failure
+
+# --- Task suite (T1–T6 from paper Table 5) ---
+tasks:
+  - name: T1_Pick
+    robosuite_env: PickPlace       # robosuite built-in
+    single_object: true
+    description: "Grasp target object from table"
+    success: "object lifted >5cm"
+    ecm_steps: 2                   # reach + grasp
+
+  - name: T2_Place
+    robosuite_env: PickPlace
+    single_object: true
+    description: "Place object at goal position"
+    success: "position error <2cm"
+    ecm_steps: 3
+
+  - name: T3_Stack
+    robosuite_env: Stack
+    single_object: false
+    description: "Stack object A onto object B"
+    success: "stable stack for 3s"
+    ecm_steps: 4
+
+  - name: T4_NutAssembly
+    robosuite_env: NutAssembly
+    single_object: false
+    description: "Insert nut onto peg"
+    success: "nut seated on peg"
+    ecm_steps: 5
+
+  - name: T5_PickPlaceMulti
+    robosuite_env: PickPlace
+    single_object: false           # 3 objects, sort to bins
+    num_objects: 3
+    description: "Sort 3 objects by type into bins"
+    success: "all 3 objects correctly placed"
+    ecm_steps: 6
+
+  - name: T6_TwoArmPegInHole
+    robosuite_env: TwoArmPegInHole
+    single_object: false
+    description: "Bimanual peg insertion"
+    success: "peg fully inserted, force check passes"
+    ecm_steps: 8
+
+# --- ECM Architecture ---
+ecm:
+  hidden_dims: [256, 256]
+  activation: relu
+  version_history_size: 5
+  rollback_threshold: 0.3         # gate: reject if reward drops >0.3
+
+# --- Persistent Agent ---
+agent:
+  type: llm_planner               # LLM-based task decomposition
+  # Alternatively: "nn_planner" for a learned planner
+  identity_frozen: true            # core invariant
+  episodic_memory_size: 1000
+
+# --- Learning ---
+learning:
+  # RL (SAC via stable-baselines3 + SubprocVecEnv)
+  rl:
+    algorithm: SAC
+    learning_rate: 3.0e-4
+    batch_size: 4096                  # saturate GPU with large batches
+    buffer_size: 1000000              # 1M transitions (~400MB, trivial for 192GB RAM)
+    learning_starts: 5000
+    gamma: 0.99
+    tau: 0.005
+    n_envs: 12                       # 12 parallel envs (16/20 caused intermittent SubprocVecEnv OOM)
+    total_timesteps_per_iter: 50000  # per ECM per evolution iteration (increased from 20K for sufficient learning)
+    gradient_steps: 8                # 8 gradient updates per env step → GPU stays busy
+
+  # Imitation Learning
+  il:
+    algorithm: BC                  # Behavioral Cloning
+    learning_rate: 1.0e-3
+    batch_size: 64
+    epochs: 50
+    demo_episodes: 500             # expert demonstrations from robosuite scripted policy
+
+  # LLM Synthesis (code-level ECM updates)
+  llm:
+    model: gpt-4o                  # or local model
+    max_failures_before_synthesis: 10
+    enabled: true
+
+# --- Runtime Governance ---
+runtime:
+  force_limit: 20.0               # Newtons
+  max_velocity: 1.5               # m/s (action-space magnitude cap)
+  workspace_bounds:
+    # Panda arm workspace: table at z≈0.82m, ee reaches 0.8-1.3m
+    x: [-0.6, 0.6]
+    y: [-0.6, 0.6]
+    z: [0.6, 1.3]
+  forbidden_zones:
+    - {x: [-0.05, 0.05], y: [-0.05, 0.05]}  # center keep-out (small)
+  enable_policy_enforcement: true
+
+# --- Experiment ---
+experiment:
+  num_evolution_iterations: 20
+  num_eval_episodes: 30            # per iteration per task
+  methods:
+    - capability_evolution          # Ours
+    - agent_modification            # Baseline: modify agent directly
+    - static_ecm                    # Baseline: frozen capabilities
+    - spirl                         # Baseline: SPiRL
+    - skimo                         # Baseline: SkiMo
+
+  # Ablation configurations
+  ablation:
+    - name: rl_only
+      rl: true
+      il: false
+      llm: false
+    - name: il_only
+      rl: false
+      il: true
+      llm: false
+    - name: llm_only
+      rl: false
+      il: false
+      llm: true
+    - name: rl_il
+      rl: true
+      il: true
+      llm: false
+    - name: rl_llm
+      rl: true
+      il: false
+      llm: true
+    - name: il_llm
+      rl: false
+      il: true
+      llm: true
+    - name: all_three
+      rl: true
+      il: true
+      llm: true

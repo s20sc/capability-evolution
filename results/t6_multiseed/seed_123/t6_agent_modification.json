@@ -1,0 +1,175 @@
+{
+  "iterations": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "metrics": [
+    {
+      "success_rate": 0.0,
+      "avg_reward": 309.9482810877093,
+      "reward_variance": 97.22230743541104,
+      "policy_drift": 0.4292278587818146,
+      "iteration": 1
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 218.76160748640314,
+      "reward_variance": 1776.6751894900344,
+      "policy_drift": 0.5472496151924133,
+      "iteration": 2
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 218.4905878335423,
+      "reward_variance": 851.5933904049264,
+      "policy_drift": 0.6542215943336487,
+      "iteration": 3
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 214.85873576150047,
+      "reward_variance": 668.4239715927032,
+      "policy_drift": 0.7467387914657593,
+      "iteration": 4
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 201.98788658894313,
+      "reward_variance": 1258.5281884537278,
+      "policy_drift": 0.8340283036231995,
+      "iteration": 5
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 198.83089289487427,
+      "reward_variance": 858.527887301158,
+      "policy_drift": 0.9140304923057556,
+      "iteration": 6
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 225.69799477472142,
+      "reward_variance": 1085.3975682393404,
+      "policy_drift": 0.9791314601898193,
+      "iteration": 7
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 214.69627736454646,
+      "reward_variance": 1093.6693766500387,
+      "policy_drift": 1.0435949563980103,
+      "iteration": 8
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 223.1727042529093,
+      "reward_variance": 1390.429389480118,
+      "policy_drift": 1.1002718210220337,
+      "iteration": 9
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 203.87983666360518,
+      "reward_variance": 563.2916019898964,
+      "policy_drift": 1.1560145616531372,
+      "iteration": 10
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 220.3372555745888,
+      "reward_variance": 782.8813018450902,
+      "policy_drift": 1.2105169296264648,
+      "iteration": 11
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 247.90422680411172,
+      "reward_variance": 673.7933486510449,
+      "policy_drift": 1.2642695903778076,
+      "iteration": 12
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 270.1346009452209,
+      "reward_variance": 1075.1140330738513,
+      "policy_drift": 1.3078036308288574,
+      "iteration": 13
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 273.776390457621,
+      "reward_variance": 1457.2821651212269,
+      "policy_drift": 1.3466124534606934,
+      "iteration": 14
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 270.23625878060767,
+      "reward_variance": 1019.2831375517196,
+      "policy_drift": 1.3882832527160645,
+      "iteration": 15
+    },
+    {
+      "success_rate": 0.0,
+      "avg_reward": 297.29339554644685,
+      "reward_variance": 1126.1835882197095,
+      "policy_drift": 1.4287675619125366,
+      "iteration": 16
+    },
+    {
+      "success_rate": 6.666666666666667,
+      "avg_reward": 302.3480082449716,
+      "reward_variance": 2150.955186831543,
+      "policy_drift": 1.467020869255066,
+      "iteration": 17
+    },
+    {
+      "success_rate": 3.3333333333333335,
+      "avg_reward": 329.90784005877515,
+      "reward_variance": 413.55945152077305,
+      "policy_drift": 1.4972295761108398,
+      "iteration": 18
+    },
+    {
+      "success_rate": 3.3333333333333335,
+      "avg_reward": 328.155294540106,
+      "reward_variance": 971.888793519504,
+      "policy_drift": 1.5318796634674072,
+      "iteration": 19
+    },
+    {
+      "success_rate": 16.666666666666664,
+      "avg_reward": 337.8053828851584,
+      "reward_variance": 321.1832761505299,
+      "policy_drift": 1.5656535625457764,
+      "iteration": 20
+    }
+  ],
+  "_meta": {
+    "seed": 123,
+    "method": "agent_modification",
+    "task": "T6_TwoArmPegInHole",
+    "iterations": 20,
+    "eval_episodes": 30,
+    "wall_seconds": 3124.607801914215,
+    "finished_at": "2026-04-23T04:26:13"
+  }
+}

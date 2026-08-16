@@ -1,0 +1,25 @@
+# Core
+numpy>=1.24
+torch>=2.0
+gymnasium>=0.29
+
+# MuJoCo + robosuite
+# Pinned experiment stack: the wrapper calls
+# robosuite's load_controller_config, an entry point removed after 1.4.1,
+# and robosuite 1.4.1 requires MuJoCo 2.3.x.
+mujoco==2.3.2
+robosuite==1.4.1
+
+# RL / Baselines
+stable-baselines3==2.8.0
+sb3-contrib>=2.1
+
+# Imitation learning
+imitation>=1.0
+
+# Logging & utilities
+tensorboard>=2.14
+tqdm
+pyyaml
+pandas
+scipy

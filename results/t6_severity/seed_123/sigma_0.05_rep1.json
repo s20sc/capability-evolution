@@ -1,0 +1,13 @@
+{
+ "seed": 123,
+ "sigma": 0.05,
+ "rep": 1,
+ "episodes": 30,
+ "baseline_median_last3_clean": 303.39554456743747,
+ "mean_reward": 329.70415344519466,
+ "success_rate": 0.0,
+ "reward_variance": 503.3296827578395,
+ "drop_pct": -8.671389329486159,
+ "trigger": false,
+ "trigger_threshold_pct": 15.0
+}

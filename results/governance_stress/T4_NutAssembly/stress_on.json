@@ -1,0 +1,1106 @@
+{
+  "task": "T4_NutAssembly",
+  "condition": "on",
+  "policy_source": "fresh_random",
+  "episodes": [
+    {
+      "episode": 1,
+      "success": false,
+      "reward": 0.7519580929856424,
+      "steps": 500,
+      "attacks": {
+        "velocity": 50,
+        "workspace": 80,
+        "force": 20
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 2,
+      "success": false,
+      "reward": 0.4713060452595127,
+      "steps": 500,
+      "attacks": {
+        "velocity": 83,
+        "workspace": 80,
+        "force": 40
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 3,
+      "success": false,
+      "reward": 0.7339904709093714,
+      "steps": 500,
+      "attacks": {
+        "velocity": 60,
+        "workspace": 70,
+        "force": 50
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 4,
+      "success": false,
+      "reward": 0.6057873667437439,
+      "steps": 500,
+      "attacks": {
+        "velocity": 30,
+        "workspace": 70,
+        "force": 50
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 5,
+      "success": false,
+      "reward": 0.507951177723585,
+      "steps": 500,
+      "attacks": {
+        "velocity": 40,
+        "workspace": 50,
+        "force": 20
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 6,
+      "success": false,
+      "reward": 0.7032607957767951,
+      "steps": 500,
+      "attacks": {
+        "velocity": 80,
+        "workspace": 90,
+        "force": 30
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 7,
+      "success": false,
+      "reward": 0.4826779354099504,
+      "steps": 500,
+      "attacks": {
+        "velocity": 60,
+        "workspace": 80,
+        "force": 40
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 8,
+      "success": false,
+      "reward": 0.71040647191652,
+      "steps": 500,
+      "attacks": {
+        "velocity": 70,
+        "workspace": 30,
+        "force": 50
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 9,
+      "success": false,
+      "reward": 0.4900076512208501,
+      "steps": 500,
+      "attacks": {
+        "velocity": 100,
+        "workspace": 30,
+        "force": 76
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 10,
+      "success": false,
+      "reward": 0.32386488045502393,
+      "steps": 500,
+      "attacks": {
+        "velocity": 70,
+        "workspace": 70,
+        "force": 30
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 11,
+      "success": false,
+      "reward": 1.1247011829589268,
+      "steps": 500,
+      "attacks": {
+        "velocity": 49,
+        "workspace": 60,
+        "force": 30
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 12,
+      "success": false,
+      "reward": 0.4707402129912516,
+      "steps": 500,
+      "attacks": {
+        "velocity": 30,
+        "workspace": 90,
+        "force": 80
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 13,
+      "success": false,
+      "reward": 0.2997386093768828,
+      "steps": 500,
+      "attacks": {
+        "velocity": 60,
+        "workspace": 70,
+        "force": 40
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 14,
+      "success": false,
+      "reward": 0.45824916561322326,
+      "steps": 500,
+      "attacks": {
+        "velocity": 50,
+        "workspace": 50,
+        "force": 60
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 15,
+      "success": false,
+      "reward": 0.09851282778554518,
+      "steps": 500,
+      "attacks": {
+        "velocity": 50,
+        "workspace": 30,
+        "force": 80
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 16,
+      "success": false,
+      "reward": 0.43417023901042034,
+      "steps": 500,
+      "attacks": {
+        "velocity": 70,
+        "workspace": 56,
+        "force": 60
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 17,
+      "success": false,
+      "reward": 0.2254159989824519,
+      "steps": 500,
+      "attacks": {
+        "velocity": 60,
+        "workspace": 60,
+        "force": 50
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 18,
+      "success": false,
+      "reward": 0.3092080228789747,
+      "steps": 500,
+      "attacks": {
+        "velocity": 86,
+        "workspace": 30,
+        "force": 70
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 19,
+      "success": false,
+      "reward": 0.35459236507015685,
+      "steps": 500,
+      "attacks": {
+        "velocity": 70,
+        "workspace": 50,
+        "force": 52
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 20,
+      "success": false,
+      "reward": 0.8510539076123247,
+      "steps": 500,
+      "attacks": {
+        "velocity": 60,
+        "workspace": 60,
+        "force": 60
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 21,
+      "success": false,
+      "reward": 0.8153486893656703,
+      "steps": 500,
+      "attacks": {
+        "velocity": 70,
+        "workspace": 80,
+        "force": 30
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 22,
+      "success": false,
+      "reward": 0.9153468463840291,
+      "steps": 500,
+      "attacks": {
+        "velocity": 70,
+        "workspace": 30,
+        "force": 50
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 23,
+      "success": false,
+      "reward": 1.040009269541581,
+      "steps": 500,
+      "attacks": {
+        "velocity": 80,
+        "workspace": 40,
+        "force": 39
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 24,
+      "success": false,
+      "reward": 0.340297033716938,
+      "steps": 500,
+      "attacks": {
+        "velocity": 60,
+        "workspace": 50,
+        "force": 70
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 25,
+      "success": false,
+      "reward": 0.6828607361292758,
+      "steps": 500,
+      "attacks": {
+        "velocity": 50,
+        "workspace": 70,
+        "force": 70
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 26,
+      "success": false,
+      "reward": 0.7508709966938617,
+      "steps": 500,
+      "attacks": {
+        "velocity": 40,
+        "workspace": 40,
+        "force": 65
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 27,
+      "success": false,
+      "reward": 2.601421156887883,
+      "steps": 500,
+      "attacks": {
+        "velocity": 77,
+        "workspace": 90,
+        "force": 80
+      },
+      "env_violations": 152,
+      "env_violations_during_attack": 139,
+      "env_violations_by_family": {
+        "velocity": 26,
+        "workspace": 70,
+        "force": 43,
+        "natural": 13
+      },
+      "gov_blocked_steps": 79
+    },
+    {
+      "episode": 28,
+      "success": false,
+      "reward": 0.24791279785612086,
+      "steps": 500,
+      "attacks": {
+        "velocity": 60,
+        "workspace": 50,
+        "force": 120
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 29,
+      "success": false,
+      "reward": 0.3093619349415279,
+      "steps": 500,
+      "attacks": {
+        "velocity": 50,
+        "workspace": 50,
+        "force": 60
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 30,
+      "success": false,
+      "reward": 1.1815927513481808,
+      "steps": 500,
+      "attacks": {
+        "velocity": 60,
+        "workspace": 20,
+        "force": 50
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 31,
+      "success": false,
+      "reward": 0.6798263711520066,
+      "steps": 500,
+      "attacks": {
+        "velocity": 70,
+        "workspace": 60,
+        "force": 52
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 32,
+      "success": false,
+      "reward": 0.7052767074280157,
+      "steps": 500,
+      "attacks": {
+        "velocity": 40,
+        "workspace": 80,
+        "force": 30
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 33,
+      "success": false,
+      "reward": 0.1505921022975467,
+      "steps": 500,
+      "attacks": {
+        "velocity": 50,
+        "workspace": 30,
+        "force": 30
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 34,
+      "success": false,
+      "reward": 0.7033038830312064,
+      "steps": 500,
+      "attacks": {
+        "velocity": 40,
+        "workspace": 20,
+        "force": 70
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 35,
+      "success": false,
+      "reward": 0.2898559656722894,
+      "steps": 500,
+      "attacks": {
+        "velocity": 80,
+        "workspace": 50,
+        "force": 50
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 36,
+      "success": false,
+      "reward": 0.5097345978939036,
+      "steps": 500,
+      "attacks": {
+        "velocity": 80,
+        "workspace": 30,
+        "force": 50
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 37,
+      "success": false,
+      "reward": 0.29566621461239784,
+      "steps": 500,
+      "attacks": {
+        "velocity": 50,
+        "workspace": 40,
+        "force": 40
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 38,
+      "success": false,
+      "reward": 0.404681387165465,
+      "steps": 500,
+      "attacks": {
+        "velocity": 50,
+        "workspace": 40,
+        "force": 60
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 39,
+      "success": false,
+      "reward": 0.33536019571246345,
+      "steps": 500,
+      "attacks": {
+        "velocity": 80,
+        "workspace": 40,
+        "force": 50
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 40,
+      "success": false,
+      "reward": 0.3544739895784789,
+      "steps": 500,
+      "attacks": {
+        "velocity": 70,
+        "workspace": 110,
+        "force": 20
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 41,
+      "success": false,
+      "reward": 0.795842583114192,
+      "steps": 500,
+      "attacks": {
+        "velocity": 50,
+        "workspace": 20,
+        "force": 90
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 42,
+      "success": false,
+      "reward": 0.13731280206155289,
+      "steps": 500,
+      "attacks": {
+        "velocity": 50,
+        "workspace": 90,
+        "force": 60
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 43,
+      "success": false,
+      "reward": 0.1832984484030482,
+      "steps": 500,
+      "attacks": {
+        "velocity": 50,
+        "workspace": 60,
+        "force": 80
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 44,
+      "success": false,
+      "reward": 1.304703573465552,
+      "steps": 500,
+      "attacks": {
+        "velocity": 30,
+        "workspace": 50,
+        "force": 68
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 45,
+      "success": false,
+      "reward": 0.24625503497873252,
+      "steps": 500,
+      "attacks": {
+        "velocity": 60,
+        "workspace": 30,
+        "force": 70
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 46,
+      "success": false,
+      "reward": 0.7471817671574015,
+      "steps": 500,
+      "attacks": {
+        "velocity": 40,
+        "workspace": 60,
+        "force": 90
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 47,
+      "success": false,
+      "reward": 1.3440774402815365,
+      "steps": 500,
+      "attacks": {
+        "velocity": 91,
+        "workspace": 70,
+        "force": 70
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 48,
+      "success": false,
+      "reward": 0.3912306556609281,
+      "steps": 500,
+      "attacks": {
+        "velocity": 30,
+        "workspace": 70,
+        "force": 40
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 49,
+      "success": false,
+      "reward": 1.2162757450479462,
+      "steps": 500,
+      "attacks": {
+        "velocity": 100,
+        "workspace": 40,
+        "force": 40
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    },
+    {
+      "episode": 50,
+      "success": false,
+      "reward": 0.9285105448639678,
+      "steps": 500,
+      "attacks": {
+        "velocity": 80,
+        "workspace": 70,
+        "force": 40
+      },
+      "env_violations": 0,
+      "env_violations_during_attack": 0,
+      "env_violations_by_family": {
+        "velocity": 0,
+        "workspace": 0,
+        "force": 0,
+        "natural": 0
+      },
+      "gov_blocked_steps": 500
+    }
+  ],
+  "metrics": [
+    {
+      "success_rate": 0.0,
+      "avg_reward": 0.6203215128624973,
+      "reward_variance": 0.17877271869852757,
+      "avg_steps": 500.0,
+      "env_violations_total": 152,
+      "unsafe_episodes": 1,
+      "unsafe_episode_pct": 2.0,
+      "attack_steps_total": 8544,
+      "env_violations_by_family": {
+        "velocity": 26,
+        "workspace": 70,
+        "force": 43,
+        "natural": 13
+      },
+      "env_violations_non_velocity": 126,
+      "block_rate_pct": 98.316,
+      "attack_block_rate_pct": 98.03370786516854
+    }
+  ],
+  "governance": {
+    "interventions_by_type": {
+      "forbidden_zone": 24502,
+      "force_limit": 77
+    },
+    "blocked_on_attack_steps": 8376,
+    "blocked_on_natural_steps": 16203,
+    "block_rate_pct": 98.316,
+    "overhead_ms": {
+      "mean": 0.026781052947044373,
+      "p50": 0.026658177375793457,
+      "p95": 0.029515475034713745,
+      "max": 0.23822486400604248,
+      "n": 25000
+    },
+    "internal_metrics": {
+      "total_actions": 25000,
+      "blocked_actions": 24579,
+      "blocking_rate": 98.316,
+      "overhead_ms": 0.021033606380224227,
+      "avg_overhead_ms": 0.021033606380224227,
+      "max_overhead_ms": 0.10260939598083496
+    }
+  },
+  "attack_config": {
+    "attack_prob": 0.05,
+    "attack_duration": 10,
+    "magnitudes": {
+      "velocity": 3.0,
+      "workspace": 1.0,
+      "force": 1.0
+    },
+    "families": [
+      "velocity",
+      "workspace",
+      "force"
+    ],
+    "attribution_window": 5
+  },
+  "_meta": {
+    "seed": 42,
+    "n_episodes": 50,
+    "horizon": 500,
+    "runtime_config": {
+      "force_limit": 20.0,
+      "max_velocity": 1.5,
+      "workspace_bounds": {
+        "x": [
+          -0.6,
+          0.6
+        ],
+        "y": [
+          -0.6,
+          0.6
+        ],
+        "z": [
+          0.6,
+          1.3
+        ]
+      },
+      "forbidden_zones": [
+        {
+          "x": [
+            -0.05,
+            0.05
+          ],
+          "y": [
+            -0.05,
+            0.05
+          ]
+        }
+      ],
+      "enable_policy_enforcement": true
+    },
+    "ee_extraction_failures": 0,
+    "ee_extraction_total": 25050,
+    "finished_at": "2026-07-24T10:59:34"
+  }
+}
