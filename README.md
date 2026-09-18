@@ -79,7 +79,10 @@ Example invocations:
 python lifecycle_runner.py --arm gating_on --seeds 42 7 123 2024 --iterations 13 --inject-at 5 8 11
 
 # Governance stress (replay-only, CPU)
-python governance_stress.py --tasks all --episodes 50
+# The T3 and T6 rows replayed trained checkpoints that were not preserved; their
+# per-episode logs are in results/governance_stress/. The other four rows ran with
+# randomly initialised modules and regenerate with --policy fresh.
+python governance_stress.py --tasks all --episodes 50 --policy fresh
 python governance_stress.py --aggregate
 
 # Instrumented mechanism re-runs
@@ -145,7 +148,11 @@ Which numbers this repository can and cannot reproduce.
    `results/governance_stress/`, `results/t6_mechanism/`,
    `results/t6_severity/`, and `results/t6_handoff/`, ran under the pinned
    robosuite 1.4.1 / MuJoCo 2.3.2 / stable-baselines3 2.8.0 environment and
-   are reproducible from this repository. `analysis/retention_seed_level.py`
+   are reproducible from this repository, with one exception: the T3 and T6
+   governance-stress rows replayed trained checkpoints (recorded as
+   `multiseed_T3_Stack_seed_123_ours` and `T6_TwoArmPegInHole`) that were not
+   preserved, so those two rows ship as logs and cannot be replayed with their
+   original weights. `analysis/retention_seed_level.py`
    re-derives the retention table from those logs in the same environment.
 
 One known defect is documented in place rather than silently fixed: the
