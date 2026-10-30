@@ -1,0 +1,131 @@
+{
+  "scope": "Scientific functions and constants for saved-result analysis, temporal windows and complete learned-state restoration. Runtime imports are explicit.",
+  "symbols": [
+    {
+      "distributed_file": "analysis/study_statistics.py",
+      "symbol": "exact_sign",
+      "original_source_sha256": "f3c37dd857bddcd018e52302a8682b7a119b4bbe0992ad41bc7946d51f1a2192",
+      "original_symbol_sha256": "4b5d63e41242fb00505dc53efdd538caa7cfac2c02f2968f029871266fa99d6d",
+      "semantic_AST_unchanged": true
+    },
+    {
+      "distributed_file": "analysis/study_statistics.py",
+      "symbol": "paired_cases",
+      "original_source_sha256": "f3c37dd857bddcd018e52302a8682b7a119b4bbe0992ad41bc7946d51f1a2192",
+      "original_symbol_sha256": "dff928f34d36c47d7f0d0d1861d025a1a4410139cf225c5eaccdc113fa0d924f",
+      "semantic_AST_unchanged": true
+    },
+    {
+      "distributed_file": "analysis/study_statistics.py",
+      "symbol": "measured_component",
+      "original_source_sha256": "f3c37dd857bddcd018e52302a8682b7a119b4bbe0992ad41bc7946d51f1a2192",
+      "original_symbol_sha256": "25d405128a417085e0c23ef700d6c4653e199575e2cc7dbf29c38fadc53bed1a",
+      "semantic_AST_unchanged": true
+    },
+    {
+      "distributed_file": "analysis/study_statistics.py",
+      "symbol": "behavior_control",
+      "original_source_sha256": "f3c37dd857bddcd018e52302a8682b7a119b4bbe0992ad41bc7946d51f1a2192",
+      "original_symbol_sha256": "d17e3da6ca28eb1d613837c3db78d07259d170d0a99faddfd65a6801914a258b",
+      "semantic_AST_unchanged": true
+    },
+    {
+      "distributed_file": "analysis/study_statistics.py",
+      "symbol": "summarize",
+      "original_source_sha256": "f3c37dd857bddcd018e52302a8682b7a119b4bbe0992ad41bc7946d51f1a2192",
+      "original_symbol_sha256": "e786d77e0a0592dd29cbbd6c49f6fd7e92e80b6b94a3bd76e758238f2e63d5b9",
+      "semantic_AST_unchanged": true
+    },
+    {
+      "distributed_file": "learning/complete_state.py",
+      "symbol": "KEYS",
+      "original_source_sha256": "71dfce37263ba05a2f6c6e08441b75ea90110c3e3cb2d909b3157505e41ab95c",
+      "original_symbol_sha256": "11313862c65320c0be0b29769531de3f714037e2ebd9dfb7e5a7d442da331d38",
+      "semantic_AST_unchanged": true
+    },
+    {
+      "distributed_file": "learning/complete_state.py",
+      "symbol": "RNN_FIELDS",
+      "original_source_sha256": "71dfce37263ba05a2f6c6e08441b75ea90110c3e3cb2d909b3157505e41ab95c",
+      "original_symbol_sha256": "eaecd61b164a472994283d6a325399ba788348d34ed5931c95a87ad190cd728b",
+      "semantic_AST_unchanged": true
+    },
+    {
+      "distributed_file": "learning/complete_state.py",
+      "symbol": "digest",
+      "original_source_sha256": "71dfce37263ba05a2f6c6e08441b75ea90110c3e3cb2d909b3157505e41ab95c",
+      "original_symbol_sha256": "0d66b482c701dfaa22c9e9031503e96a427fe1353f3e4239353f69c584962d24",
+      "semantic_AST_unchanged": true
+    },
+    {
+      "distributed_file": "learning/complete_state.py",
+      "symbol": "Windows",
+      "original_source_sha256": "71dfce37263ba05a2f6c6e08441b75ea90110c3e3cb2d909b3157505e41ab95c",
+      "original_symbol_sha256": "70244fbb5677981352866cde0ffedbca3e2d941ba0e9d983c53e091dabe6f814",
+      "semantic_AST_unchanged": true
+    },
+    {
+      "distributed_file": "learning/complete_state.py",
+      "symbol": "Sampler",
+      "original_source_sha256": "71dfce37263ba05a2f6c6e08441b75ea90110c3e3cb2d909b3157505e41ab95c",
+      "original_symbol_sha256": "cdbf2c957882ef4011eefa916d85709058e400b7c09bffba8654e2b7809bbd38",
+      "semantic_AST_unchanged": true
+    },
+    {
+      "distributed_file": "learning/complete_state.py",
+      "symbol": "rng_state",
+      "original_source_sha256": "71dfce37263ba05a2f6c6e08441b75ea90110c3e3cb2d909b3157505e41ab95c",
+      "original_symbol_sha256": "d9ab760963703850bd1f194284757b3a016da5c8dcaa2ece0695a95967382d3f",
+      "semantic_AST_unchanged": true
+    },
+    {
+      "distributed_file": "learning/complete_state.py",
+      "symbol": "restore_rng",
+      "original_source_sha256": "71dfce37263ba05a2f6c6e08441b75ea90110c3e3cb2d909b3157505e41ab95c",
+      "original_symbol_sha256": "812d07c3443b5c624693f78511439213f0468204116e9e04d71d67c98c932775",
+      "semantic_AST_unchanged": true
+    },
+    {
+      "distributed_file": "learning/complete_state.py",
+      "symbol": "state",
+      "original_source_sha256": "71dfce37263ba05a2f6c6e08441b75ea90110c3e3cb2d909b3157505e41ab95c",
+      "original_symbol_sha256": "9817c71bcc021950f95eef70beb081b5bd902b997d02361b116f56a43ac8b9de",
+      "semantic_AST_unchanged": true
+    },
+    {
+      "distributed_file": "learning/complete_state.py",
+      "symbol": "restore",
+      "original_source_sha256": "71dfce37263ba05a2f6c6e08441b75ea90110c3e3cb2d909b3157505e41ab95c",
+      "original_symbol_sha256": "376ea58c1080cf8bdb437b82934f7abfdc862d06827c445a0fce350bddab8584",
+      "semantic_AST_unchanged": true
+    },
+    {
+      "distributed_file": "learning/complete_state.py",
+      "symbol": "save",
+      "original_source_sha256": "71dfce37263ba05a2f6c6e08441b75ea90110c3e3cb2d909b3157505e41ab95c",
+      "original_symbol_sha256": "886c98656e3d0392db14e2183b42f21caa5d7ea6ea41742ccb5e0957ceb4ca17",
+      "semantic_AST_unchanged": true
+    },
+    {
+      "distributed_file": "learning/complete_state.py",
+      "symbol": "equal",
+      "original_source_sha256": "71dfce37263ba05a2f6c6e08441b75ea90110c3e3cb2d909b3157505e41ab95c",
+      "original_symbol_sha256": "eb89581cf9c9c21793b71360406cedf90373a395de84782a2d674dd4013a82f1",
+      "semantic_AST_unchanged": true
+    },
+    {
+      "distributed_file": "learning/complete_state.py",
+      "symbol": "Samplers",
+      "original_source_sha256": "eccb3f57bbaf8a6b61e9c3583ddd1fc62f1b6f02626f8ca56d998bdd754f93f9",
+      "original_symbol_sha256": "ec7881728040d073d1a2a324d3f3d01e4e8680c608417f071dfa36617638416d",
+      "semantic_AST_unchanged": true
+    },
+    {
+      "distributed_file": "learning/complete_state.py",
+      "symbol": "require",
+      "original_source_sha256": "cdaacb32180b16238325f53b1fa36c5ff814e368a28a314e3eb83dbd6c71f41d",
+      "original_symbol_sha256": "1f1cc25134c31603bc361651e372f62afebb623dd6af0da2463d30a7de4fa6e8",
+      "semantic_AST_unchanged": true
+    }
+  ]
+}

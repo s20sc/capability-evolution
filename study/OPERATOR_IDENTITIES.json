@@ -1,0 +1,333 @@
+{
+  "symbols": [
+    {
+      "file": "operators/contracts.py",
+      "symbol": "require",
+      "source_sha256": "cdaacb32180b16238325f53b1fa36c5ff814e368a28a314e3eb83dbd6c71f41d",
+      "original_symbol_sha256": "1f1cc25134c31603bc361651e372f62afebb623dd6af0da2463d30a7de4fa6e8",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/contracts.py",
+      "symbol": "LocalBudgetStop",
+      "source_sha256": "cdaacb32180b16238325f53b1fa36c5ff814e368a28a314e3eb83dbd6c71f41d",
+      "original_symbol_sha256": "aab6ce989ad846b097d25af22a05a2e49cdd2457c6422c4e61405b3184753aa0",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/contracts.py",
+      "symbol": "canonical",
+      "source_sha256": "cdaacb32180b16238325f53b1fa36c5ff814e368a28a314e3eb83dbd6c71f41d",
+      "original_symbol_sha256": "0cb308ccd40c706881b44f5f1790357deb7af70312e084d01e1ffcca5634e3d3",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/contracts.py",
+      "symbol": "digest",
+      "source_sha256": "cdaacb32180b16238325f53b1fa36c5ff814e368a28a314e3eb83dbd6c71f41d",
+      "original_symbol_sha256": "89cac32e66862cc1f370665f6c4278058f3d067cb7f8b337552095c774dca8d7",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/contracts.py",
+      "symbol": "strict_json",
+      "source_sha256": "cdaacb32180b16238325f53b1fa36c5ff814e368a28a314e3eb83dbd6c71f41d",
+      "original_symbol_sha256": "bade983c5cdecdeb34d526fa39e2289561778786d3bc94f723b767afbd1ed02d",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/contracts.py",
+      "symbol": "validate_update",
+      "source_sha256": "cdaacb32180b16238325f53b1fa36c5ff814e368a28a314e3eb83dbd6c71f41d",
+      "original_symbol_sha256": "cd9d9bcac2b86380a07b85c2d285c099c73c3f086f580fae590d334d671a292e",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/contracts.py",
+      "symbol": "same_binding",
+      "source_sha256": "cdaacb32180b16238325f53b1fa36c5ff814e368a28a314e3eb83dbd6c71f41d",
+      "original_symbol_sha256": "d63e661e2a1f6d9a4a3027b2463975a9610d239c39b5c84ac12706c4c9624639",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/contracts.py",
+      "symbol": "verify_checkpoint_metadata",
+      "source_sha256": "cdaacb32180b16238325f53b1fa36c5ff814e368a28a314e3eb83dbd6c71f41d",
+      "original_symbol_sha256": "f2e4342d404767c45f303fe507ad3d9a438f3cc6916f035b5505e7baefabdf89",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/learner_acquisition.py",
+      "symbol": "construct",
+      "source_sha256": "eccb3f57bbaf8a6b61e9c3583ddd1fc62f1b6f02626f8ca56d998bdd754f93f9",
+      "original_symbol_sha256": "ca033e3bb12aca0fefd740cdfe20f0a97742e65fb269986d04d58e3773499fcd",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/learner_acquisition.py",
+      "symbol": "Pack",
+      "source_sha256": "eccb3f57bbaf8a6b61e9c3583ddd1fc62f1b6f02626f8ca56d998bdd754f93f9",
+      "original_symbol_sha256": "5ed04a2eb378403da13fcbe43b745976c11609b79a8ed25ddb221620ef07bb3a",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/learner_acquisition.py",
+      "symbol": "Samplers",
+      "source_sha256": "eccb3f57bbaf8a6b61e9c3583ddd1fc62f1b6f02626f8ca56d998bdd754f93f9",
+      "original_symbol_sha256": "ec7881728040d073d1a2a324d3f3d01e4e8680c608417f071dfa36617638416d",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/learner_acquisition.py",
+      "symbol": "features",
+      "source_sha256": "eccb3f57bbaf8a6b61e9c3583ddd1fc62f1b6f02626f8ca56d998bdd754f93f9",
+      "original_symbol_sha256": "a48c6371e9f1c1e349f768fe2468104312d6329daeb66d52919e9876e86d9015",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/learner_acquisition.py",
+      "symbol": "evaluate_expression",
+      "source_sha256": "eccb3f57bbaf8a6b61e9c3583ddd1fc62f1b6f02626f8ca56d998bdd754f93f9",
+      "original_symbol_sha256": "87a9f553b6022ca4c56c467f0aacefa99940b59a1f21515efc9f7778569996ad",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/learner_acquisition.py",
+      "symbol": "NativeLoss",
+      "source_sha256": "eccb3f57bbaf8a6b61e9c3583ddd1fc62f1b6f02626f8ca56d998bdd754f93f9",
+      "original_symbol_sha256": "6cb5ffd08ec54d8b7c0765f289d2be0a85d5763c06dd35c68b68d36aeb82eba4",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/learner_acquisition.py",
+      "symbol": "save_state",
+      "source_sha256": "eccb3f57bbaf8a6b61e9c3583ddd1fc62f1b6f02626f8ca56d998bdd754f93f9",
+      "original_symbol_sha256": "fa5277090a6cc9a74822f1c3ac3fb35cad6f0680e1c507b7d6b4e1f633d5f743",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/learner_acquisition.py",
+      "symbol": "initialize_target",
+      "source_sha256": "eccb3f57bbaf8a6b61e9c3583ddd1fc62f1b6f02626f8ca56d998bdd754f93f9",
+      "original_symbol_sha256": "0ffaee3b8794b1f844e239b2e0817632a33102a428ea832ab7860da62d2a5337",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/learner_acquisition.py",
+      "symbol": "train",
+      "source_sha256": "eccb3f57bbaf8a6b61e9c3583ddd1fc62f1b6f02626f8ca56d998bdd754f93f9",
+      "original_symbol_sha256": "0e4813352862b09a6e15b6dacb0bdb4869746b9682b9ed6b234d73dea863dc6e",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/learner_multicycle.py",
+      "symbol": "construct",
+      "source_sha256": "9937b49fe4cab9c326f3a72749cd95de02018efaf9465353f5bb7e3e1eb34e73",
+      "original_symbol_sha256": "ca033e3bb12aca0fefd740cdfe20f0a97742e65fb269986d04d58e3773499fcd",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/learner_multicycle.py",
+      "symbol": "Pack",
+      "source_sha256": "9937b49fe4cab9c326f3a72749cd95de02018efaf9465353f5bb7e3e1eb34e73",
+      "original_symbol_sha256": "5ed04a2eb378403da13fcbe43b745976c11609b79a8ed25ddb221620ef07bb3a",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/learner_multicycle.py",
+      "symbol": "Samplers",
+      "source_sha256": "9937b49fe4cab9c326f3a72749cd95de02018efaf9465353f5bb7e3e1eb34e73",
+      "original_symbol_sha256": "ec7881728040d073d1a2a324d3f3d01e4e8680c608417f071dfa36617638416d",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/learner_multicycle.py",
+      "symbol": "features",
+      "source_sha256": "9937b49fe4cab9c326f3a72749cd95de02018efaf9465353f5bb7e3e1eb34e73",
+      "original_symbol_sha256": "a48c6371e9f1c1e349f768fe2468104312d6329daeb66d52919e9876e86d9015",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/learner_multicycle.py",
+      "symbol": "evaluate_expression",
+      "source_sha256": "9937b49fe4cab9c326f3a72749cd95de02018efaf9465353f5bb7e3e1eb34e73",
+      "original_symbol_sha256": "87a9f553b6022ca4c56c467f0aacefa99940b59a1f21515efc9f7778569996ad",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/learner_multicycle.py",
+      "symbol": "NativeLoss",
+      "source_sha256": "9937b49fe4cab9c326f3a72749cd95de02018efaf9465353f5bb7e3e1eb34e73",
+      "original_symbol_sha256": "6cb5ffd08ec54d8b7c0765f289d2be0a85d5763c06dd35c68b68d36aeb82eba4",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/learner_multicycle.py",
+      "symbol": "save_state",
+      "source_sha256": "9937b49fe4cab9c326f3a72749cd95de02018efaf9465353f5bb7e3e1eb34e73",
+      "original_symbol_sha256": "fa5277090a6cc9a74822f1c3ac3fb35cad6f0680e1c507b7d6b4e1f633d5f743",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/learner_multicycle.py",
+      "symbol": "initialize_target",
+      "source_sha256": "9937b49fe4cab9c326f3a72749cd95de02018efaf9465353f5bb7e3e1eb34e73",
+      "original_symbol_sha256": "88ee171e89038d0af5a72534eaa60e7f1f97146a7e4d7ac791eebf6a831729f1",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/learner_multicycle.py",
+      "symbol": "train",
+      "source_sha256": "9937b49fe4cab9c326f3a72749cd95de02018efaf9465353f5bb7e3e1eb34e73",
+      "original_symbol_sha256": "35124f9448cf8b0871587e00a7ff7c69759769e9b8955fd1686455808fcc3bfe",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/reuse.py",
+      "symbol": "check_gpu_idle",
+      "source_sha256": "dddba34bc0bc02479afb8b13ecd6c4a9c425bc893d66fdd1a0292ce513bd8b24",
+      "original_symbol_sha256": "38a2bfe980fca7d902a1bf29fc602b71fc56855e20482a700ab2c7ea4840b5e6",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/train_correction.py",
+      "symbol": "main",
+      "source_sha256": "e5f56ed4dff0ff8c80d2f69b9bcad6e6032cabb2fdc15a38025ee4a184787d7c",
+      "original_symbol_sha256": "91d70aa56bc2eb3eae8ae70d61ab7fd96cc036c98e22d2a218f8609e4ed1bc2a",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/evaluate_correction.py",
+      "symbol": "safe",
+      "source_sha256": "611a0bd3d6875e19c0c1a3acf9507427214f72c16704aca6b3f4f5b32bcbde50",
+      "original_symbol_sha256": "3ac8646eeedf13a694760009c2497dc9205dae157b4ad6511f574078d210e91b",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/evaluate_correction.py",
+      "symbol": "main",
+      "source_sha256": "611a0bd3d6875e19c0c1a3acf9507427214f72c16704aca6b3f4f5b32bcbde50",
+      "original_symbol_sha256": "6da6d3b53c01f4569daf8943de170105e826f0373c54e3416afe15fb1d2955a8",
+      "AST_unchanged": false,
+      "port_scope": "replace only deployment preamble before costs; scientific execution subtree retained"
+    },
+    {
+      "file": "operators/expression.py",
+      "symbol": "_require",
+      "source_sha256": "a4945f6731ac39043eccb2a52ebcda50d6bec912c5e3232a9517f35955e78f7e",
+      "original_symbol_sha256": "8058b38b68e7faa20ac9fa112a03645c0db5d1cf8eb50593ffe827b67a034f77",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/expression.py",
+      "symbol": "parse",
+      "source_sha256": "a4945f6731ac39043eccb2a52ebcda50d6bec912c5e3232a9517f35955e78f7e",
+      "original_symbol_sha256": "45a93a76241590b23dd2118711f87af4cfcca9bd28acadeb7ccdcc4cb99fd080",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/expression.py",
+      "symbol": "describe",
+      "source_sha256": "a4945f6731ac39043eccb2a52ebcda50d6bec912c5e3232a9517f35955e78f7e",
+      "original_symbol_sha256": "90a57fae39fdde4ced6774211b94646a1ac6b7542fff2c9aa8e918317ff5ec11",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/expression.py",
+      "symbol": "evaluate",
+      "source_sha256": "a4945f6731ac39043eccb2a52ebcda50d6bec912c5e3232a9517f35955e78f7e",
+      "original_symbol_sha256": "029d1c3e8392e98844886cb9542b7ed14c8fd883766bb66fb89ba5e1c3fd8c5d",
+      "AST_unchanged": false,
+      "port_scope": "Remove the fixed machine-name guard only; retain unoptimized Python and all expression/feature/shape checks."
+    },
+    {
+      "file": "operators/counterfactual_target.py",
+      "symbol": "counterfactual_cross_entropy",
+      "source_sha256": "7c1ec0cc5b66d7d9637175a6fe6922cb67f3601e0fc9317dab54d1c85c391d6c",
+      "original_symbol_sha256": "438480e1bcff83d4872432bde3000c4f7acdfce9686133da97bd39f5f3db4674",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/counterfactual_target.py",
+      "symbol": "sample_arm_targets",
+      "source_sha256": "7c1ec0cc5b66d7d9637175a6fe6922cb67f3601e0fc9317dab54d1c85c391d6c",
+      "original_symbol_sha256": "9f38ba93c5df9d6d28d70fea19b9d0bfc49b36b36a2168ee29a47e4da9dfea60",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/decoder.py",
+      "symbol": "install_argmax",
+      "source_sha256": "36c393c21b92934d9ff3ded5131e4f2ab224ea6089f9566aad8c2aba001d2e45",
+      "original_symbol_sha256": "b266e1eca881364fe58d06c2b4e13a1f73925e702b16ccaef4d5a6eedf3f4086",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/native_guard.py",
+      "symbol": "inspect_actuation",
+      "source_sha256": "58eb5b076b0105fe280923642505950cd15ba0f621f8104acaca23e2f609aea0",
+      "original_symbol_sha256": "b6184ac9385d394218ae767fe6782c3d10072febae1824ab5984ea3d8380560c",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/native_guard.py",
+      "symbol": "guard_decision",
+      "source_sha256": "58eb5b076b0105fe280923642505950cd15ba0f621f8104acaca23e2f609aea0",
+      "original_symbol_sha256": "820e3c99f022e1be8a60f63ecbb3020656162e4bdb58ea863ebd20d4dbf74f88",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/native_eval.py",
+      "symbol": "paired_reference",
+      "source_sha256": "addf487974a5961d011f016b2646d61adf7a960d563d0cac7c95cf12c7a9de59",
+      "original_symbol_sha256": "ae96525d1139a7fbab620b8d7178eaba62408d72f7c03ced6710abd49eaa13e5",
+      "AST_unchanged": true,
+      "port_scope": null
+    },
+    {
+      "file": "operators/native_eval.py",
+      "symbol": "evaluate",
+      "source_sha256": "addf487974a5961d011f016b2646d61adf7a960d563d0cac7c95cf12c7a9de59",
+      "original_symbol_sha256": "f39d4a37e851bbce2b7c7400a0a3798b37476a84cb3421309ba1dc33d9f412ed",
+      "AST_unchanged": true,
+      "port_scope": null
+    }
+  ],
+  "correction_scientific_execution_subtree_unchanged": true
+}

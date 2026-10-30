@@ -1,0 +1,99 @@
+{
+  "scope": "presentation only; no new hypothesis test",
+  "figure_A": {
+    "ER_minus_FT": {
+      "root_labels": [
+        101,
+        211,
+        307,
+        401,
+        503,
+        601
+      ],
+      "difference_in_successes_of_128": [
+        47,
+        39,
+        46,
+        57,
+        52,
+        45
+      ],
+      "difference_percentage_points": [
+        36.71875,
+        30.46875,
+        35.9375,
+        44.53125,
+        40.625,
+        35.15625
+      ],
+      "Holm_adjusted_p_copied": 0.0625,
+      "inference_unit": "six continuation random roots conditional on common pretrained source; not individual scenes or request flows"
+    },
+    "early_minus_delayed": {
+      "root_labels": [
+        101,
+        211,
+        307,
+        401,
+        503,
+        601
+      ],
+      "difference_in_successes_of_128": [
+        10,
+        5,
+        4,
+        1,
+        2,
+        0
+      ],
+      "difference_percentage_points": [
+        7.8125,
+        3.90625,
+        3.125,
+        0.78125,
+        1.5625,
+        0.0
+      ],
+      "Holm_adjusted_p_copied": 0.0625,
+      "inference_unit": "six continuation random roots conditional on common pretrained source; not individual scenes or request flows"
+    }
+  },
+  "figure_B": [
+    {
+      "policy": "shared_FT",
+      "gain_occurrences": 29,
+      "loss_occurrences": 152,
+      "displayed_loss": -152,
+      "initial_success_occurrences": 228,
+      "total_occurrences": 384,
+      "independent_sample_size": null
+    },
+    {
+      "policy": "shared_ER",
+      "gain_occurrences": 70,
+      "loss_occurrences": 38,
+      "displayed_loss": -38,
+      "initial_success_occurrences": 228,
+      "total_occurrences": 384,
+      "independent_sample_size": null
+    },
+    {
+      "policy": "early_branch",
+      "gain_occurrences": 72,
+      "loss_occurrences": 23,
+      "displayed_loss": -23,
+      "initial_success_occurrences": 228,
+      "total_occurrences": 384,
+      "independent_sample_size": null
+    },
+    {
+      "policy": "delayed_branch",
+      "gain_occurrences": 75,
+      "loss_occurrences": 42,
+      "displayed_loss": -42,
+      "initial_success_occurrences": 228,
+      "total_occurrences": 384,
+      "independent_sample_size": null
+    }
+  ]
+}

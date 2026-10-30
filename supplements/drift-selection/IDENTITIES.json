@@ -1,0 +1,17 @@
+{
+  "files": {
+    "README.md": {
+      "sha256": "41be9243a173d75f908e0c98ef8e65b945aed8c896fa29099ef8d4ba4f83bc58",
+      "bytes": 664
+    },
+    "scientific-source-excerpts.md": {
+      "sha256": "91400b0317e9f3fada2217594009490a8ac89c5224d131de4af2c18b59a8ffb3",
+      "bytes": 5556
+    },
+    "saved-drift-evidence.json": {
+      "sha256": "ecb78c2592cb34c736a9e502680ea9bd1fcfcfcaafb8d8f78ad80e622d181111",
+      "bytes": 48965
+    }
+  },
+  "scope": "saved-array and original procedure evidence; not a standalone neural runner"
+}

@@ -1,0 +1,10 @@
+{
+  "protocol_sha256": "bfc38c1a814d158818c7b8880fc0cb95ce670974fbff11f9ab166ac6d51e2044",
+  "worker_pid": 3076604,
+  "exit_code": 0,
+  "reason": "worker_returned",
+  "group_observed_absent": true,
+  "primary_error": null,
+  "cleanup_error": null,
+  "elapsed_seconds": 258.3440901208669
+}

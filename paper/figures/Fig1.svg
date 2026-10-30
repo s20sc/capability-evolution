@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="190mm" height="112.21476510067114mm" viewBox="55 125 1490 880" role="img" aria-labelledby="title desc">
+  <title id="title">Capability changes behind a stable skill interface</title>
+  <desc id="desc">A study map showing a fixed caller, parent and successor skill artifacts, and three protocol-fixed learning contrasts. Evaluation distinguishes new success, retention, target repair and cost. The diagram does not depict autonomous selection or recursive self-improvement.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#50677A" /></marker>
+    <style>
+      text {font-family: Arial; fill: #243F54;}
+      .title {font-size: 38px; font-weight: 700;}
+      .section {font-size: 30px; font-weight: 700; letter-spacing: 1.8px; fill: #50677A;}
+      .head {font-size: 32px; font-weight: 700;}
+      .body {font-size: 30px;}
+      .small {font-size: 30px; fill: #50677A;}
+      .mini {font-size: 30px; fill: #50677A;}
+      .line {fill: none; stroke: #50677A; stroke-width: 3; marker-end: url(#arrow);}
+    </style>
+  </defs>
+  <rect width="1600" height="1020" fill="#ffffff" />
+  <text x="70" y="164" class="section">STABLE CALLER, CHANGING SKILL ARTIFACT</text>
+  <rect x="70" y="190" width="350" height="180" rx="14" fill="#EEF3F7" stroke="#9AAFBF" stroke-width="2" />
+  <text x="96" y="232" class="head">High-level caller</text>
+  <text x="96" y="271" class="body">Fixed in comparisons</text>
+  <text x="96" y="308" class="small">Same request</text>
+  <text x="96" y="340" class="small">Same skill interface</text>
+
+  <rect x="500" y="190" width="410" height="180" rx="14" fill="#EEF3F7" stroke="#3D6F94" stroke-width="2" />
+  <text x="528" y="232" class="head">Parent skill artifact</text>
+  <text x="528" y="271" class="body">Policy + learner state</text>
+  <text x="528" y="308" class="small">Comparison starting point</text>
+  <text x="528" y="340" class="small">Stable invocation interface</text>
+
+  <rect x="1090" y="190" width="440" height="180" rx="14" fill="#FBF2E6" stroke="#C58B43" stroke-width="2" />
+  <text x="1118" y="232" class="head">Successor skill artifact</text>
+  <text x="1118" y="271" class="body">After prescribed learning</text>
+  <text x="1118" y="308" class="small">Same call; behavior changes</text>
+  <text x="1118" y="340" class="small">Measured in task execution</text>
+  <path d="M420 281 H492" class="line" />
+  <text x="432" y="261" class="mini">call</text>
+  <path d="M910 281 H1082" class="line" />
+  <text x="947" y="251" class="mini">prescribed</text>
+  <text x="953" y="314" class="mini">learning</text>
+
+  <text x="70" y="432" class="section">THREE CONTROLLED LEARNING CONTRASTS</text>
+  <rect x="70" y="458" width="460" height="225" rx="14" fill="#F6F8FB" stroke="#D7E1E8" stroke-width="2" />
+  <rect x="70" y="458" width="460" height="7" rx="3" fill="#3D6F94" />
+  <text x="96" y="506" class="head">01  Acquisition</text>
+  <text x="96" y="552" class="body">Failed capability call</text>
+  <text x="96" y="589" class="body">Prescribed learning stage</text>
+  <text x="96" y="626" class="body">Saved child invoked again</text>
+  <text x="96" y="661" class="small">Parent vs child behavior</text>
+
+  <rect x="570" y="458" width="460" height="225" rx="14" fill="#F6F8FB" stroke="#D7E1E8" stroke-width="2" />
+  <rect x="570" y="458" width="460" height="7" rx="3" fill="#3D6F94" />
+  <text x="596" y="506" class="head">02  Learning paths</text>
+  <text x="596" y="552" class="body">Continue or branch</text>
+  <text x="596" y="589" class="body">Complete-parent paths</text>
+  <text x="596" y="626" class="body">Match endpoint controls</text>
+  <text x="596" y="661" class="small">Different training ancestry</text>
+
+  <rect x="1070" y="458" width="460" height="225" rx="14" fill="#F6F8FB" stroke="#D7E1E8" stroke-width="2" />
+  <rect x="1070" y="458" width="460" height="7" rx="3" fill="#3D6F94" />
+  <text x="1096" y="506" class="head">03  Correction</text>
+  <text x="1096" y="552" class="body">Actual-loss or drift selection</text>
+  <text x="1096" y="589" class="body">Stored / attempted-new data</text>
+  <text x="1096" y="626" class="body">Include ordinary continuation</text>
+  <text x="1096" y="661" class="small">Success / retention / repair</text>
+
+  <text x="70" y="745" class="section">DISTINCT OUTCOMES — NOT ONE SUCCESS SCORE</text>
+  <rect x="70" y="771" width="1460" height="120" rx="14" fill="#EEF3F7" stroke="#D7E1E8" stroke-width="2" />
+  <path d="M435 790 V871 M800 790 V871 M1165 790 V871" stroke="#D7E1E8" stroke-width="2" />
+  <text x="96" y="818" class="head">Acquisition</text>
+  <text x="96" y="860" class="small">New successes</text>
+  <text x="461" y="818" class="head">Retention</text>
+  <text x="461" y="860" class="small">Successes kept / lost</text>
+  <text x="826" y="818" class="head">Repair</text>
+  <text x="826" y="860" class="small">Target failures resolved</text>
+  <text x="1191" y="818" class="head">Cost</text>
+  <text x="1191" y="860" class="small">Updates / actions / time</text>
+
+  <text x="70" y="941" class="small">Scope: simulated tasks; separate study panels; protocol-fixed operations.</text>
+  <text x="70" y="976" class="small">Autonomous operation selection and recursive self-improvement were not evaluated.</text>
+</svg>

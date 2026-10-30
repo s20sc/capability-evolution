@@ -1,0 +1,211 @@
+{
+  "S0": {
+    "Can": {
+      "artifact_sha256": "33ed6ac0570b77f47581d6c3f80498b526142302b3d32a875d8ce7e268b3e124",
+      "counts": [
+        [
+          "CPU_checkpoint_load_attempts",
+          1
+        ],
+        [
+          "CPU_model_construction_attempts",
+          1
+        ],
+        [
+          "action_attempts",
+          9339
+        ],
+        [
+          "action_returns",
+          9339
+        ],
+        [
+          "deployment_policy_forward_attempts",
+          9339
+        ],
+        [
+          "env_constructors",
+          32
+        ],
+        [
+          "explicit_resets",
+          32
+        ],
+        [
+          "native_cases",
+          32
+        ],
+        [
+          "native_successes",
+          0
+        ],
+        [
+          "policy_inference_attempts",
+          9339
+        ]
+      ],
+      "provenance": "native",
+      "request_id": "request-1",
+      "success": false,
+      "task": "Can"
+    },
+    "Square": {
+      "artifact_sha256": "33ed6ac0570b77f47581d6c3f80498b526142302b3d32a875d8ce7e268b3e124",
+      "counts": [
+        [
+          "CPU_checkpoint_load_attempts",
+          1
+        ],
+        [
+          "CPU_model_construction_attempts",
+          1
+        ],
+        [
+          "action_attempts",
+          9012
+        ],
+        [
+          "action_returns",
+          9012
+        ],
+        [
+          "deployment_policy_forward_attempts",
+          9012
+        ],
+        [
+          "env_constructors",
+          32
+        ],
+        [
+          "explicit_resets",
+          32
+        ],
+        [
+          "native_cases",
+          32
+        ],
+        [
+          "native_successes",
+          16
+        ],
+        [
+          "policy_inference_attempts",
+          9012
+        ]
+      ],
+      "provenance": "native",
+      "request_id": "request-2",
+      "success": false,
+      "task": "Square"
+    }
+  },
+  "S1": {
+    "Can": {
+      "artifact_sha256": "e14d1c37b54cf196db63131653716a5e24ea8118aa36e9243ff6080a7bead8bf",
+      "counts": [
+        [
+          "CPU_checkpoint_load_attempts",
+          1
+        ],
+        [
+          "CPU_model_construction_attempts",
+          1
+        ],
+        [
+          "action_attempts",
+          4376
+        ],
+        [
+          "action_returns",
+          4376
+        ],
+        [
+          "deployment_policy_forward_attempts",
+          4376
+        ],
+        [
+          "env_constructors",
+          32
+        ],
+        [
+          "explicit_resets",
+          32
+        ],
+        [
+          "native_cases",
+          32
+        ],
+        [
+          "native_successes",
+          30
+        ],
+        [
+          "policy_inference_attempts",
+          4376
+        ]
+      ],
+      "provenance": "native",
+      "request_id": "request-3",
+      "success": false,
+      "task": "Can"
+    },
+    "Square": {
+      "artifact_sha256": "e14d1c37b54cf196db63131653716a5e24ea8118aa36e9243ff6080a7bead8bf",
+      "counts": [
+        [
+          "CPU_checkpoint_load_attempts",
+          1
+        ],
+        [
+          "CPU_model_construction_attempts",
+          1
+        ],
+        [
+          "action_attempts",
+          8074
+        ],
+        [
+          "action_returns",
+          8074
+        ],
+        [
+          "deployment_policy_forward_attempts",
+          8074
+        ],
+        [
+          "env_constructors",
+          32
+        ],
+        [
+          "explicit_resets",
+          32
+        ],
+        [
+          "native_cases",
+          32
+        ],
+        [
+          "native_successes",
+          19
+        ],
+        [
+          "policy_inference_attempts",
+          8074
+        ]
+      ],
+      "provenance": "native",
+      "request_id": "request-4",
+      "success": false,
+      "task": "Square"
+    }
+  },
+  "child_sha256": "e14d1c37b54cf196db63131653716a5e24ea8118aa36e9243ff6080a7bead8bf",
+  "final_holdout_for_future_methods": false,
+  "independent_initial_scenes": true,
+  "independent_training_replicate": false,
+  "new_learning_updates": 0,
+  "new_model_service_calls": 0,
+  "parent_sha256": "33ed6ac0570b77f47581d6c3f80498b526142302b3d32a875d8ce7e268b3e124",
+  "protocol_sha256": "3155d584eb9aeed65670a401dfb55deea4fbb2e158d1682e4a2e2637363a977b",
+  "status": "completed"
+}

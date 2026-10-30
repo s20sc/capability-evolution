@@ -1,0 +1,17 @@
+{
+  "filename": "P2-runtime-sources.zip",
+  "bytes": 193783730,
+  "sha256": "8acc5c2cf285ff3dcbeb1998f884870c83c05fb8bb3bca6167678a0e404a1bb9",
+  "packages": {
+    "robomimic": {
+      "version": "0.3.0",
+      "source_archive_sha256": "c77b14b834bbe9076dc2fac213a1ca277985d6aa4a78b109dd61cb10e3c006b8"
+    },
+    "robosuite": {
+      "version": "1.4.1",
+      "source_archive_sha256": "06790a1b08c9cbb42cd75ec030dd37c7563c17e891d12f4c3b8c31e4f5ce84a8"
+    }
+  },
+  "source_asset_files": 1095,
+  "scope": "Exact Python sources and native task assets; third-party notices apply. Python wheels, OS, graphics drivers and provider demonstrations are separate."
+}

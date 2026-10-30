@@ -1,0 +1,4079 @@
+{
+  "board": {
+    "cases": [
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "fddae2ba0a9857333922edb3f59b136a1c9878c5c43c41130fc6ed6e5b8df796",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 2360171475,
+        "selected_task_route": "Can",
+        "steps": 171,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "d163399dbaea3409721524a47a3ae1e72915ade2220c4dd5e20aa5a718b9e4e4"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "a9f21b69d56f755a896394017bfc691006c3159b8ccc95858ed354f668ecef79",
+        "legacy_20N_steps": 18,
+        "max_success_hold": 0,
+        "seed": 2349896352,
+        "selected_task_route": "Can",
+        "steps": 400,
+        "stop_reason": "horizon",
+        "success": false,
+        "telemetry_sha256": "f09400a076d28baec50679872a369055be428e2ce39090584f011538560441da"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "5fc663f783d9a78e28ae3a3d6b0a04be44dfbf044973ca0181a5426f26feed03",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 3977782852,
+        "selected_task_route": "Can",
+        "steps": 244,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "307fdd2a8576aecfadfb4c0ed5b6e758737c4f27a6f22ca5c20584439d8079d7"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "26d7a45de9e85c6dc9003823f0d0166eba850e9cbc1627c79a345f4817fad022",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 4174803745,
+        "selected_task_route": "Can",
+        "steps": 176,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "8eba889d92324b4483195a2fc720f751d4ad1b488a7f1b665ca7f32f176161a8"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "7dad7e72bb2d7638dd15e7f30bf11b3a79ec1952f1d7609f3e851ddd4544e111",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 808737294,
+        "selected_task_route": "Can",
+        "steps": 239,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "b65939a1ba29655d0e73c37ac8e5725f2d019ef35d4cd5aeab35f6e9d382a853"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "64ce3d2d27598b3b1246f8e09e1063569e46f50585ce5d77ebc18f68b25e44f0",
+        "legacy_20N_steps": 16,
+        "max_success_hold": 0,
+        "seed": 3098266217,
+        "selected_task_route": "Can",
+        "steps": 400,
+        "stop_reason": "horizon",
+        "success": false,
+        "telemetry_sha256": "86c85fbdda8dee800e39ad39163d42da7da1aa810cdb9f0458685752a3644440"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "5fa21e9050acb10b50d443b4d526c74829e2117b72a5a8391e1ac902fefe65d4",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 3980120687,
+        "selected_task_route": "Can",
+        "steps": 400,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "a802c8faa2f92d40f134edc26b4ba70c44be92f5cb6f87f86d88212551a37b83"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "712f2a9154ad60739fe38e5ffa4e09cb80ba794a0acac65a98ecc8ca2421e6e4",
+        "legacy_20N_steps": 35,
+        "max_success_hold": 0,
+        "seed": 3334331200,
+        "selected_task_route": "Can",
+        "steps": 400,
+        "stop_reason": "horizon",
+        "success": false,
+        "telemetry_sha256": "6fb79e2aa25b2d035a34b5dbd36f3268fdacf4b84bf1d087c144a0cb8413e3f6"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "6be8f1259b6611d7acd970908a931a23f957eed9712ba48919ddcc029ea556f4",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 161219685,
+        "selected_task_route": "Can",
+        "steps": 202,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "5ec57e6df48b82900cf70031c3a3d464f48f9cbeb1e45205c3e5b3c27d840452"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "1b1639cd174a3b16f12d6cc33af22f9d1bab34ea5dece2583e25091b2f26304f",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 2426519151,
+        "selected_task_route": "Can",
+        "steps": 400,
+        "stop_reason": "horizon",
+        "success": false,
+        "telemetry_sha256": "5c8a2994be836c8c7f6dcd74818613b9d6685fdf27070a3f94f13fcf5068c6e4"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "78622f553252338c29b2df24b46c7920c6188e7d2f11a24f0b2972e99977d636",
+        "legacy_20N_steps": 5,
+        "max_success_hold": 0,
+        "seed": 1198002025,
+        "selected_task_route": "Can",
+        "steps": 353,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "d084e6b7e9d9d33bd8124fc4a8a1af14a4ad72d88e3dd30ebb2eb0c5fce61ce3"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "d916a18ec3c2857f295ffec552b869b548c7c27e722640b38aa4f07166af7494",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 2189479605,
+        "selected_task_route": "Can",
+        "steps": 170,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "a4d180123a453135b722ea5dabf5d7f457d018840d353fe4ec316f0dbf74d10c"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "14120f6669f8e2056a454bbdbc3405d6f2fe7e3b7fd7a496e533f2bf3e9d1b01",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 3326547479,
+        "selected_task_route": "Can",
+        "steps": 287,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "bf0047f057f4eb0085b5b3b8a3513422c8da11b40f54c333377adecd0ec1caa1"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "50a3d11c4e05fbcb59b557f65a1ea53a03625f329da11fa0f39e64cda919fe28",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 3011576009,
+        "selected_task_route": "Can",
+        "steps": 245,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "c80afff452b2cc44c2de5cb96429af31730c450d0577b190a405e953dc21a3f4"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "45e8290a489e76b5996b18b4a70eb614cc769a8ec0eba787c4ad708cdb3713cc",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 1557519070,
+        "selected_task_route": "Can",
+        "steps": 303,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "224f5eb18965e9dd4642f3314d5e9697d32c200b721e996b24b763cbf5ef1c67"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "b1fc1c381f762ed714980cfd37397fde93cd4d820055d727934baf97cb336d5f",
+        "legacy_20N_steps": 140,
+        "max_success_hold": 0,
+        "seed": 366751033,
+        "selected_task_route": "Can",
+        "steps": 400,
+        "stop_reason": "horizon",
+        "success": false,
+        "telemetry_sha256": "3bbe163a61cdaed31c909338a7fd39c949e589eeb6891e0f7c068a70cb97a94f"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "0627724d42060ad967badd1d808f294549e92093bced69b3d966049e10d8aab0",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 3473731073,
+        "selected_task_route": "Can",
+        "steps": 168,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "e29318361ed1d010a2c64a6e2427d410e6163cc256e96366dead48522e4c1f18"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "fc878d9ebc0f8afb62d603c3fd2058f34f6598e8380b1aa7a1aee4c35e99cda2",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 334917594,
+        "selected_task_route": "Can",
+        "steps": 322,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "ab89ed3b8bbfb6867708b7ae2d46144cdf1afd167e16b7d5b4581c4b32af3282"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "2b1e09fedab3f1744c695b0db56d1503d9d07e14e81df031906c79427d2cd581",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 2815424319,
+        "selected_task_route": "Can",
+        "steps": 400,
+        "stop_reason": "horizon",
+        "success": false,
+        "telemetry_sha256": "f0dc44097ce9cc4da898bba211859952a74d2b8390c5101fc3349418f907bdc4"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "3acaf6992edd86aa4adbcca289a1fb0f99b901c3a7912db5639ac05ae9bba96d",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 2760218202,
+        "selected_task_route": "Can",
+        "steps": 287,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "d82728c6085f5a2b7130049f5d0465edac14ac3202154305ffc3d38b41839db9"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "4bc3227432fe13388aa248e953da5a7e673e273bdc33dcc0a899c6f1194e66e9",
+        "legacy_20N_steps": 34,
+        "max_success_hold": 0,
+        "seed": 2644583359,
+        "selected_task_route": "Can",
+        "steps": 400,
+        "stop_reason": "horizon",
+        "success": false,
+        "telemetry_sha256": "9da35116a1ee893e91f4a8f329e6a4588c888dc837ff8d94421309af1b3f44a0"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "03f210d578721caa315d302c7282fb696564158b70499984d495e7f853791bfc",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 3236342987,
+        "selected_task_route": "Can",
+        "steps": 325,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "83b2ad4da11dd7e627a9ae32d917941656abda438229ac78bab3e80e623a9c69"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "fe942f7948f18d67be5bf345cca02a9bf90acb57f8cef803caed37e8d8cc5dfd",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 3012751794,
+        "selected_task_route": "Can",
+        "steps": 400,
+        "stop_reason": "horizon",
+        "success": false,
+        "telemetry_sha256": "49db145978eb7067f0ed43813a906fd036d588079e495d14fb5480383e68118a"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "3f258d155a384d44b9446fdcc720417e8682be51a954138f39ef3c45c7e9bbd9",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 385837552,
+        "selected_task_route": "Can",
+        "steps": 400,
+        "stop_reason": "horizon",
+        "success": false,
+        "telemetry_sha256": "0b4d58a8d0dbf957c43e4b260a9be5a0503fd80e223dc5909a7100005106e7f7"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "ad66202d1f25b64566488fce729f649b8d31c203c17a12714eaf0ffcac5cd89c",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 3712022488,
+        "selected_task_route": "Can",
+        "steps": 236,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "22fe6b35d5716aa684e9db3f87a071404f97de23a74a8e2de30d914e684e0414"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "55bbedcf14e590002eefc4694dd9cfc4b2d798f861a87ce7f29f717810ce0d33",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 3132381704,
+        "selected_task_route": "Can",
+        "steps": 150,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "efb88128d615c82f3ab43df52f78d550c7a93360981050451bd9c91954b92356"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "1af451cd203b4ba93351bd944b4d702ac1d2b4a5b56dc3f3f71670aba3c7590b",
+        "legacy_20N_steps": 1,
+        "max_success_hold": 0,
+        "seed": 4076672857,
+        "selected_task_route": "Can",
+        "steps": 173,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "52138d5897748ee08f9baee9a20fe78bc1c0930e41ed9dfa29350f0956b232ee"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "77349f8ddf76bde95108d4580fe74a3363ff779b6aa24659d4f98b221d9bfaae",
+        "legacy_20N_steps": 6,
+        "max_success_hold": 0,
+        "seed": 3123944531,
+        "selected_task_route": "Can",
+        "steps": 400,
+        "stop_reason": "horizon",
+        "success": false,
+        "telemetry_sha256": "5ada2e0796f35911776383c14be3fd05f33fe000c214bcc58d7109630b8e0a06"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "69e32b43ad9de898c8a3c8e34ada378f89a74ee1ea335b906d8f09dee5895ad6",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 2404149959,
+        "selected_task_route": "Can",
+        "steps": 199,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "525ea72ae0f10752b260b99fc1f473b79258dc489aecd5f6490c9fbea4cefe1d"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "d5dc170b3537a6affde275c27fe4bcfa9b226d37d06220862470ca8ad4718200",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 2874588218,
+        "selected_task_route": "Can",
+        "steps": 308,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "bd6d6ebfdff6c49f231e727bd725a9f75734f2d2e697b287fff1e0675eb06b34"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "4860a86855f2557c2f06ad797f92d775bedbf9f3a836a1d507e462126c7c7745",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 1304762600,
+        "selected_task_route": "Can",
+        "steps": 192,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "30ae578e26207ffa0920b3fa94eba36e56f7a80bbdb2b0416ca79c4d79f3fab8"
+      },
+      {
+        "clipped_components": 0,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "environment_closed": true,
+        "grasp_steps": 0,
+        "initial_model_xml_sha256": "73a76c13fe7910c33be99408a3556100cd1bdedd742294e86dd4b604aec45867",
+        "initial_state_sha256": "c6a9d56c089671ec9e34f6872566ecca387b20ba8c521bfeeb0bd05eb792930d",
+        "legacy_20N_steps": 0,
+        "max_success_hold": 0,
+        "seed": 1004004943,
+        "selected_task_route": "Can",
+        "steps": 189,
+        "stop_reason": "guard",
+        "success": false,
+        "telemetry_sha256": "5d76078859cceb71a8c169cfc3d07d28e256a44ad56eac0d2d37818a95e95bb1"
+      }
+    ],
+    "high_level_planner_evaluated": false,
+    "initial_state_aliases_present": false,
+    "loaded_policy_count": 1,
+    "protocol_sha256": "3155d584eb9aeed65670a401dfb55deea4fbb2e158d1682e4a2e2637363a977b",
+    "routes": {
+      "Can": "references/S0.json"
+    },
+    "split": "independent_scenes_for_fixed_S0_S1_only",
+    "status": "completed",
+    "successes": 0,
+    "task": "Can",
+    "unique_initial_states": 32
+  },
+  "checkpoint_metadata_scope": {
+    "references/S0.json": "new endpoint: complete binding/hash and all counters"
+  },
+  "constructed_model_parameters": [
+    {
+      "device": "cpu",
+      "profile": "target",
+      "registered_parameter_elements": 1996475,
+      "registered_parameter_logical_bytes": 7985900,
+      "scope": "registered parameter enumeration, not unique storage, resident memory or checkpoint bytes"
+    }
+  ],
+  "counts": {
+    "CPU_checkpoint_load_attempts": 1,
+    "CPU_model_construction_attempts": 1,
+    "action_attempts": 9339,
+    "action_returns": 9339,
+    "deployment_policy_forward_attempts": 9339,
+    "env_constructors": 32,
+    "explicit_resets": 32,
+    "policy_inference_attempts": 9339
+  },
+  "elapsed_seconds": 131.7069993140176,
+  "job": "start_Can",
+  "optimizer_mutation_scope": "entries and returns distinct; interrupted entries may mutate without a return",
+  "pgid": 3079955,
+  "pid": 3079956,
+  "protocol_sha256": "3155d584eb9aeed65670a401dfb55deea4fbb2e158d1682e4a2e2637363a977b",
+  "status": "completed"
+}

@@ -1,0 +1,8 @@
+{
+  "selected_demo_ids": [
+    "generated_847811185"
+  ],
+  "selected_rows": 169,
+  "initial_state_sha256": "d4d513b53396401f45c3dd046647ca26236bbe8a6a8d6997960037c552c7df05",
+  "scope": "failure at one observed deployment action stream; no causal physical diagnosis"
+}

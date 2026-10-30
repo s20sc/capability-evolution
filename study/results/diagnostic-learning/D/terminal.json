@@ -1,0 +1,12 @@
+{
+  "child_exit_code": 0,
+  "timed_out": false,
+  "timeout_scope": null,
+  "owned_group_observed_absent": true,
+  "cleanup_error": null,
+  "lifecycle_error": null,
+  "elapsed_seconds": 81.30199354002252,
+  "protocol_sha256": "0b19fda74b912cb951477f98da15fe1e3ce4c48bf73a78e39398d03cd4fb49d3",
+  "result_file_exists": true,
+  "automatic_retry": false
+}

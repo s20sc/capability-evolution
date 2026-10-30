@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying study and identify the exact software revision used."
+type: software
+title: "Capability evolution in embodied agents: Study materials"
+authors:
+  - family-names: Qin
+    given-names: Xue
+  - family-names: Luan
+    given-names: Simin
+  - family-names: Yang
+    given-names: Cong
+    orcid: "https://orcid.org/0000-0002-8314-0935"
+  - family-names: Li
+    given-names: Zhijun
+repository-code: "https://github.com/s20sc/capability-evolution"
+abstract: "Study-specific software, saved measurements and reconstruction workflows for a controlled study of skill acquisition, retention and repair under fixed high-level interfaces."
+license: Apache-2.0
+version: "v30"

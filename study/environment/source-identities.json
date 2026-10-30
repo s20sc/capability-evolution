@@ -1,0 +1,27 @@
+{
+  "source_bindings": {
+    "robosuite/controllers/base_controller.py": "61f99a2daeb4eb6e39bfb996d94c5a5689ef3bc771d030d070193ea56d6a8332",
+    "robosuite/controllers/osc.py": "cfa62a0e719bc53ef0c701efa66f7b3e2272d4fca2150ec73c05bb145eba85cb",
+    "robosuite/environments/base.py": "60eab4afd3dc95b4ac4cf0659fb9afe6360161912a4ac6931efe86ce1e1de519",
+    "robosuite/environments/manipulation/manipulation_env.py": "13375356b4ab98bea62dce25b002b137c58669bfba77f0db84cf04c04a4cc457",
+    "robosuite/environments/manipulation/nut_assembly.py": "142c6d8cc8ee02f686188fad271de5084e68dc16d386ae307bee1e469550f755",
+    "robosuite/environments/manipulation/pick_place.py": "26dcb1dfb5289cbe4c2cff10e4a7562939e67d9fa341eccabbabe456a2ad0e7e",
+    "robosuite/environments/manipulation/tool_hang.py": "da87623a6067bb6efd9714cfff0a61dce2107ad46356eb549810259d03e04ac0",
+    "robosuite/models/assets/grippers/panda_gripper.xml": "d9d68123909d6910488310d0fae4e358ed4ac831c6d0957f3e30893a5412baac",
+    "robosuite/models/robots/manipulators/manipulator_model.py": "ac21ce0b004a1ee93cb8b728c00b9c18c38ecabb2dedca370de80602ad26f059",
+    "robosuite/robots/robot.py": "7a3a98eb75b4e7cb1b822a918d0c693d441356279a8e796cfc02eb1fd5963f23",
+    "robosuite/robots/single_arm.py": "38237d7b68c876b413f0df811b135ca3b2fb91061c011696baab07db5e87fa14",
+    "robosuite/utils/transform_utils.py": "1c2317895733449883b56af0decefb3529649b3a7779dc2ef3ed00816bb25bb0",
+    "robomimic/algo/algo.py": "d15dd0c501f6c715d8614887b04bc5ece9084d39d1e7cbc07de9ee9b5b93fe3e",
+    "robomimic/algo/bc.py": "c74971d3da941e01fe0cfe97b5aebc6cddb9b8f7dbe13c2947fb5063e5765f42",
+    "robomimic/config/bc_config.py": "daff093a4f0eb63d01a29ce176bd881674b2ebd49bf7081b6ffd77eaae9a28f5",
+    "robomimic/models/policy_nets.py": "8b74798ed8651ba19208dd8aed6250d03d78a5e28837254d57642be9ce944892",
+    "robomimic/scripts/generate_paper_configs.py": "34df666cb6953c29815eb69541a2ed26986437c5d8e3ca81775d109643740a55",
+    "robomimic/__init__.py": "a1b4e1487b5d0dcea8e7684f5da53526cd108f91bfc09a00cdc1eaea72ddaade",
+    "robomimic/algo/__init__.py": "52a111eb49f0fdbf37ca99bd5e074a0b2dce02229cbd10312214b1329a70f587",
+    "robomimic/config/__init__.py": "8c5c91a9c88bd254266e4fdcec19780e37c51d42cf2f6881356e7fad07287af0",
+    "robomimic/utils/obs_utils.py": "b20278330ad8283a21886a4e79c457e31d0d1d599b5895010be1099a2c94c6e6",
+    "robomimic/utils/torch_utils.py": "a536c2c8525cbf32bb52c40dba55e0e912c1abbac75331465ccd411c0de23d67"
+  },
+  "scope": "Required source/asset identities in addition to version-pinned packages; package bodies and source snapshots are not bundled."
+}

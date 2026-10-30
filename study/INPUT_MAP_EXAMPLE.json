@@ -1,0 +1,50 @@
+{
+  "data_Can": {
+    "path": "inputs/data_Can.npz",
+    "sha256": "fcc10895ab27cf906a535c7524089776faf9287c68f2a2024a6b2561a74aa735"
+  },
+  "data_Square": {
+    "path": "inputs/data_Square.npz",
+    "sha256": "2c701e737fc5690b2df18c31d410be73f1e8df85a79a22a4b83ffbf26ac8fa7c"
+  },
+  "metadata_Can": {
+    "path": "inputs/metadata_Can.hdf5",
+    "sha256": "8b811d652f21b0b7a3b16fb8407521963a974311260a4e9ffc40600d08e6b3cf"
+  },
+  "metadata_Square": {
+    "path": "inputs/metadata_Square.hdf5",
+    "sha256": "afc1fc1bd72193d1fd89c689b738cb9eb1a17352217aea2a2e029ccc49eefcbd"
+  },
+  "shared_S0": {
+    "path": "states/shared_S0.pt",
+    "sha256": "beaed4023dafa1bceb704b565e64b2338214b6c05b30a652ce68420cac8cbe2c"
+  },
+  "Square100000": {
+    "path": "states/Square100000.pt",
+    "sha256": "89461eec91fa96f1376737b1d051edec9460eaa903ccf776cba924b743564af8"
+  },
+  "D101000": {
+    "path": "states/D101000.pt",
+    "sha256": "635edb03d3afdb3574277f039054d67a80d540c79999536c5d10d51617b14e25"
+  },
+  "target_pack": {
+    "path": "generated/target-trajectories.npz",
+    "sha256": "2d97f6d6d15ab77de875485280330754196dbb1776be380d98970933ea6ae361"
+  },
+  "LP": {
+    "path": "generated/correction-LP.npz",
+    "sha256": "54fa6a87800e4792b6c04b3467bdc224df61c125afcd765273a17c5261846c1c"
+  },
+  "FP": {
+    "path": "generated/correction-FP.npz",
+    "sha256": "4f3d43ded49eb48b29c31fa87b98433ef72ae525cf0458f073ab5affc63c04ca"
+  },
+  "LG": {
+    "path": "generated/correction-LG.npz",
+    "sha256": "f4f63333bdc49d25bae3d19d53309fc7ffa48cc2d9855041af1750889fe3dfac"
+  },
+  "FG": {
+    "path": "generated/correction-FG.npz",
+    "sha256": "77b55379675db4af7bf3134d94374ba698e59d9a9651ee7a8cdd9fe384621040"
+  }
+}

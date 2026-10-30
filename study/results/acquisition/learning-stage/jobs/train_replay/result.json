@@ -1,0 +1,303 @@
+{
+  "GPU_admission": {
+    "memory_mib": 538,
+    "raw": "538, 0",
+    "utilization_percent": 0
+  },
+  "checkpoints": {
+    "20000": {
+      "binding": {
+        "candidate_raw_sha256": "9c4ace065ecab70b87090d000242dcb037d1ed85d88142bd5dfad5d150c8defb",
+        "config": {
+          "algo": {
+            "actor_layer_dims": [],
+            "gaussian": {
+              "enabled": false,
+              "fixed_std": false,
+              "init_std": 0.1,
+              "low_noise_eval": true,
+              "min_std": 0.01,
+              "std_activation": "softplus"
+            },
+            "gmm": {
+              "enabled": true,
+              "low_noise_eval": true,
+              "min_std": 0.0001,
+              "num_modes": 5,
+              "std_activation": "softplus"
+            },
+            "loss": {
+              "cos_weight": 0.0,
+              "l1_weight": 0.0,
+              "l2_weight": 1.0
+            },
+            "optim_params": {
+              "policy": {
+                "learning_rate": {
+                  "decay_factor": 0.1,
+                  "epoch_schedule": [],
+                  "initial": 0.0001,
+                  "scheduler_type": "multistep"
+                },
+                "optimizer_type": "adam",
+                "regularization": {
+                  "L2": 0.0
+                }
+              }
+            },
+            "rnn": {
+              "enabled": true,
+              "hidden_dim": 400,
+              "horizon": 10,
+              "kwargs": {
+                "bidirectional": false
+              },
+              "num_layers": 2,
+              "open_loop": false,
+              "rnn_type": "LSTM"
+            },
+            "transformer": {
+              "activation": "gelu",
+              "attn_dropout": 0.1,
+              "block_output_dropout": 0.1,
+              "context_length": 10,
+              "emb_dropout": 0.1,
+              "embed_dim": 512,
+              "enabled": false,
+              "nn_parameter_for_timesteps": true,
+              "num_heads": 8,
+              "num_layers": 6,
+              "sinusoidal_embedding": false,
+              "supervise_all_steps": false
+            },
+            "vae": {
+              "decoder": {
+                "is_conditioned": true,
+                "reconstruction_sum_across_elements": false
+              },
+              "decoder_layer_dims": [
+                300,
+                400
+              ],
+              "enabled": false,
+              "encoder_layer_dims": [
+                300,
+                400
+              ],
+              "kl_weight": 1.0,
+              "latent_clip": null,
+              "latent_dim": 14,
+              "prior": {
+                "categorical_dim": 10,
+                "categorical_gumbel_softmax_hard": false,
+                "categorical_init_temp": 1.0,
+                "categorical_min_temp": 0.3,
+                "categorical_temp_anneal_step": 0.001,
+                "gmm_learn_weights": false,
+                "gmm_num_modes": 10,
+                "is_conditioned": false,
+                "learn": false,
+                "use_categorical": false,
+                "use_gmm": false
+              },
+              "prior_layer_dims": [
+                300,
+                400
+              ]
+            }
+          },
+          "algo_name": "bc",
+          "experiment": {
+            "additional_envs": null,
+            "env": null,
+            "epoch_every_n_steps": 100,
+            "keep_all_videos": false,
+            "logging": {
+              "log_tb": true,
+              "log_wandb": false,
+              "terminal_output_to_txt": true,
+              "wandb_proj_name": "debug"
+            },
+            "name": "square_fixed_200k_closedloop_qualification",
+            "render": false,
+            "render_video": true,
+            "rollout": {
+              "enabled": false,
+              "horizon": 400,
+              "n": 50,
+              "rate": 50,
+              "terminate_on_success": true,
+              "warmstart": 0
+            },
+            "save": {
+              "enabled": true,
+              "epochs": [],
+              "every_n_epochs": 50,
+              "every_n_seconds": null,
+              "on_best_rollout_return": false,
+              "on_best_rollout_success_rate": true,
+              "on_best_validation": false
+            },
+            "validate": true,
+            "validation_epoch_every_n_steps": 10,
+            "video_skip": 5
+          },
+          "meta": {
+            "hp_base_config_file": null,
+            "hp_keys": [],
+            "hp_values": []
+          },
+          "observation": {
+            "encoder": {
+              "depth": {
+                "core_class": "VisualCore",
+                "core_kwargs": {},
+                "obs_randomizer_class": null,
+                "obs_randomizer_kwargs": {}
+              },
+              "low_dim": {
+                "core_class": null,
+                "core_kwargs": {},
+                "obs_randomizer_class": null,
+                "obs_randomizer_kwargs": {}
+              },
+              "rgb": {
+                "core_class": "VisualCore",
+                "core_kwargs": {},
+                "obs_randomizer_class": null,
+                "obs_randomizer_kwargs": {}
+              },
+              "scan": {
+                "core_class": "ScanCore",
+                "core_kwargs": {},
+                "obs_randomizer_class": null,
+                "obs_randomizer_kwargs": {}
+              }
+            },
+            "modalities": {
+              "goal": {
+                "depth": [],
+                "low_dim": [],
+                "rgb": [],
+                "scan": []
+              },
+              "obs": {
+                "depth": [],
+                "low_dim": [
+                  "robot0_eef_pos",
+                  "robot0_eef_quat",
+                  "robot0_gripper_qpos",
+                  "object",
+                  "task_id"
+                ],
+                "rgb": [],
+                "scan": []
+              }
+            }
+          },
+          "train": {
+            "batch_size": 100,
+            "cuda": true,
+            "data": "recorded-location:c68cc99380fe6491",
+            "dataset_keys": [
+              "actions",
+              "rewards",
+              "dones"
+            ],
+            "frame_stack": 1,
+            "goal_mode": null,
+            "hdf5_cache_mode": "all",
+            "hdf5_filter_key": "train",
+            "hdf5_load_next_obs": false,
+            "hdf5_normalize_obs": false,
+            "hdf5_use_swmr": true,
+            "hdf5_validation_filter_key": "valid",
+            "num_data_workers": 0,
+            "num_epochs": 2000,
+            "output_dir": "recorded-location:9e87b64898acf48e",
+            "pad_frame_stack": true,
+            "pad_seq_length": true,
+            "seed": 1,
+            "seq_length": 10
+          }
+        },
+        "initialization": "fixed seed29; complete fresh optimizer/RNG/dual samplers",
+        "learning": {
+          "Can": "fcc10895ab27cf906a535c7524089776faf9287c68f2a2024a6b2561a74aa735",
+          "Square": "2c701e737fc5690b2df18c31d410be73f1e8df85a79a22a4b83ffbf26ac8fa7c"
+        },
+        "normalization": null,
+        "policy_shapes": {
+          "object": 14,
+          "robot0_eef_pos": 3,
+          "robot0_eef_quat": 4,
+          "robot0_gripper_qpos": 2,
+          "task_id": 2
+        },
+        "schema": "P2-edit-space-target-stage-v1",
+        "task_encoding": {
+          "Can": [
+            0.0,
+            1.0
+          ],
+          "Square": [
+            1.0,
+            0.0
+          ]
+        }
+      },
+      "bytes": 24377212,
+      "counters": {
+        "epochs": 200,
+        "sampled_windows": 2000000,
+        "updates": 20000
+      },
+      "path": "artifact:sha256:e14d1c37b54cf196db63131653716a5e24ea8118aa36e9243ff6080a7bead8bf",
+      "profile": "target",
+      "sha256": "e14d1c37b54cf196db63131653716a5e24ea8118aa36e9243ff6080a7bead8bf"
+    }
+  },
+  "constructed_model_parameters": [
+    {
+      "device": "cuda:0",
+      "profile": "target",
+      "registered_parameter_elements": 1996475,
+      "registered_parameter_logical_bytes": 7985900,
+      "scope": "registered parameter enumeration, not unique storage, resident memory or checkpoint bytes"
+    }
+  ],
+  "counts": {
+    "GPU_model_construction_attempts": 1,
+    "optimizer_attempts": 20000,
+    "optimizer_entries": 20000,
+    "optimizer_returns": 20000,
+    "sampled_windows": 2000000,
+    "scalar_objective_attempts": 40000,
+    "state_saves": 1,
+    "supervised_positions": 20000000,
+    "training_checkpoint_load_attempts": 1,
+    "training_density_positions": 20000000,
+    "training_gradient_attempts": 20000,
+    "training_log_prob_calls": 20000,
+    "training_policy_forward_attempts": 20000,
+    "update_returns": 20000,
+    "windows_Can": 1000000,
+    "windows_Square": 1000000
+  },
+  "elapsed_seconds": 151.54456929909065,
+  "job": "train_replay",
+  "last_training": {
+    "anchor_NLL": -18.795915603637695,
+    "loss": -18.795913696289062,
+    "mix_mean": 0.0,
+    "mix_positive_positions": 0,
+    "weight_max": 1.0,
+    "weight_min": 1.0
+  },
+  "max_allocated_cuda_bytes": 159534080,
+  "optimizer_mutation_scope": "entries and returns distinct; interrupted entries may mutate without a return",
+  "pgid": 3076604,
+  "pid": 3076692,
+  "protocol_sha256": "bfc38c1a814d158818c7b8880fc0cb95ce670974fbff11f9ab166ac6d51e2044",
+  "status": "completed"
+}

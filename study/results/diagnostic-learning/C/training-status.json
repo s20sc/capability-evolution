@@ -1,0 +1,36 @@
+{
+  "arm": "all_valid",
+  "state": "completed",
+  "model_attempts": 1,
+  "optimizer_attempts": 1000,
+  "updates_returned": 1000,
+  "elapsed_seconds": 7.101846606004983,
+  "GPU_admission": "538, 0",
+  "complete_restore_equal_leaves": 893,
+  "saved_equal_leaves": 910,
+  "child_restore_equal_leaves": 910,
+  "checkpoint": {
+    "path": "artifact:sha256:e74b5d0b54b209615f5efef61dc81e93a8574b26b0aafefdbdd0986f9974059b",
+    "sha256": "e74b5d0b54b209615f5efef61dc81e93a8574b26b0aafefdbdd0986f9974059b",
+    "updates": 101000,
+    "evolution": {
+      "protocol_sha256": "0d2816a047237a54c15507eda6be7ab659d623cf8d40a2e827b8d53ba5996785",
+      "acquisition_policy": "all existing valid trajectories without parent-failure filtering",
+      "arm": "all_valid",
+      "parent_sha256": "e0375f0410efdbf43b2b1c18b07e82c5d4247fa220554ab127ece01be2711a8e",
+      "proposal_sha256": "e4dfbfaa3824fe3fbfc7244210fe2faf6cf47816be95fb1f19fe182b63e51372",
+      "selected_ids": [
+        "generated_351594620",
+        "generated_1068969187",
+        "generated_847811185"
+      ],
+      "actual_training_data": [
+        "2c701e737fc5690b2df18c31d410be73f1e8df85a79a22a4b83ffbf26ac8fa7c",
+        "2d97f6d6d15ab77de875485280330754196dbb1776be380d98970933ea6ae361"
+      ],
+      "old_windows": 50,
+      "new_windows": 50
+    }
+  },
+  "peak_cuda_bytes": 149113344
+}

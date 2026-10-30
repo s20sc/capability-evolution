@@ -1,0 +1,14 @@
+{
+  "metadata_Can": {
+    "path": "inputs/Can/demo_v141.hdf5",
+    "sha256": "8b811d652f21b0b7a3b16fb8407521963a974311260a4e9ffc40600d08e6b3cf"
+  },
+  "metadata_Square": {
+    "path": "inputs/Square/low_dim_v141.hdf5",
+    "sha256": "afc1fc1bd72193d1fd89c689b738cb9eb1a17352217aea2a2e029ccc49eefcbd"
+  },
+  "raw_Square": {
+    "path": "inputs/Square/demo_v141.hdf5",
+    "sha256": "53f202c7d6dfc91a4a30964ed7ce63ecd8a4f67818fa02cf0d251e6aeddfc586"
+  }
+}

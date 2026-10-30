@@ -1,0 +1,36 @@
+{
+  "methods": [
+    {
+      "output": "preparation/helpers.py",
+      "symbol": "sha",
+      "source_sha256": "05e61e9ca3f617d0a8c90a425991f2e68801263db07c1ea25e380f4796521a40",
+      "AST_unchanged": true
+    },
+    {
+      "output": "preparation/helpers.py",
+      "symbol": "safe",
+      "source_sha256": "05e61e9ca3f617d0a8c90a425991f2e68801263db07c1ea25e380f4796521a40",
+      "AST_unchanged": true
+    },
+    {
+      "output": "preparation/square.py",
+      "source_sha256": "534350fc8e86b413932f5365219b14869f239110b52815de588f5ed74c86edb6",
+      "entire_file_unchanged": true
+    },
+    {
+      "output": "preparation/can.py",
+      "symbol": "extract",
+      "source_sha256": "d49f4bf058826914be97f51d8f4609489698f95b3f7a63eb572625b7f904da8a",
+      "scientific_subtree_from_start_unchanged": true,
+      "adapted": "deployment preamble only; caller binds input, extraction provenance, new output and limits"
+    },
+    {
+      "output": "preparation/can.py",
+      "symbol": "package",
+      "source_sha256": "a32e89fcb375ad5efec0a0d41fd7ba329161697791bb27be8eff1fea380a20ab",
+      "scientific_subtree_from_start_unchanged": true,
+      "adapted": "deployment preamble only; caller binds input, extraction provenance, new output and limits"
+    }
+  ],
+  "scope": "Scientific functions/bodies retained; deployment admission is implemented separately in run_preparation.py."
+}

@@ -1,0 +1,308 @@
+[
+  {
+    "kind": "installed",
+    "provenance": "native",
+    "resident_artifacts": [
+      "33ed6ac0570b77f47581d6c3f80498b526142302b3d32a875d8ce7e268b3e124"
+    ],
+    "sequence": 1,
+    "sha256": "33ed6ac0570b77f47581d6c3f80498b526142302b3d32a875d8ce7e268b3e124",
+    "tasks": [
+      "Can",
+      "Square"
+    ]
+  },
+  {
+    "kind": "invocation",
+    "provenance": "native",
+    "request_id": "request-1",
+    "sequence": 2,
+    "sha256": "33ed6ac0570b77f47581d6c3f80498b526142302b3d32a875d8ce7e268b3e124",
+    "task": "Can"
+  },
+  {
+    "digest": "9bd91f89e831d7faf31d95a47ba9e663d44bae1590b714d626b08f95cbaac4ee",
+    "evidence": {
+      "artifact_sha256": "33ed6ac0570b77f47581d6c3f80498b526142302b3d32a875d8ce7e268b3e124",
+      "counts": [
+        [
+          "CPU_checkpoint_load_attempts",
+          1
+        ],
+        [
+          "CPU_model_construction_attempts",
+          1
+        ],
+        [
+          "action_attempts",
+          1194
+        ],
+        [
+          "action_returns",
+          1194
+        ],
+        [
+          "deployment_policy_forward_attempts",
+          1194
+        ],
+        [
+          "env_constructors",
+          4
+        ],
+        [
+          "explicit_resets",
+          4
+        ],
+        [
+          "native_cases",
+          4
+        ],
+        [
+          "native_successes",
+          0
+        ],
+        [
+          "policy_inference_attempts",
+          1194
+        ]
+      ],
+      "provenance": "native",
+      "request_id": "request-1",
+      "success": false,
+      "task": "Can"
+    },
+    "kind": "execution",
+    "provenance": "native",
+    "sequence": 3
+  },
+  {
+    "kind": "invocation",
+    "provenance": "native",
+    "request_id": "request-2",
+    "sequence": 4,
+    "sha256": "33ed6ac0570b77f47581d6c3f80498b526142302b3d32a875d8ce7e268b3e124",
+    "task": "Square"
+  },
+  {
+    "digest": "d3ed6f5fd7e2e838ca8ce056fb0b0ede6d86736e7a35798843ab272430042c64",
+    "evidence": {
+      "artifact_sha256": "33ed6ac0570b77f47581d6c3f80498b526142302b3d32a875d8ce7e268b3e124",
+      "counts": [
+        [
+          "CPU_checkpoint_load_attempts",
+          1
+        ],
+        [
+          "CPU_model_construction_attempts",
+          1
+        ],
+        [
+          "action_attempts",
+          1118
+        ],
+        [
+          "action_returns",
+          1118
+        ],
+        [
+          "deployment_policy_forward_attempts",
+          1118
+        ],
+        [
+          "env_constructors",
+          4
+        ],
+        [
+          "explicit_resets",
+          4
+        ],
+        [
+          "native_cases",
+          4
+        ],
+        [
+          "native_successes",
+          2
+        ],
+        [
+          "policy_inference_attempts",
+          1118
+        ]
+      ],
+      "provenance": "native",
+      "request_id": "request-2",
+      "success": false,
+      "task": "Square"
+    },
+    "kind": "execution",
+    "provenance": "native",
+    "sequence": 5
+  },
+  {
+    "evidence_digest": "9bd91f89e831d7faf31d95a47ba9e663d44bae1590b714d626b08f95cbaac4ee",
+    "kind": "decision",
+    "operation": "replay",
+    "provenance": "native",
+    "reason": "Can development board not fully successful; fixed ER recipe",
+    "sequence": 6
+  },
+  {
+    "kind": "learning_requested",
+    "provenance": "native",
+    "request": {
+      "evidence_digest": "9bd91f89e831d7faf31d95a47ba9e663d44bae1590b714d626b08f95cbaac4ee",
+      "operation": "replay",
+      "parent_sha256": "33ed6ac0570b77f47581d6c3f80498b526142302b3d32a875d8ce7e268b3e124",
+      "task": "Can"
+    },
+    "sequence": 7
+  },
+  {
+    "kind": "installed",
+    "provenance": "native",
+    "resident_artifacts": [
+      "e14d1c37b54cf196db63131653716a5e24ea8118aa36e9243ff6080a7bead8bf"
+    ],
+    "sequence": 8,
+    "sha256": "e14d1c37b54cf196db63131653716a5e24ea8118aa36e9243ff6080a7bead8bf",
+    "tasks": [
+      "Can",
+      "Square"
+    ]
+  },
+  {
+    "artifact_changed": true,
+    "child_sha256": "e14d1c37b54cf196db63131653716a5e24ea8118aa36e9243ff6080a7bead8bf",
+    "kind": "learning_completed",
+    "operation": "replay",
+    "parent_sha256": "33ed6ac0570b77f47581d6c3f80498b526142302b3d32a875d8ce7e268b3e124",
+    "provenance": "native",
+    "sequence": 9
+  },
+  {
+    "kind": "invocation",
+    "provenance": "native",
+    "request_id": "request-3",
+    "sequence": 10,
+    "sha256": "e14d1c37b54cf196db63131653716a5e24ea8118aa36e9243ff6080a7bead8bf",
+    "task": "Can"
+  },
+  {
+    "digest": "87e28a70e853e00e9bc1d52d360e05402eac7a68f94c702fcd03b217b03f7f52",
+    "evidence": {
+      "artifact_sha256": "e14d1c37b54cf196db63131653716a5e24ea8118aa36e9243ff6080a7bead8bf",
+      "counts": [
+        [
+          "CPU_checkpoint_load_attempts",
+          1
+        ],
+        [
+          "CPU_model_construction_attempts",
+          1
+        ],
+        [
+          "action_attempts",
+          455
+        ],
+        [
+          "action_returns",
+          455
+        ],
+        [
+          "deployment_policy_forward_attempts",
+          455
+        ],
+        [
+          "env_constructors",
+          4
+        ],
+        [
+          "explicit_resets",
+          4
+        ],
+        [
+          "native_cases",
+          4
+        ],
+        [
+          "native_successes",
+          4
+        ],
+        [
+          "policy_inference_attempts",
+          455
+        ]
+      ],
+      "provenance": "native",
+      "request_id": "request-3",
+      "success": true,
+      "task": "Can"
+    },
+    "kind": "execution",
+    "provenance": "native",
+    "sequence": 11
+  },
+  {
+    "kind": "invocation",
+    "provenance": "native",
+    "request_id": "request-4",
+    "sequence": 12,
+    "sha256": "e14d1c37b54cf196db63131653716a5e24ea8118aa36e9243ff6080a7bead8bf",
+    "task": "Square"
+  },
+  {
+    "digest": "64fb0361887ce5ae940dfebc67981a1ce9d7c9f3136008e0ec24f0798acba882",
+    "evidence": {
+      "artifact_sha256": "e14d1c37b54cf196db63131653716a5e24ea8118aa36e9243ff6080a7bead8bf",
+      "counts": [
+        [
+          "CPU_checkpoint_load_attempts",
+          1
+        ],
+        [
+          "CPU_model_construction_attempts",
+          1
+        ],
+        [
+          "action_attempts",
+          1345
+        ],
+        [
+          "action_returns",
+          1345
+        ],
+        [
+          "deployment_policy_forward_attempts",
+          1345
+        ],
+        [
+          "env_constructors",
+          4
+        ],
+        [
+          "explicit_resets",
+          4
+        ],
+        [
+          "native_cases",
+          4
+        ],
+        [
+          "native_successes",
+          1
+        ],
+        [
+          "policy_inference_attempts",
+          1345
+        ]
+      ],
+      "provenance": "native",
+      "request_id": "request-4",
+      "success": false,
+      "task": "Square"
+    },
+    "kind": "execution",
+    "provenance": "native",
+    "sequence": 13
+  }
+]

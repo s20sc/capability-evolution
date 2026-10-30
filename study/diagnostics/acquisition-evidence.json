@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "cases": [
+    {
+      "seed": 351594620,
+      "steps": 135,
+      "success": true,
+      "max_hold": 5,
+      "stop_reason": "success_hold",
+      "generator_returned": true,
+      "initial_state_sha256": "9f9799936ca0864f86e030804ce5490048d5f2c3a5c9b2384c1d6822ee838520",
+      "generator_anytime_success": true,
+      "returned_transitions": 135,
+      "terminal_hold_steps": 1,
+      "training_eligible": true,
+      "episode_sha256": "699c1e4daecb38188876a5d9b63ed29c669dbdbb5a085e243335c688007b9fc7"
+    },
+    {
+      "seed": 1619882337,
+      "steps": 150,
+      "success": false,
+      "max_hold": 0,
+      "stop_reason": "terminal_extension_complete",
+      "generator_returned": true,
+      "initial_state_sha256": "0880be4aa04467d193b7a1fe6f97c7023e8d267f5c728a432f9125ec66d71e5f",
+      "generator_anytime_success": false,
+      "returned_transitions": 150,
+      "terminal_hold_steps": 5,
+      "training_eligible": false,
+      "episode_sha256": "96d3fc5b97d143c2491a55a4b708853c4717553c93135472f7eabfed08d6de06"
+    },
+    {
+      "seed": 1068969187,
+      "steps": 176,
+      "success": true,
+      "max_hold": 5,
+      "stop_reason": "success_hold",
+      "generator_returned": true,
+      "initial_state_sha256": "27b46b6b84ffd62f083bc5efbbcc82f279c5d310cd963742734d0cd958639901",
+      "generator_anytime_success": true,
+      "returned_transitions": 176,
+      "terminal_hold_steps": 1,
+      "training_eligible": true,
+      "episode_sha256": "34d1454c4eccbee548d278293997e547f9e110c7941027ed16f5cb54b3410e42"
+    },
+    {
+      "seed": 847811185,
+      "steps": 169,
+      "success": true,
+      "max_hold": 5,
+      "stop_reason": "success_hold",
+      "generator_returned": true,
+      "initial_state_sha256": "d4d513b53396401f45c3dd046647ca26236bbe8a6a8d6997960037c552c7df05",
+      "generator_anytime_success": true,
+      "returned_transitions": 169,
+      "terminal_hold_steps": 2,
+      "training_eligible": true,
+      "episode_sha256": "4081b313a103108b0b749f449d99999f6327d50dc0fe7f244e08527d7785a648"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "exposure": {
+    "old_windows_equal": true,
+    "updates": 1000,
+    "new_windows": 50000,
+    "parent_rehearsal_starts_by_trajectory": {
+      "0": 0,
+      "1": 0,
+      "2": 50000
+    },
+    "new_windows_equal": true
+  },
+  "actions_reconstructed": 3525,
+  "panels": {
+    "development": {
+      "n": 4,
+      "successes": {
+        "parent": 3,
+        "old_only": 3,
+        "feedback_selected": 2,
+        "parent_rehearsal": 4
+      },
+      "parent_rehearsal_vs_B_gain": 2,
+      "parent_rehearsal_vs_B_loss": 0
+    },
+    "panel": {
+      "n": 12,
+      "successes": {
+        "parent": 9,
+        "old_only": 9,
+        "feedback_selected": 10,
+        "parent_rehearsal": 7
+      },
+      "parent_rehearsal_vs_B_gain": 0,
+      "parent_rehearsal_vs_B_loss": 3
+    }
+  },
+  "rows": [
+    {
+      "seed": 351594620,
+      "split": "development",
+      "parent": true,
+      "old_only": true,
+      "feedback_selected": true,
+      "parent_rehearsal": true
+    },
+    {
+      "seed": 1619882337,
+      "split": "development",
+      "parent": true,
+      "old_only": false,
+      "feedback_selected": false,
+      "parent_rehearsal": true
+    },
+    {
+      "seed": 1068969187,
+      "split": "development",
+      "parent": true,
+      "old_only": true,
+      "feedback_selected": true,
+      "parent_rehearsal": true
+    },
+    {
+      "seed": 847811185,
+      "split": "development",
+      "parent": false,
+      "old_only": true,
+      "feedback_selected": false,
+      "parent_rehearsal": true
+    },
+    {
+      "seed": 62001,
+      "split": "panel",
+      "parent": true,
+      "old_only": false,
+      "feedback_selected": true,
+      "parent_rehearsal": false
+    },
+    {
+      "seed": 62002,
+      "split": "panel",
+      "parent": true,
+      "old_only": true,
+      "feedback_selected": true,
+      "parent_rehearsal": true
+    },
+    {
+      "seed": 62003,
+      "split": "panel",
+      "parent": true,
+      "old_only": false,
+      "feedback_selected": false,
+      "parent_rehearsal": false
+    },
+    {
+      "seed": 62004,
+      "split": "panel",
+      "parent": true,
+      "old_only": true,
+      "feedback_selected": true,
+      "parent_rehearsal": true
+    },
+    {
+      "seed": 62005,
+      "split": "panel",
+      "parent": true,
+      "old_only": true,
+      "feedback_selected": true,
+      "parent_rehearsal": false
+    },
+    {
+      "seed": 62006,
+      "split": "panel",
+      "parent": true,
+      "old_only": true,
+      "feedback_selected": true,
+      "parent_rehearsal": true
+    },
+    {
+      "seed": 62007,
+      "split": "panel",
+      "parent": false,
+      "old_only": true,
+      "feedback_selected": true,
+      "parent_rehearsal": true
+    },
+    {
+      "seed": 62008,
+      "split": "panel",
+      "parent": true,
+      "old_only": true,
+      "feedback_selected": true,
+      "parent_rehearsal": true
+    },
+    {
+      "seed": 62009,
+      "split": "panel",
+      "parent": true,
+      "old_only": true,
+      "feedback_selected": true,
+      "parent_rehearsal": true
+    },
+    {
+      "seed": 62010,
+      "split": "panel",
+      "parent": true,
+      "old_only": true,
+      "feedback_selected": true,
+      "parent_rehearsal": true
+    },
+    {
+      "seed": 62011,
+      "split": "panel",
+      "parent": false,
+      "old_only": true,
+      "feedback_selected": false,
+      "parent_rehearsal": false
+    },
+    {
+      "seed": 62012,
+      "split": "panel",
+      "parent": false,
+      "old_only": false,
+      "feedback_selected": true,
+      "parent_rehearsal": false
+    }
+  ],
+  "interpretation": "single post-hoc added control; no population significance or final holdout; A/B not rerun"
+}

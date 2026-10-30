@@ -1,0 +1,315 @@
+\begin{thebibliography}{10}
+
+\bibitem{wang2026searselfevolvingagenticrobotics}
+Wang X, Li B, Wang H, Zhang L, Cui AY, Tang Z, et~al.. {SEAR}: Self-Evolving
+  Agentic Robotics; 2026.
+\newblock Available from: \url{https://arxiv.org/abs/2610.18792}. \href
+  {http://arxiv.org/abs/2610.18792} {arXiv:2610.18792}.
+
+\bibitem{xiao2026enpireagenticrobotpolicy}
+Xiao W, Xie J, Zhang T, Lin H, Fu LM, Xue H, et~al.. {ENPIRE}: Agentic Robot
+  Policy Self-Improvement in the Real World; 2026.
+\newblock Available from: \url{https://arxiv.org/abs/2606.19980}. \href
+  {http://arxiv.org/abs/2606.19980} {arXiv:2606.19980}.
+
+\bibitem{wen2026roborsistableefficientreusable}
+Wen Z, Chen Y, Cao Y, Chen W, Zou Y, Yu W, et~al.. {RoboRSI}: Stable,
+  efficient, and reusable robot self-evolution in complex real-world
+  environments; 2026.
+\newblock Available from: \url{https://arxiv.org/abs/2610.12424}. \href
+  {http://arxiv.org/abs/2610.12424} {arXiv:2610.12424}.
+
+\bibitem{pmlr-v97-li19m}
+Li X, Zhou Y, Wu T, Socher R, Xiong C.
+\newblock Learn to Grow: A Continual Structure Learning Framework for
+  Overcoming Catastrophic Forgetting.
+\newblock In: Chaudhuri K, Salakhutdinov R, editors. Proceedings of the 36th
+  International Conference on Machine Learning. vol.~97 of Proceedings of
+  Machine Learning Research. PMLR; 2019. p. 3925-34.
+\newblock Available from: \url{https://proceedings.mlr.press/v97/li19m.html}.
+
+\bibitem{pmlr-v164-yang22a}
+Yang F, Yang C, Liu H, Sun F.
+\newblock Evaluations of the Gap between Supervised and Reinforcement Lifelong
+  Learning on Robotic Manipulation Tasks.
+\newblock In: Faust A, Hsu D, Neumann G, editors. Proceedings of the 5th
+  Conference on Robot Learning. vol. 164 of Proceedings of Machine Learning
+  Research. PMLR; 2022. p. 547-56.
+\newblock Available from:
+  \url{https://proceedings.mlr.press/v164/yang22a.html}.
+
+\bibitem{yu2026f4r}
+Yu Z, Wang J, Liu T, Ren Y, Yu P, Bai C, et~al.. {F4R}: Failure-Driven
+  Recognition, Reconstruction, Refinement, and Redeployment for Continual Robot
+  Self-Improvement; 2026.
+\newblock Version 2, 29 September 2026.
+\newblock Available from: \url{https://arxiv.org/abs/2609.35575v2}. \href
+  {http://arxiv.org/abs/2609.35575} {arXiv:2609.35575}.
+
+\bibitem{pmlr-v229-sharma23b}
+Sharma A, Ahmed AM, Ahmad R, Finn C.
+\newblock Self-Improving Robots: End-to-End Autonomous Visuomotor Reinforcement
+  Learning.
+\newblock In: Tan J, Toussaint M, Darvish K, editors. Proceedings of The 7th
+  Conference on Robot Learning. vol. 229 of Proceedings of Machine Learning
+  Research. PMLR; 2023. p. 3292-308.
+\newblock Available from:
+  \url{https://proceedings.mlr.press/v229/sharma23b.html}.
+
+\bibitem{pmlr-v270-zhou25b}
+Zhou Z, Atreya P, Lee A, Walke HR, Mees O, Levine S.
+\newblock Autonomous Improvement of Instruction Following Skills via Foundation
+  Models.
+\newblock In: Agrawal P, Kroemer O, Burgard W, editors. Proceedings of The 8th
+  Conference on Robot Learning. vol. 270 of Proceedings of Machine Learning
+  Research. PMLR; 2025. p. 4805-25.
+\newblock Available from:
+  \url{https://proceedings.mlr.press/v270/zhou25b.html}.
+
+\bibitem{wang2026adarsi}
+Wang P, Chang Y, Ma Z, Yang X, Feng S, Liu D, et~al.. AdaRSI: On-Demand
+  Recursive Self-Improvement for Embodied Agents; 2026.
+\newblock Available from: \url{https://arxiv.org/abs/2610.20474v1}. \href
+  {http://arxiv.org/abs/2610.20474} {arXiv:2610.20474}. \href
+  {http://dx.doi.org/10.48550/arXiv.2610.20474}
+  {doi:10.48550/arXiv.2610.20474}.
+
+\bibitem{lang2026embodirsi}
+Lang H, Lu H, Sang S, Luo H, Chen G, Li Q, et~al.. EmbodiRSI: Recursive
+  Self-Improvement for Data-Efficient Robot Adaptation; 2026.
+\newblock Available from: \url{https://arxiv.org/abs/2609.38905v3}. \href
+  {http://arxiv.org/abs/2609.38905} {arXiv:2609.38905}. \href
+  {http://dx.doi.org/10.48550/arXiv.2609.38905}
+  {doi:10.48550/arXiv.2609.38905}.
+
+\bibitem{yu2026retrace}
+Yu Y, Zhu B, Li J, Wang J, Zhou S, Chen J. {ReTrace: Cross-Stage Failure
+  Attribution for Self-Improving Robotic Manipulation}; 2026.
+\newblock Preprint, version 1.
+\newblock Available from: \url{https://arxiv.org/abs/2610.15814v1}. \href
+  {http://arxiv.org/abs/2610.15814} {arXiv:2610.15814}. \href
+  {http://dx.doi.org/10.48550/arxiv.2610.15814}
+  {doi:10.48550/arxiv.2610.15814}.
+
+\bibitem{jia2026agentaspolicy}
+Jia M, Lin Y, Zhang X, Zhang Z, Liu X, Jiang M. {Agent as Policy for Robotic
+  Manipulation}; 2026.
+\newblock Preprint, version 3.
+\newblock Available from: \url{https://arxiv.org/abs/2609.12541v3}. \href
+  {http://arxiv.org/abs/2609.12541} {arXiv:2609.12541}. \href
+  {http://dx.doi.org/10.48550/arxiv.2609.12541}
+  {doi:10.48550/arxiv.2609.12541}.
+
+\bibitem{lin2026fastharness}
+Lin T, Du Y, Wang H, Zhong Z, Zhao B. {FastHarness: Experience-Driven Review
+  Scheduling for Vision-Language-Action Policies}; 2026.
+\newblock Preprint, version 1.
+\newblock Available from: \url{https://arxiv.org/abs/2610.31427v1}. \href
+  {http://arxiv.org/abs/2610.31427} {arXiv:2610.31427}. \href
+  {http://dx.doi.org/10.48550/arxiv.2610.31427}
+  {doi:10.48550/arxiv.2610.31427}.
+
+\bibitem{li2026embodiedevoselfimprovingcodingagents}
+Li W, Chi Y, Zheng Y, Liu C, Wang X, Gao M, et~al.. EmbodiedEvo: Self-Evolving
+  Coding Agent For Physical Intelligence; 2026.
+\newblock Available from: \url{https://arxiv.org/abs/2610.18867}. \href
+  {http://arxiv.org/abs/2610.18867} {arXiv:2610.18867}.
+
+\bibitem{hu2026embodied}
+Hu K, Hu S, Hong F, Chen Z, Liu Z. Embodied Turing Machines: Stateful Code for
+  Robot Recursive Self-Improvement; 2026.
+\newblock Version 1, submitted 8 October 2026; preprint.
+\newblock Available from: \url{https://arxiv.org/abs/2610.12369}. \href
+  {http://arxiv.org/abs/2610.12369} {arXiv:2610.12369}. \href
+  {http://dx.doi.org/10.48550/arXiv.2610.12369}
+  {doi:10.48550/arXiv.2610.12369}.
+
+\bibitem{song2026embodiedrsi}
+Song P, Liang Z, Fu K, Wang M, Yang J, Liu S. EmbodiedRSI: Active Continual
+  Robot Learning Through Hypothesis-Guided Co-Evolution; 2026.
+\newblock Version 1; preprint.
+\newblock Available from: \url{https://arxiv.org/abs/2610.10498v1}. \href
+  {http://arxiv.org/abs/2610.10498} {arXiv:2610.10498}.
+
+\bibitem{lu2026aspire}
+Lu R, Wu Y, Kou E, Lin H, Fu L, Xiao W, et~al.. {ASPIRE}: Agentic /Skills
+  Discovery for Robotics; 2026.
+\newblock Version 2, 20 October 2026; preprint.
+\newblock Available from: \url{https://arxiv.org/abs/2607.00272v2}. \href
+  {http://arxiv.org/abs/2607.00272} {arXiv:2607.00272}. \href
+  {http://dx.doi.org/10.48550/arXiv.2607.00272}
+  {doi:10.48550/arXiv.2607.00272}.
+
+\bibitem{wang2026shaper}
+Wang P, Ma Z, Chang Y, Luo X, Zhang Y, Wang Z, et~al.. Self-Evolving Embodied
+  Agents via Skill-Harness Evolution; 2026.
+\newblock Version 2, 10 September 2026; preprint.
+\newblock Available from: \url{https://arxiv.org/abs/2608.11350v2}. \href
+  {http://arxiv.org/abs/2608.11350} {arXiv:2608.11350}. \href
+  {http://dx.doi.org/10.48550/arXiv.2608.11350}
+  {doi:10.48550/arXiv.2608.11350}.
+
+\bibitem{liang2026robofoundrysystemaspolicyevolutionselflearning}
+Liang J, Liao S, Zhang S, Hou D, Cai Y, Deng X, et~al.. RoboFoundry:
+  System-as-Policy Evolution for Self-Learning Embodied Agents; 2026.
+\newblock Available from: \url{https://arxiv.org/abs/2609.32862}. \href
+  {http://arxiv.org/abs/2609.32862} {arXiv:2609.32862}.
+
+\bibitem{rui2026skillspaceshootingautonomousrobot}
+Rui Z, Wang R, Huang H, Gao Y. Skill-Space Shooting for Autonomous Robot Policy
+  Improvement; 2026.
+\newblock Available from: \url{https://arxiv.org/abs/2609.38178}. \href
+  {http://arxiv.org/abs/2609.38178} {arXiv:2609.38178}.
+
+\bibitem{wan2024lotuscontinualimitationlearning}
+Wan W, Zhu Y, Shah R, Zhu Y. LOTUS: Continual Imitation Learning for Robot
+  Manipulation Through Unsupervised Skill Discovery; 2024.
+\newblock Available from: \url{https://arxiv.org/abs/2311.02058}. \href
+  {http://arxiv.org/abs/2311.02058} {arXiv:2311.02058}.
+
+\bibitem{roemer2026clare}
+Römer R, Zhang Y, Li Y, Schoellig AP. CLARE: Continual Learning for
+  Vision-Language-Action Models via Autonomous Adapter Routing and Expansion;
+  2026.
+\newblock Available from: \url{https://arxiv.org/abs/2601.09512}. \href
+  {http://arxiv.org/abs/2601.09512} {arXiv:2601.09512}. \href
+  {http://dx.doi.org/10.1109/LRA.2026.3693992} {doi:10.1109/LRA.2026.3693992}.
+
+\bibitem{lee2024iscil}
+Lee D, Yoo M, Kim WK, Choi W, Woo H.
+\newblock Incremental Learning of Retrievable Skills For Efficient Continual
+  Task Adaptation.
+\newblock In: Advances in Neural Information Processing Systems. vol.~37; 2024.
+  Available from:
+  \url{https://papers.nips.cc/paper_files/paper/2024/hash/1f0832859514e53a0e4f229fc9b3a4a2-Abstract-Conference.html}.
+  \href {http://dx.doi.org/10.52202/079017-0549} {doi:10.52202/079017-0549}.
+
+\bibitem{yu2026lifelongimitationlearningmultimodal}
+Yu F, Tiezzi M, Apicella T, Beyan C, Murino V. Lifelong Imitation Learning with
+  Multimodal Latent Replay and Incremental Adjustment; 2026.
+\newblock Available from: \url{https://arxiv.org/abs/2603.10929}. \href
+  {http://arxiv.org/abs/2603.10929} {arXiv:2603.10929}.
+
+\bibitem{zhu2025efficientcontinualadaptationpretrained}
+Zhu R, Sun E, Huang G, Celiktutan O. Efficient Continual Adaptation of
+  Pretrained Robotic Policy with Online Meta-Learned Adapters; 2025.
+\newblock Available from: \url{https://arxiv.org/abs/2503.18684}. \href
+  {http://arxiv.org/abs/2503.18684} {arXiv:2503.18684}.
+
+\bibitem{liu2026pretrainedcontinual}
+Liu H, Kim C, Liu B, Liu M, Zhu Y.
+\newblock Pretrained Vision-Language-Action Models are Surprisingly Resistant
+  to Forgetting in Continual Learning.
+\newblock In: Proceedings of the 43rd International Conference on Machine
+  Learning. vol. 306 of Proceedings of Machine Learning Research. PMLR; 2026.
+  p. 77119-40.
+\newblock Available from:
+  \url{https://proceedings.mlr.press/v306/liu26bu.html}.
+
+\bibitem{guo2026delayedoptimizerstatetransportshapes}
+Guo J. Delayed Optimizer-State Transport Shapes Short-Horizon Training
+  Decisions; 2026.
+\newblock Available from: \url{https://arxiv.org/abs/2608.24593}. \href
+  {http://arxiv.org/abs/2608.24593} {arXiv:2608.24593}.
+
+\bibitem{zhu2026continualvla}
+Zhu J, Hong Y, Sun X, Xu Z, He Q, Chen H, et~al.. Can Vision-Language-Action
+  Models Learn from Real-World Data Continually without Forgetting?; 2026.
+\newblock Version 3; preprint.
+\newblock Available from: \url{https://arxiv.org/abs/2605.26820v3}. \href
+  {http://arxiv.org/abs/2605.26820} {arXiv:2605.26820}.
+
+\bibitem{kim2026accrue}
+Kim C, Lee K, Narang Y, Guo Y. ACCRUE: Continual Off-Policy Reinforcement
+  Learning for Robot Foundation Models; 2026.
+\newblock Version 1; preprint.
+\newblock Available from: \url{https://arxiv.org/abs/2610.18596v1}. \href
+  {http://arxiv.org/abs/2610.18596} {arXiv:2610.18596}.
+
+\bibitem{pmlr-v306-zhu26s}
+Zhu Y, Howard M.
+\newblock Making Learner Weakness Actionable for Learning from Demonstration
+  with Novice Teachers.
+\newblock In: Proceedings of the 43rd International Conference on Machine
+  Learning. vol. 306 of Proceedings of Machine Learning Research. PMLR; 2026.
+  p. 167103-18.
+\newblock Available from: \url{https://proceedings.mlr.press/v306/zhu26s.html}.
+
+\bibitem{aljundi2019mir}
+Aljundi R, Caccia L, Belilovsky E, Caccia M, Lin M, Charlin L, et~al.. Online
+  Continual Learning with Maximally Interfered Retrieval; 2019.
+\newblock Version 3, 29 October 2019.
+\newblock Available from: \url{https://arxiv.org/abs/1908.04742v3}. \href
+  {http://arxiv.org/abs/1908.04742} {arXiv:1908.04742}. \href
+  {http://dx.doi.org/10.48550/arXiv.1908.04742}
+  {doi:10.48550/arXiv.1908.04742}.
+
+\bibitem{lin2026rifar}
+Lin T, Lu Z, Song Z, Lin Z, Feng Z, Chen M, et~al.. {RIFAR}:
+  Reliability-Informed and Forgetting-Aware Replay for Continual Robot Learning
+  with World-Action Models; 2026.
+\newblock Version 3, 19 October 2026; preprint.
+\newblock Available from: \url{https://arxiv.org/abs/2610.03079v3}. \href
+  {http://arxiv.org/abs/2610.03079} {arXiv:2610.03079}. \href
+  {http://dx.doi.org/10.48550/arXiv.2610.03079}
+  {doi:10.48550/arXiv.2610.03079}.
+
+\bibitem{karli2026recall}
+Karli UB, Fitzgerald T. {RECALL}: Recovery Experience Collection for Active
+  Lifelong Learning in Vision-Language-Action Models; 2026.
+\newblock Version 1, 22 June 2026; preprint.
+\newblock Available from: \url{https://arxiv.org/abs/2606.23617v1}. \href
+  {http://arxiv.org/abs/2606.23617} {arXiv:2606.23617}. \href
+  {http://dx.doi.org/10.48550/arXiv.2606.23617}
+  {doi:10.48550/arXiv.2606.23617}.
+
+\bibitem{du2026memoryanchorscontinualrobot}
+Du M, Sun Z, Xu C, Shah P, Itkina M, Song S. Memory Anchors for Continual Robot
+  Learning; 2026.
+\newblock Available from: \url{https://arxiv.org/abs/2608.26545}. \href
+  {http://arxiv.org/abs/2608.26545} {arXiv:2608.26545}.
+
+\bibitem{NEURIPS2019_fa7cdfad}
+Rolnick D, Ahuja A, Schwarz J, Lillicrap T, Wayne G.
+\newblock Experience Replay for Continual Learning.
+\newblock In: Wallach H, Larochelle H, Beygelzimer A, d\textquotesingle
+  Alch\'{e}-Buc F, Fox E, Garnett R, editors. Advances in Neural Information
+  Processing Systems. vol.~32. Curran Associates, Inc.; 2019. Available from:
+  \url{https://proceedings.neurips.cc/paper_files/paper/2019/file/fa7cdfad1a5aaf8370ebeda47a1ff1c3-Paper.pdf}.
+
+\bibitem{qin2026governedcapabilityevolution}
+Qin X, Luan S, See J, Boukhers Z, Yang C, Li Z.
+\newblock Governed capability evolution: Lifecycle-time compatibility checking
+  and rollback for AI-component-based systems, with a proof-of-concept
+  evaluation on embodied agents.
+\newblock Information and Software Technology. 2026;200:108337.
+\newblock Available from: \url{https://doi.org/10.1016/j.infsof.2026.108337}.
+  \href {http://dx.doi.org/10.1016/j.infsof.2026.108337}
+  {doi:10.1016/j.infsof.2026.108337}.
+
+\bibitem{qin2026regressiontestselectionupdated}
+Qin X, Luan S, Yang C, Li Z. Regression Test Selection for Updated Capability
+  Modules in Compositional ML Systems via Atomic-Quality Probes; 2026.
+\newblock Available from: \url{https://arxiv.org/abs/2604.26689}. \href
+  {http://arxiv.org/abs/2604.26689} {arXiv:2604.26689}.
+
+\bibitem{pmlr-v164-mandlekar22a}
+Mandlekar A, Xu D, Wong J, Nasiriany S, Wang C, Kulkarni R, et~al.
+\newblock What Matters in Learning from Offline Human Demonstrations for Robot
+  Manipulation.
+\newblock In: Faust A, Hsu D, Neumann G, editors. Proceedings of the 5th
+  Conference on Robot Learning. vol. 164 of Proceedings of Machine Learning
+  Research. PMLR; 2022. p. 1678-90.
+\newblock Available from:
+  \url{https://proceedings.mlr.press/v164/mandlekar22a.html}.
+
+\bibitem{Mandlekar2023MimicGen}
+Mandlekar A, Nasiriany S, Wen B, Akinola I, Narang Y, Fan L, et~al.
+\newblock {MimicGen}: A Data Generation System for Scalable Robot Learning
+  using Human Demonstrations.
+\newblock In: Proceedings of The 7th Conference on Robot Learning. vol. 229 of
+  Proceedings of Machine Learning Research. PMLR; 2023. p. 1820-64.
+\newblock Available from:
+  \url{https://proceedings.mlr.press/v229/mandlekar23a.html}.
+
+\end{thebibliography}

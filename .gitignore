@@ -1,55 +1,9 @@
-# Python
 __pycache__/
-*.py[cod]
-*.egg-info/
-.venv/
-.env
-
-# Editors
+*.pyc
 .DS_Store
-.vscode/
-.idea/
-
-# Logs (training outputs can reach hundreds of MB)
-*.log
-nohup.out
-*.pid
-
-# Checkpoints & trained weights (not redistributed)
-*.pt
-*.pth
-*.zip
-*.ckpt
-results/checkpoints/*
-# Intentional exception: the eval-only drivers (handoff_runner.py,
-# severity_runner.py) re-evaluate trained modules, so the ECM weight files they
-# load are shipped (1.7 MB each). The SAC optimiser archives beside them are
-# needed only to resume training and stay excluded.
-!results/checkpoints/CHECKSUMS.json
-!results/checkpoints/t6_mechanism_ours_seed_*/
-!results/checkpoints/t6_lifecycle_gating_off_rollback_seed_*/
-!results/checkpoints/*/ecm_weights.pt
-!results/checkpoints/*/checkpoint_info.json
-results/checkpoints/*/sac_*.zip
-
-# Internal / transient artefacts
-results/backup_old/
-results/figures/
-*.bak
-
-# Aggregate JSON summaries and per-seed JSON are tracked explicitly;
-# everything else under results/ is ignored by default.
-
-# RL training tooling
-wandb/
-runs/
-tensorboard/
-__MACOSX/
 *.aux
 *.log
 *.out
+*.fls
+*.fdb_latexmk
 *.synctex.gz
-*HANDOFF*
-*handoff_brief*
-*.egg-info/
-nohup.out

@@ -1,0 +1,14 @@
+{
+  "metadata_Square": {
+    "path": "inputs/square_low_dim_v141.hdf5",
+    "sha256": "afc1fc1bd72193d1fd89c689b738cb9eb1a17352217aea2a2e029ccc49eefcbd"
+  },
+  "raw_Square": {
+    "path": "inputs/square_raw_v141.hdf5",
+    "sha256": "53f202c7d6dfc91a4a30964ed7ce63ecd8a4f67818fa02cf0d251e6aeddfc586"
+  },
+  "prepared_source": {
+    "path": "inputs/source10.hdf5",
+    "sha256": "365a667664a8f9818ffd00d43351de7cc85928f55b56b03ff19587a1a581fe93"
+  }
+}

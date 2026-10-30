@@ -1,0 +1,72 @@
+{
+  "arm": "parent_rehearsal",
+  "state": "completed",
+  "model_attempts": 2,
+  "optimizer_attempts": 1000,
+  "updates_returned": 1000,
+  "teacher_forward_attempts": 1000,
+  "teacher_samples": 500000,
+  "elapsed_seconds": 9.437550896313041,
+  "GPU_admission": "538, 0",
+  "complete_restore_equal_leaves": 893,
+  "teacher_sample_vectors_reserved": 508000,
+  "probe_reservations": {
+    "before": {
+      "teacher_forwards": 1,
+      "child_forwards": 2,
+      "sample_vectors": 4000,
+      "returned": true
+    },
+    "after": {
+      "teacher_forwards": 1,
+      "child_forwards": 2,
+      "sample_vectors": 4000,
+      "returned": true
+    }
+  },
+  "fit_before": {
+    "target_window_nll": 27.51799201965332,
+    "old_learned_distribution_kl_mc": 0.0,
+    "old_windows": 100,
+    "target_windows": 169,
+    "teacher_sample_vectors": 4000,
+    "scope": "training inputs, raw learned densities; no retention guarantee; MC KL can be negative"
+  },
+  "teacher_unchanged_leaves": 20,
+  "fit_after": {
+    "target_window_nll": -16.107913970947266,
+    "old_learned_distribution_kl_mc": 0.7503709197044373,
+    "old_windows": 100,
+    "target_windows": 169,
+    "teacher_sample_vectors": 4000,
+    "scope": "training inputs, raw learned densities; no retention guarantee; MC KL can be negative"
+  },
+  "saved_equal_leaves": 912,
+  "child_restore_equal_leaves": 912,
+  "checkpoint": {
+    "path": "artifact:sha256:d8ea2d6027ebfc58f65af538ec63bc547a007c58e109e30a29d2ab27ae665868",
+    "sha256": "d8ea2d6027ebfc58f65af538ec63bc547a007c58e109e30a29d2ab27ae665868",
+    "updates": 101000,
+    "evolution": {
+      "protocol_sha256": "0b19fda74b912cb951477f98da15fe1e3ce4c48bf73a78e39398d03cd4fb49d3",
+      "arm": "parent_rehearsal",
+      "parent_sha256": "e0375f0410efdbf43b2b1c18b07e82c5d4247fa220554ab127ece01be2711a8e",
+      "proposal_sha256": "e4dfbfaa3824fe3fbfc7244210fe2faf6cf47816be95fb1f19fe182b63e51372",
+      "selected_ids": [
+        "generated_847811185"
+      ],
+      "actual_training_data": [
+        "2c701e737fc5690b2df18c31d410be73f1e8df85a79a22a4b83ffbf26ac8fa7c",
+        "2d97f6d6d15ab77de875485280330754196dbb1776be380d98970933ea6ae361"
+      ],
+      "old_windows": 50,
+      "new_windows": 50,
+      "learning_operation": "parent learned-distribution rehearsal, no hard KL guarantee",
+      "teacher_parent_sha256": "e0375f0410efdbf43b2b1c18b07e82c5d4247fa220554ab127ece01be2711a8e",
+      "teacher_seed_base": 1900000,
+      "teacher_low_noise_eval": false,
+      "teacher_targets_clipped": false
+    }
+  },
+  "peak_cuda_bytes": 164472832
+}

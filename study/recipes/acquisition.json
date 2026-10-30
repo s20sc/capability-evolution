@@ -1,0 +1,1675 @@
+{
+  "kind": "aeros-native-learning-integration-01",
+  "tensor_runtime": {
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "numpy": "1.26.0",
+    "torch": "2.7.0+cu128"
+  },
+  "fixed_update": {
+    "K": 5,
+    "mix_source": "def weights(z):\n    return 0.0\n",
+    "radius": 0.4,
+    "weight_source": "def weights(z):\n    return 1.0\n"
+  },
+  "target_stage_binding": {
+    "candidate_raw_sha256": "9c4ace065ecab70b87090d000242dcb037d1ed85d88142bd5dfad5d150c8defb",
+    "config": {
+      "algo": {
+        "actor_layer_dims": [],
+        "gaussian": {
+          "enabled": false,
+          "fixed_std": false,
+          "init_std": 0.1,
+          "low_noise_eval": true,
+          "min_std": 0.01,
+          "std_activation": "softplus"
+        },
+        "gmm": {
+          "enabled": true,
+          "low_noise_eval": true,
+          "min_std": 0.0001,
+          "num_modes": 5,
+          "std_activation": "softplus"
+        },
+        "loss": {
+          "cos_weight": 0.0,
+          "l1_weight": 0.0,
+          "l2_weight": 1.0
+        },
+        "optim_params": {
+          "policy": {
+            "learning_rate": {
+              "decay_factor": 0.1,
+              "epoch_schedule": [],
+              "initial": 0.0001,
+              "scheduler_type": "multistep"
+            },
+            "optimizer_type": "adam",
+            "regularization": {
+              "L2": 0.0
+            }
+          }
+        },
+        "rnn": {
+          "enabled": true,
+          "hidden_dim": 400,
+          "horizon": 10,
+          "kwargs": {
+            "bidirectional": false
+          },
+          "num_layers": 2,
+          "open_loop": false,
+          "rnn_type": "LSTM"
+        },
+        "transformer": {
+          "activation": "gelu",
+          "attn_dropout": 0.1,
+          "block_output_dropout": 0.1,
+          "context_length": 10,
+          "emb_dropout": 0.1,
+          "embed_dim": 512,
+          "enabled": false,
+          "nn_parameter_for_timesteps": true,
+          "num_heads": 8,
+          "num_layers": 6,
+          "sinusoidal_embedding": false,
+          "supervise_all_steps": false
+        },
+        "vae": {
+          "decoder": {
+            "is_conditioned": true,
+            "reconstruction_sum_across_elements": false
+          },
+          "decoder_layer_dims": [
+            300,
+            400
+          ],
+          "enabled": false,
+          "encoder_layer_dims": [
+            300,
+            400
+          ],
+          "kl_weight": 1.0,
+          "latent_clip": null,
+          "latent_dim": 14,
+          "prior": {
+            "categorical_dim": 10,
+            "categorical_gumbel_softmax_hard": false,
+            "categorical_init_temp": 1.0,
+            "categorical_min_temp": 0.3,
+            "categorical_temp_anneal_step": 0.001,
+            "gmm_learn_weights": false,
+            "gmm_num_modes": 10,
+            "is_conditioned": false,
+            "learn": false,
+            "use_categorical": false,
+            "use_gmm": false
+          },
+          "prior_layer_dims": [
+            300,
+            400
+          ]
+        }
+      },
+      "algo_name": "bc",
+      "experiment": {
+        "additional_envs": null,
+        "env": null,
+        "epoch_every_n_steps": 100,
+        "keep_all_videos": false,
+        "logging": {
+          "log_tb": true,
+          "log_wandb": false,
+          "terminal_output_to_txt": true,
+          "wandb_proj_name": "debug"
+        },
+        "name": "square_fixed_200k_closedloop_qualification",
+        "render": false,
+        "render_video": true,
+        "rollout": {
+          "enabled": false,
+          "horizon": 400,
+          "n": 50,
+          "rate": 50,
+          "terminate_on_success": true,
+          "warmstart": 0
+        },
+        "save": {
+          "enabled": true,
+          "epochs": [],
+          "every_n_epochs": 50,
+          "every_n_seconds": null,
+          "on_best_rollout_return": false,
+          "on_best_rollout_success_rate": true,
+          "on_best_validation": false
+        },
+        "validate": true,
+        "validation_epoch_every_n_steps": 10,
+        "video_skip": 5
+      },
+      "meta": {
+        "hp_base_config_file": null,
+        "hp_keys": [],
+        "hp_values": []
+      },
+      "observation": {
+        "encoder": {
+          "depth": {
+            "core_class": "VisualCore",
+            "core_kwargs": {},
+            "obs_randomizer_class": null,
+            "obs_randomizer_kwargs": {}
+          },
+          "low_dim": {
+            "core_class": null,
+            "core_kwargs": {},
+            "obs_randomizer_class": null,
+            "obs_randomizer_kwargs": {}
+          },
+          "rgb": {
+            "core_class": "VisualCore",
+            "core_kwargs": {},
+            "obs_randomizer_class": null,
+            "obs_randomizer_kwargs": {}
+          },
+          "scan": {
+            "core_class": "ScanCore",
+            "core_kwargs": {},
+            "obs_randomizer_class": null,
+            "obs_randomizer_kwargs": {}
+          }
+        },
+        "modalities": {
+          "goal": {
+            "depth": [],
+            "low_dim": [],
+            "rgb": [],
+            "scan": []
+          },
+          "obs": {
+            "depth": [],
+            "low_dim": [
+              "robot0_eef_pos",
+              "robot0_eef_quat",
+              "robot0_gripper_qpos",
+              "object",
+              "task_id"
+            ],
+            "rgb": [],
+            "scan": []
+          }
+        }
+      },
+      "train": {
+        "batch_size": 100,
+        "cuda": true,
+        "data": "data/Square/train.npz",
+        "dataset_keys": [
+          "actions",
+          "rewards",
+          "dones"
+        ],
+        "frame_stack": 1,
+        "goal_mode": null,
+        "hdf5_cache_mode": "all",
+        "hdf5_filter_key": "train",
+        "hdf5_load_next_obs": false,
+        "hdf5_normalize_obs": false,
+        "hdf5_use_swmr": true,
+        "hdf5_validation_filter_key": "valid",
+        "num_data_workers": 0,
+        "num_epochs": 2000,
+        "output_dir": "outputs/Square-parent",
+        "pad_frame_stack": true,
+        "pad_seq_length": true,
+        "seed": 1,
+        "seq_length": 10
+      }
+    },
+    "initialization": "fixed seed29; complete fresh optimizer/RNG/dual samplers",
+    "learning": {
+      "Can": "fcc10895ab27cf906a535c7524089776faf9287c68f2a2024a6b2561a74aa735",
+      "Square": "2c701e737fc5690b2df18c31d410be73f1e8df85a79a22a4b83ffbf26ac8fa7c"
+    },
+    "normalization": null,
+    "policy_shapes": {
+      "object": 14,
+      "robot0_eef_pos": 3,
+      "robot0_eef_quat": 4,
+      "robot0_gripper_qpos": 2,
+      "task_id": 2
+    },
+    "schema": "P2-edit-space-target-stage-v1",
+    "task_encoding": {
+      "Can": [
+        0.0,
+        1.0
+      ],
+      "Square": [
+        1.0,
+        0.0
+      ]
+    }
+  },
+  "native_tasks": {
+    "Can": {
+      "actuator_tolerance": 1e-09,
+      "case_seconds": 20,
+      "compiled_limits": {
+        "actuator_ctrllimited": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "actuator_ctrlrange": [
+          [
+            -80.0,
+            80.0
+          ],
+          [
+            -80.0,
+            80.0
+          ],
+          [
+            -80.0,
+            80.0
+          ],
+          [
+            -80.0,
+            80.0
+          ],
+          [
+            -80.0,
+            80.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            0.0,
+            0.04
+          ],
+          [
+            -0.04,
+            0.0
+          ]
+        ],
+        "actuator_forcelimited": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "actuator_forcerange": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -20.0,
+            20.0
+          ],
+          [
+            -20.0,
+            20.0
+          ]
+        ],
+        "actuator_names": [
+          "robot0_torq_j1",
+          "robot0_torq_j2",
+          "robot0_torq_j3",
+          "robot0_torq_j4",
+          "robot0_torq_j5",
+          "robot0_torq_j6",
+          "robot0_torq_j7",
+          "gripper0_gripper_finger_joint1",
+          "gripper0_gripper_finger_joint2"
+        ]
+      },
+      "dataset": "input:metadata_Can",
+      "dataset_sha256": "8b811d652f21b0b7a3b16fb8407521963a974311260a4e9ffc40600d08e6b3cf",
+      "decoder_mode": "argmax",
+      "decoder_sha256": "36c393c21b92934d9ff3ded5131e4f2ab224ea6089f9566aad8c2aba001d2e45",
+      "deployment": "CPU GMM argmax component mean;RNN reset each scene;float32 native observations;native action clipping;hold5/horizon400;no XML or state restore",
+      "environment_name": "PickPlaceCan",
+      "environment_source_sha256": "26dcb1dfb5289cbe4c2cff10e4a7562939e67d9fa341eccabbabe456a2ad0e7e",
+      "helper_sha256": "58eb5b076b0105fe280923642505950cd15ba0f621f8104acaca23e2f609aea0",
+      "horizon": 400,
+      "mujoco_version": "2.3.2",
+      "pairing_sha256": "40fb66bfe5d86d8957a01e69c07235e26a49b71a987f321542385e223d471d37",
+      "runner_sha256": "4e25edd5ff5b604c9e5a61076c09f187a8dfe0cf3dcae65deb974325fa300762",
+      "success_hold": 5,
+      "timestep": 0.002,
+      "workspace_xyz": [
+        [
+          -0.6,
+          0.6
+        ],
+        [
+          -0.7,
+          0.7
+        ],
+        [
+          0.75,
+          1.4
+        ]
+      ]
+    },
+    "Square": {
+      "actuator_tolerance": 1e-09,
+      "case_seconds": 20,
+      "compiled_limits": {
+        "actuator_ctrllimited": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "actuator_ctrlrange": [
+          [
+            -80.0,
+            80.0
+          ],
+          [
+            -80.0,
+            80.0
+          ],
+          [
+            -80.0,
+            80.0
+          ],
+          [
+            -80.0,
+            80.0
+          ],
+          [
+            -80.0,
+            80.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            0.0,
+            0.04
+          ],
+          [
+            -0.04,
+            0.0
+          ]
+        ],
+        "actuator_forcelimited": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "actuator_forcerange": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -20.0,
+            20.0
+          ],
+          [
+            -20.0,
+            20.0
+          ]
+        ],
+        "actuator_names": [
+          "robot0_torq_j1",
+          "robot0_torq_j2",
+          "robot0_torq_j3",
+          "robot0_torq_j4",
+          "robot0_torq_j5",
+          "robot0_torq_j6",
+          "robot0_torq_j7",
+          "gripper0_gripper_finger_joint1",
+          "gripper0_gripper_finger_joint2"
+        ]
+      },
+      "dataset": "input:metadata_Square",
+      "dataset_sha256": "afc1fc1bd72193d1fd89c689b738cb9eb1a17352217aea2a2e029ccc49eefcbd",
+      "decoder_mode": "argmax",
+      "decoder_sha256": "36c393c21b92934d9ff3ded5131e4f2ab224ea6089f9566aad8c2aba001d2e45",
+      "deployment": "CPU GMM argmax component mean;RNN reset each scene;float32 native observations;native action clipping;hold5/horizon400;no XML or state restore",
+      "environment_name": "NutAssemblySquare",
+      "environment_source_sha256": "142c6d8cc8ee02f686188fad271de5084e68dc16d386ae307bee1e469550f755",
+      "helper_sha256": "58eb5b076b0105fe280923642505950cd15ba0f621f8104acaca23e2f609aea0",
+      "horizon": 400,
+      "mujoco_version": "2.3.2",
+      "pairing_sha256": "40fb66bfe5d86d8957a01e69c07235e26a49b71a987f321542385e223d471d37",
+      "runner_sha256": "4e25edd5ff5b604c9e5a61076c09f187a8dfe0cf3dcae65deb974325fa300762",
+      "success_hold": 5,
+      "timestep": 0.002,
+      "workspace_xyz": [
+        [
+          -0.6,
+          0.6
+        ],
+        [
+          -0.7,
+          0.7
+        ],
+        [
+          0.75,
+          1.4
+        ]
+      ]
+    }
+  },
+  "jobs": {
+    "direct_Can": {
+      "caps": {
+        "CPU_checkpoint_load_attempts": 1,
+        "CPU_model_construction_attempts": 1,
+        "action_attempts": 1600,
+        "action_returns": 1600,
+        "deployment_policy_forward_attempts": 3200,
+        "env_constructors": 4,
+        "explicit_resets": 4,
+        "policy_inference_attempts": 1600
+      },
+      "endpoint": "learned_S1",
+      "id": "direct_Can",
+      "kind": "evaluate",
+      "pairing_reference": "jobs/start_Can/result.json",
+      "routes": {
+        "Can": "jobs/train_replay/step20000.json"
+      },
+      "seeds": [
+        3060780266,
+        363035686,
+        57619751,
+        3793612101
+      ],
+      "split": "development_integration",
+      "task": "Can",
+      "wall_seconds": 120
+    },
+    "direct_Square": {
+      "caps": {
+        "CPU_checkpoint_load_attempts": 1,
+        "CPU_model_construction_attempts": 1,
+        "action_attempts": 1600,
+        "action_returns": 1600,
+        "deployment_policy_forward_attempts": 3200,
+        "env_constructors": 4,
+        "explicit_resets": 4,
+        "policy_inference_attempts": 1600
+      },
+      "endpoint": "learned_S1",
+      "id": "direct_Square",
+      "kind": "evaluate",
+      "pairing_reference": "jobs/start_Square/result.json",
+      "routes": {
+        "Square": "jobs/train_replay/step20000.json"
+      },
+      "seeds": [
+        351594620,
+        1619882337,
+        1068969187,
+        847811185
+      ],
+      "split": "development_integration",
+      "task": "Square",
+      "wall_seconds": 120
+    },
+    "post_Can": {
+      "caps": {
+        "CPU_checkpoint_load_attempts": 1,
+        "CPU_model_construction_attempts": 1,
+        "action_attempts": 1600,
+        "action_returns": 1600,
+        "deployment_policy_forward_attempts": 3200,
+        "env_constructors": 4,
+        "explicit_resets": 4,
+        "policy_inference_attempts": 1600
+      },
+      "endpoint": "learned_S1",
+      "id": "post_Can",
+      "kind": "evaluate",
+      "pairing_reference": "jobs/start_Can/result.json",
+      "routes": {
+        "Can": "jobs/train_replay/step20000.json"
+      },
+      "seeds": [
+        3060780266,
+        363035686,
+        57619751,
+        3793612101
+      ],
+      "split": "development_integration",
+      "task": "Can",
+      "wall_seconds": 120
+    },
+    "post_Square": {
+      "caps": {
+        "CPU_checkpoint_load_attempts": 1,
+        "CPU_model_construction_attempts": 1,
+        "action_attempts": 1600,
+        "action_returns": 1600,
+        "deployment_policy_forward_attempts": 3200,
+        "env_constructors": 4,
+        "explicit_resets": 4,
+        "policy_inference_attempts": 1600
+      },
+      "endpoint": "learned_S1",
+      "id": "post_Square",
+      "kind": "evaluate",
+      "pairing_reference": "jobs/start_Square/result.json",
+      "routes": {
+        "Square": "jobs/train_replay/step20000.json"
+      },
+      "seeds": [
+        351594620,
+        1619882337,
+        1068969187,
+        847811185
+      ],
+      "split": "development_integration",
+      "task": "Square",
+      "wall_seconds": 120
+    },
+    "start_Can": {
+      "caps": {
+        "CPU_checkpoint_load_attempts": 1,
+        "CPU_model_construction_attempts": 1,
+        "action_attempts": 1600,
+        "action_returns": 1600,
+        "deployment_policy_forward_attempts": 3200,
+        "env_constructors": 4,
+        "explicit_resets": 4,
+        "policy_inference_attempts": 1600
+      },
+      "endpoint": "S0",
+      "id": "start_Can",
+      "kind": "evaluate",
+      "pairing_reference": null,
+      "routes": {
+        "Can": "references/S0.json"
+      },
+      "seeds": [
+        3060780266,
+        363035686,
+        57619751,
+        3793612101
+      ],
+      "split": "development_integration",
+      "task": "Can",
+      "wall_seconds": 120
+    },
+    "start_Square": {
+      "caps": {
+        "CPU_checkpoint_load_attempts": 1,
+        "CPU_model_construction_attempts": 1,
+        "action_attempts": 1600,
+        "action_returns": 1600,
+        "deployment_policy_forward_attempts": 3200,
+        "env_constructors": 4,
+        "explicit_resets": 4,
+        "policy_inference_attempts": 1600
+      },
+      "endpoint": "S0",
+      "id": "start_Square",
+      "kind": "evaluate",
+      "pairing_reference": null,
+      "routes": {
+        "Square": "references/S0.json"
+      },
+      "seeds": [
+        351594620,
+        1619882337,
+        1068969187,
+        847811185
+      ],
+      "split": "development_integration",
+      "task": "Square",
+      "wall_seconds": 120
+    },
+    "train_replay": {
+      "U_reference": "updates/replay.json",
+      "caps": {
+        "GPU_model_construction_attempts": 1,
+        "optimizer_attempts": 20000,
+        "optimizer_entries": 20000,
+        "optimizer_returns": 20000,
+        "sampled_windows": 2000000,
+        "scalar_objective_attempts": 40000,
+        "state_saves": 1,
+        "supervised_positions": 20000000,
+        "training_checkpoint_load_attempts": 1,
+        "training_density_positions": 20000000,
+        "training_gradient_attempts": 20000,
+        "training_log_prob_calls": 20000,
+        "training_policy_forward_attempts": 20000,
+        "update_returns": 20000,
+        "windows_Can": 1000000,
+        "windows_Square": 1000000
+      },
+      "id": "train_replay",
+      "kind": "train",
+      "profile": "target",
+      "replay": true,
+      "save_updates": [
+        20000
+      ],
+      "space": "anchor",
+      "start_checkpoint_reference": "references/S0.json",
+      "updates": 20000,
+      "wall_seconds": 420
+    }
+  },
+  "profiles": {
+    "target": {
+      "config": {
+        "algo": {
+          "actor_layer_dims": [],
+          "gaussian": {
+            "enabled": false,
+            "fixed_std": false,
+            "init_std": 0.1,
+            "low_noise_eval": true,
+            "min_std": 0.01,
+            "std_activation": "softplus"
+          },
+          "gmm": {
+            "enabled": true,
+            "low_noise_eval": true,
+            "min_std": 0.0001,
+            "num_modes": 5,
+            "std_activation": "softplus"
+          },
+          "loss": {
+            "cos_weight": 0.0,
+            "l1_weight": 0.0,
+            "l2_weight": 1.0
+          },
+          "optim_params": {
+            "policy": {
+              "learning_rate": {
+                "decay_factor": 0.1,
+                "epoch_schedule": [],
+                "initial": 0.0001,
+                "scheduler_type": "multistep"
+              },
+              "optimizer_type": "adam",
+              "regularization": {
+                "L2": 0.0
+              }
+            }
+          },
+          "rnn": {
+            "enabled": true,
+            "hidden_dim": 400,
+            "horizon": 10,
+            "kwargs": {
+              "bidirectional": false
+            },
+            "num_layers": 2,
+            "open_loop": false,
+            "rnn_type": "LSTM"
+          },
+          "transformer": {
+            "activation": "gelu",
+            "attn_dropout": 0.1,
+            "block_output_dropout": 0.1,
+            "context_length": 10,
+            "emb_dropout": 0.1,
+            "embed_dim": 512,
+            "enabled": false,
+            "nn_parameter_for_timesteps": true,
+            "num_heads": 8,
+            "num_layers": 6,
+            "sinusoidal_embedding": false,
+            "supervise_all_steps": false
+          },
+          "vae": {
+            "decoder": {
+              "is_conditioned": true,
+              "reconstruction_sum_across_elements": false
+            },
+            "decoder_layer_dims": [
+              300,
+              400
+            ],
+            "enabled": false,
+            "encoder_layer_dims": [
+              300,
+              400
+            ],
+            "kl_weight": 1.0,
+            "latent_clip": null,
+            "latent_dim": 14,
+            "prior": {
+              "categorical_dim": 10,
+              "categorical_gumbel_softmax_hard": false,
+              "categorical_init_temp": 1.0,
+              "categorical_min_temp": 0.3,
+              "categorical_temp_anneal_step": 0.001,
+              "gmm_learn_weights": false,
+              "gmm_num_modes": 10,
+              "is_conditioned": false,
+              "learn": false,
+              "use_categorical": false,
+              "use_gmm": false
+            },
+            "prior_layer_dims": [
+              300,
+              400
+            ]
+          }
+        },
+        "algo_name": "bc",
+        "experiment": {
+          "additional_envs": null,
+          "env": null,
+          "epoch_every_n_steps": 100,
+          "keep_all_videos": false,
+          "logging": {
+            "log_tb": true,
+            "log_wandb": false,
+            "terminal_output_to_txt": true,
+            "wandb_proj_name": "debug"
+          },
+          "name": "square_fixed_200k_closedloop_qualification",
+          "render": false,
+          "render_video": true,
+          "rollout": {
+            "enabled": false,
+            "horizon": 400,
+            "n": 50,
+            "rate": 50,
+            "terminate_on_success": true,
+            "warmstart": 0
+          },
+          "save": {
+            "enabled": true,
+            "epochs": [],
+            "every_n_epochs": 50,
+            "every_n_seconds": null,
+            "on_best_rollout_return": false,
+            "on_best_rollout_success_rate": true,
+            "on_best_validation": false
+          },
+          "validate": true,
+          "validation_epoch_every_n_steps": 10,
+          "video_skip": 5
+        },
+        "meta": {
+          "hp_base_config_file": null,
+          "hp_keys": [],
+          "hp_values": []
+        },
+        "observation": {
+          "encoder": {
+            "depth": {
+              "core_class": "VisualCore",
+              "core_kwargs": {},
+              "obs_randomizer_class": null,
+              "obs_randomizer_kwargs": {}
+            },
+            "low_dim": {
+              "core_class": null,
+              "core_kwargs": {},
+              "obs_randomizer_class": null,
+              "obs_randomizer_kwargs": {}
+            },
+            "rgb": {
+              "core_class": "VisualCore",
+              "core_kwargs": {},
+              "obs_randomizer_class": null,
+              "obs_randomizer_kwargs": {}
+            },
+            "scan": {
+              "core_class": "ScanCore",
+              "core_kwargs": {},
+              "obs_randomizer_class": null,
+              "obs_randomizer_kwargs": {}
+            }
+          },
+          "modalities": {
+            "goal": {
+              "depth": [],
+              "low_dim": [],
+              "rgb": [],
+              "scan": []
+            },
+            "obs": {
+              "depth": [],
+              "low_dim": [
+                "robot0_eef_pos",
+                "robot0_eef_quat",
+                "robot0_gripper_qpos",
+                "object",
+                "task_id"
+              ],
+              "rgb": [],
+              "scan": []
+            }
+          }
+        },
+        "train": {
+          "batch_size": 100,
+          "cuda": true,
+          "data": "data/Square/train.npz",
+          "dataset_keys": [
+            "actions",
+            "rewards",
+            "dones"
+          ],
+          "frame_stack": 1,
+          "goal_mode": null,
+          "hdf5_cache_mode": "all",
+          "hdf5_filter_key": "train",
+          "hdf5_load_next_obs": false,
+          "hdf5_normalize_obs": false,
+          "hdf5_use_swmr": true,
+          "hdf5_validation_filter_key": "valid",
+          "num_data_workers": 0,
+          "num_epochs": 2000,
+          "output_dir": "outputs/Square-parent",
+          "pad_frame_stack": true,
+          "pad_seq_length": true,
+          "seed": 1,
+          "seq_length": 10
+        }
+      },
+      "policy_shapes": {
+        "object": 14,
+        "robot0_eef_pos": 3,
+        "robot0_eef_quat": 4,
+        "robot0_gripper_qpos": 2,
+        "task_id": 2
+      }
+    }
+  },
+  "data": {
+    "Can": {
+      "episodes": 180,
+      "ids": [
+        "demo_1",
+        "demo_2",
+        "demo_3",
+        "demo_4",
+        "demo_6",
+        "demo_7",
+        "demo_8",
+        "demo_9",
+        "demo_10",
+        "demo_11",
+        "demo_12",
+        "demo_13",
+        "demo_15",
+        "demo_16",
+        "demo_17",
+        "demo_18",
+        "demo_19",
+        "demo_20",
+        "demo_22",
+        "demo_23",
+        "demo_24",
+        "demo_25",
+        "demo_26",
+        "demo_28",
+        "demo_29",
+        "demo_30",
+        "demo_31",
+        "demo_33",
+        "demo_34",
+        "demo_35",
+        "demo_37",
+        "demo_38",
+        "demo_39",
+        "demo_40",
+        "demo_41",
+        "demo_42",
+        "demo_43",
+        "demo_45",
+        "demo_46",
+        "demo_47",
+        "demo_48",
+        "demo_49",
+        "demo_50",
+        "demo_51",
+        "demo_52",
+        "demo_53",
+        "demo_54",
+        "demo_55",
+        "demo_57",
+        "demo_58",
+        "demo_59",
+        "demo_60",
+        "demo_61",
+        "demo_62",
+        "demo_63",
+        "demo_64",
+        "demo_65",
+        "demo_66",
+        "demo_67",
+        "demo_68",
+        "demo_69",
+        "demo_70",
+        "demo_71",
+        "demo_72",
+        "demo_73",
+        "demo_74",
+        "demo_75",
+        "demo_76",
+        "demo_77",
+        "demo_78",
+        "demo_79",
+        "demo_80",
+        "demo_81",
+        "demo_82",
+        "demo_83",
+        "demo_84",
+        "demo_85",
+        "demo_86",
+        "demo_87",
+        "demo_88",
+        "demo_89",
+        "demo_90",
+        "demo_91",
+        "demo_92",
+        "demo_94",
+        "demo_95",
+        "demo_96",
+        "demo_97",
+        "demo_98",
+        "demo_99",
+        "demo_100",
+        "demo_101",
+        "demo_102",
+        "demo_104",
+        "demo_106",
+        "demo_107",
+        "demo_108",
+        "demo_109",
+        "demo_110",
+        "demo_112",
+        "demo_113",
+        "demo_114",
+        "demo_115",
+        "demo_116",
+        "demo_117",
+        "demo_118",
+        "demo_119",
+        "demo_120",
+        "demo_121",
+        "demo_122",
+        "demo_123",
+        "demo_124",
+        "demo_126",
+        "demo_127",
+        "demo_128",
+        "demo_129",
+        "demo_130",
+        "demo_132",
+        "demo_133",
+        "demo_134",
+        "demo_135",
+        "demo_136",
+        "demo_137",
+        "demo_138",
+        "demo_139",
+        "demo_140",
+        "demo_141",
+        "demo_142",
+        "demo_143",
+        "demo_144",
+        "demo_145",
+        "demo_146",
+        "demo_147",
+        "demo_148",
+        "demo_149",
+        "demo_150",
+        "demo_151",
+        "demo_152",
+        "demo_153",
+        "demo_154",
+        "demo_156",
+        "demo_157",
+        "demo_158",
+        "demo_159",
+        "demo_160",
+        "demo_161",
+        "demo_162",
+        "demo_163",
+        "demo_164",
+        "demo_165",
+        "demo_166",
+        "demo_167",
+        "demo_169",
+        "demo_170",
+        "demo_171",
+        "demo_172",
+        "demo_173",
+        "demo_174",
+        "demo_175",
+        "demo_177",
+        "demo_178",
+        "demo_179",
+        "demo_181",
+        "demo_182",
+        "demo_183",
+        "demo_184",
+        "demo_185",
+        "demo_186",
+        "demo_187",
+        "demo_188",
+        "demo_189",
+        "demo_190",
+        "demo_192",
+        "demo_193",
+        "demo_194",
+        "demo_195",
+        "demo_196",
+        "demo_197",
+        "demo_198",
+        "demo_199"
+      ],
+      "rows": 20883,
+      "sha256": "fcc10895ab27cf906a535c7524089776faf9287c68f2a2024a6b2561a74aa735"
+    },
+    "Square": {
+      "episodes": 160,
+      "ids": [
+        "demo_1",
+        "demo_10",
+        "demo_100",
+        "demo_101",
+        "demo_102",
+        "demo_104",
+        "demo_106",
+        "demo_109",
+        "demo_11",
+        "demo_110",
+        "demo_112",
+        "demo_113",
+        "demo_114",
+        "demo_116",
+        "demo_118",
+        "demo_119",
+        "demo_12",
+        "demo_120",
+        "demo_121",
+        "demo_123",
+        "demo_124",
+        "demo_126",
+        "demo_127",
+        "demo_129",
+        "demo_13",
+        "demo_130",
+        "demo_132",
+        "demo_133",
+        "demo_134",
+        "demo_135",
+        "demo_136",
+        "demo_137",
+        "demo_138",
+        "demo_139",
+        "demo_140",
+        "demo_141",
+        "demo_142",
+        "demo_143",
+        "demo_144",
+        "demo_145",
+        "demo_146",
+        "demo_147",
+        "demo_148",
+        "demo_149",
+        "demo_15",
+        "demo_150",
+        "demo_151",
+        "demo_152",
+        "demo_153",
+        "demo_154",
+        "demo_156",
+        "demo_157",
+        "demo_159",
+        "demo_16",
+        "demo_160",
+        "demo_161",
+        "demo_162",
+        "demo_163",
+        "demo_164",
+        "demo_165",
+        "demo_166",
+        "demo_167",
+        "demo_169",
+        "demo_17",
+        "demo_170",
+        "demo_171",
+        "demo_172",
+        "demo_173",
+        "demo_174",
+        "demo_175",
+        "demo_177",
+        "demo_178",
+        "demo_179",
+        "demo_18",
+        "demo_181",
+        "demo_182",
+        "demo_183",
+        "demo_184",
+        "demo_186",
+        "demo_187",
+        "demo_188",
+        "demo_189",
+        "demo_19",
+        "demo_192",
+        "demo_193",
+        "demo_194",
+        "demo_195",
+        "demo_196",
+        "demo_198",
+        "demo_199",
+        "demo_2",
+        "demo_20",
+        "demo_22",
+        "demo_24",
+        "demo_25",
+        "demo_26",
+        "demo_28",
+        "demo_29",
+        "demo_3",
+        "demo_30",
+        "demo_31",
+        "demo_33",
+        "demo_34",
+        "demo_37",
+        "demo_38",
+        "demo_39",
+        "demo_4",
+        "demo_40",
+        "demo_41",
+        "demo_42",
+        "demo_43",
+        "demo_46",
+        "demo_47",
+        "demo_48",
+        "demo_50",
+        "demo_51",
+        "demo_52",
+        "demo_53",
+        "demo_54",
+        "demo_55",
+        "demo_57",
+        "demo_58",
+        "demo_59",
+        "demo_60",
+        "demo_61",
+        "demo_62",
+        "demo_63",
+        "demo_65",
+        "demo_66",
+        "demo_67",
+        "demo_68",
+        "demo_69",
+        "demo_70",
+        "demo_71",
+        "demo_73",
+        "demo_74",
+        "demo_75",
+        "demo_76",
+        "demo_77",
+        "demo_78",
+        "demo_8",
+        "demo_80",
+        "demo_81",
+        "demo_82",
+        "demo_83",
+        "demo_84",
+        "demo_85",
+        "demo_86",
+        "demo_87",
+        "demo_88",
+        "demo_89",
+        "demo_9",
+        "demo_90",
+        "demo_91",
+        "demo_92",
+        "demo_94",
+        "demo_95",
+        "demo_97",
+        "demo_98",
+        "demo_99"
+      ],
+      "rows": 24024,
+      "sha256": "2c701e737fc5690b2df18c31d410be73f1e8df85a79a22a4b83ffbf26ac8fa7c"
+    }
+  },
+  "input_identities": {
+    "data_Can": {
+      "sha256": "fcc10895ab27cf906a535c7524089776faf9287c68f2a2024a6b2561a74aa735"
+    },
+    "data_Square": {
+      "sha256": "2c701e737fc5690b2df18c31d410be73f1e8df85a79a22a4b83ffbf26ac8fa7c"
+    },
+    "metadata_Can": {
+      "sha256": "8b811d652f21b0b7a3b16fb8407521963a974311260a4e9ffc40600d08e6b3cf"
+    },
+    "metadata_Square": {
+      "sha256": "afc1fc1bd72193d1fd89c689b738cb9eb1a17352217aea2a2e029ccc49eefcbd"
+    }
+  },
+  "native_source_files": [
+    {
+      "relative": "robosuite/controllers/base_controller.py",
+      "sha256": "61f99a2daeb4eb6e39bfb996d94c5a5689ef3bc771d030d070193ea56d6a8332"
+    },
+    {
+      "relative": "robosuite/controllers/osc.py",
+      "sha256": "cfa62a0e719bc53ef0c701efa66f7b3e2272d4fca2150ec73c05bb145eba85cb"
+    },
+    {
+      "relative": "robosuite/environments/base.py",
+      "sha256": "60eab4afd3dc95b4ac4cf0659fb9afe6360161912a4ac6931efe86ce1e1de519"
+    },
+    {
+      "relative": "robosuite/environments/manipulation/manipulation_env.py",
+      "sha256": "13375356b4ab98bea62dce25b002b137c58669bfba77f0db84cf04c04a4cc457"
+    },
+    {
+      "relative": "robosuite/environments/manipulation/nut_assembly.py",
+      "sha256": "142c6d8cc8ee02f686188fad271de5084e68dc16d386ae307bee1e469550f755"
+    },
+    {
+      "relative": "robosuite/environments/manipulation/pick_place.py",
+      "sha256": "26dcb1dfb5289cbe4c2cff10e4a7562939e67d9fa341eccabbabe456a2ad0e7e"
+    },
+    {
+      "relative": "robosuite/environments/manipulation/tool_hang.py",
+      "sha256": "da87623a6067bb6efd9714cfff0a61dce2107ad46356eb549810259d03e04ac0"
+    },
+    {
+      "relative": "robosuite/models/assets/grippers/panda_gripper.xml",
+      "sha256": "d9d68123909d6910488310d0fae4e358ed4ac831c6d0957f3e30893a5412baac"
+    },
+    {
+      "relative": "robosuite/models/robots/manipulators/manipulator_model.py",
+      "sha256": "ac21ce0b004a1ee93cb8b728c00b9c18c38ecabb2dedca370de80602ad26f059"
+    },
+    {
+      "relative": "robosuite/robots/robot.py",
+      "sha256": "7a3a98eb75b4e7cb1b822a918d0c693d441356279a8e796cfc02eb1fd5963f23"
+    },
+    {
+      "relative": "robosuite/robots/single_arm.py",
+      "sha256": "38237d7b68c876b413f0df811b135ca3b2fb91061c011696baab07db5e87fa14"
+    },
+    {
+      "relative": "robosuite/utils/transform_utils.py",
+      "sha256": "1c2317895733449883b56af0decefb3529649b3a7779dc2ef3ed00816bb25bb0"
+    },
+    {
+      "relative": "robomimic/algo/algo.py",
+      "sha256": "d15dd0c501f6c715d8614887b04bc5ece9084d39d1e7cbc07de9ee9b5b93fe3e"
+    },
+    {
+      "relative": "robomimic/algo/bc.py",
+      "sha256": "c74971d3da941e01fe0cfe97b5aebc6cddb9b8f7dbe13c2947fb5063e5765f42"
+    },
+    {
+      "relative": "robomimic/config/bc_config.py",
+      "sha256": "daff093a4f0eb63d01a29ce176bd881674b2ebd49bf7081b6ffd77eaae9a28f5"
+    },
+    {
+      "relative": "robomimic/models/policy_nets.py",
+      "sha256": "8b74798ed8651ba19208dd8aed6250d03d78a5e28837254d57642be9ce944892"
+    },
+    {
+      "relative": "robomimic/scripts/generate_paper_configs.py",
+      "sha256": "34df666cb6953c29815eb69541a2ed26986437c5d8e3ca81775d109643740a55"
+    }
+  ],
+  "evaluation_runtime": {
+    "action_seed_offset": 700000
+  },
+  "external_references": {},
+  "parent_reference": {
+    "binding": {
+      "candidate_raw_sha256": "9c4ace065ecab70b87090d000242dcb037d1ed85d88142bd5dfad5d150c8defb",
+      "config": {
+        "algo": {
+          "actor_layer_dims": [],
+          "gaussian": {
+            "enabled": false,
+            "fixed_std": false,
+            "init_std": 0.1,
+            "low_noise_eval": true,
+            "min_std": 0.01,
+            "std_activation": "softplus"
+          },
+          "gmm": {
+            "enabled": true,
+            "low_noise_eval": true,
+            "min_std": 0.0001,
+            "num_modes": 5,
+            "std_activation": "softplus"
+          },
+          "loss": {
+            "cos_weight": 0.0,
+            "l1_weight": 0.0,
+            "l2_weight": 1.0
+          },
+          "optim_params": {
+            "policy": {
+              "learning_rate": {
+                "decay_factor": 0.1,
+                "epoch_schedule": [],
+                "initial": 0.0001,
+                "scheduler_type": "multistep"
+              },
+              "optimizer_type": "adam",
+              "regularization": {
+                "L2": 0.0
+              }
+            }
+          },
+          "rnn": {
+            "enabled": true,
+            "hidden_dim": 400,
+            "horizon": 10,
+            "kwargs": {
+              "bidirectional": false
+            },
+            "num_layers": 2,
+            "open_loop": false,
+            "rnn_type": "LSTM"
+          },
+          "transformer": {
+            "activation": "gelu",
+            "attn_dropout": 0.1,
+            "block_output_dropout": 0.1,
+            "context_length": 10,
+            "emb_dropout": 0.1,
+            "embed_dim": 512,
+            "enabled": false,
+            "nn_parameter_for_timesteps": true,
+            "num_heads": 8,
+            "num_layers": 6,
+            "sinusoidal_embedding": false,
+            "supervise_all_steps": false
+          },
+          "vae": {
+            "decoder": {
+              "is_conditioned": true,
+              "reconstruction_sum_across_elements": false
+            },
+            "decoder_layer_dims": [
+              300,
+              400
+            ],
+            "enabled": false,
+            "encoder_layer_dims": [
+              300,
+              400
+            ],
+            "kl_weight": 1.0,
+            "latent_clip": null,
+            "latent_dim": 14,
+            "prior": {
+              "categorical_dim": 10,
+              "categorical_gumbel_softmax_hard": false,
+              "categorical_init_temp": 1.0,
+              "categorical_min_temp": 0.3,
+              "categorical_temp_anneal_step": 0.001,
+              "gmm_learn_weights": false,
+              "gmm_num_modes": 10,
+              "is_conditioned": false,
+              "learn": false,
+              "use_categorical": false,
+              "use_gmm": false
+            },
+            "prior_layer_dims": [
+              300,
+              400
+            ]
+          }
+        },
+        "algo_name": "bc",
+        "experiment": {
+          "additional_envs": null,
+          "env": null,
+          "epoch_every_n_steps": 100,
+          "keep_all_videos": false,
+          "logging": {
+            "log_tb": true,
+            "log_wandb": false,
+            "terminal_output_to_txt": true,
+            "wandb_proj_name": "debug"
+          },
+          "name": "square_fixed_200k_closedloop_qualification",
+          "render": false,
+          "render_video": true,
+          "rollout": {
+            "enabled": false,
+            "horizon": 400,
+            "n": 50,
+            "rate": 50,
+            "terminate_on_success": true,
+            "warmstart": 0
+          },
+          "save": {
+            "enabled": true,
+            "epochs": [],
+            "every_n_epochs": 50,
+            "every_n_seconds": null,
+            "on_best_rollout_return": false,
+            "on_best_rollout_success_rate": true,
+            "on_best_validation": false
+          },
+          "validate": true,
+          "validation_epoch_every_n_steps": 10,
+          "video_skip": 5
+        },
+        "meta": {
+          "hp_base_config_file": null,
+          "hp_keys": [],
+          "hp_values": []
+        },
+        "observation": {
+          "encoder": {
+            "depth": {
+              "core_class": "VisualCore",
+              "core_kwargs": {},
+              "obs_randomizer_class": null,
+              "obs_randomizer_kwargs": {}
+            },
+            "low_dim": {
+              "core_class": null,
+              "core_kwargs": {},
+              "obs_randomizer_class": null,
+              "obs_randomizer_kwargs": {}
+            },
+            "rgb": {
+              "core_class": "VisualCore",
+              "core_kwargs": {},
+              "obs_randomizer_class": null,
+              "obs_randomizer_kwargs": {}
+            },
+            "scan": {
+              "core_class": "ScanCore",
+              "core_kwargs": {},
+              "obs_randomizer_class": null,
+              "obs_randomizer_kwargs": {}
+            }
+          },
+          "modalities": {
+            "goal": {
+              "depth": [],
+              "low_dim": [],
+              "rgb": [],
+              "scan": []
+            },
+            "obs": {
+              "depth": [],
+              "low_dim": [
+                "robot0_eef_pos",
+                "robot0_eef_quat",
+                "robot0_gripper_qpos",
+                "object",
+                "task_id"
+              ],
+              "rgb": [],
+              "scan": []
+            }
+          }
+        },
+        "train": {
+          "batch_size": 100,
+          "cuda": true,
+          "data": "data/Square/train.npz",
+          "dataset_keys": [
+            "actions",
+            "rewards",
+            "dones"
+          ],
+          "frame_stack": 1,
+          "goal_mode": null,
+          "hdf5_cache_mode": "all",
+          "hdf5_filter_key": "train",
+          "hdf5_load_next_obs": false,
+          "hdf5_normalize_obs": false,
+          "hdf5_use_swmr": true,
+          "hdf5_validation_filter_key": "valid",
+          "num_data_workers": 0,
+          "num_epochs": 2000,
+          "output_dir": "outputs/Square-parent",
+          "pad_frame_stack": true,
+          "pad_seq_length": true,
+          "seed": 1,
+          "seq_length": 10
+        }
+      },
+      "initialization": "fixed seed29; complete fresh optimizer/RNG/dual samplers",
+      "learning": {
+        "Can": "fcc10895ab27cf906a535c7524089776faf9287c68f2a2024a6b2561a74aa735",
+        "Square": "2c701e737fc5690b2df18c31d410be73f1e8df85a79a22a4b83ffbf26ac8fa7c"
+      },
+      "normalization": null,
+      "policy_shapes": {
+        "object": 14,
+        "robot0_eef_pos": 3,
+        "robot0_eef_quat": 4,
+        "robot0_gripper_qpos": 2,
+        "task_id": 2
+      },
+      "schema": "P2-edit-space-target-stage-v1",
+      "task_encoding": {
+        "Can": [
+          0.0,
+          1.0
+        ],
+        "Square": [
+          1.0,
+          0.0
+        ]
+      }
+    },
+    "counters": {
+      "epochs": 0,
+      "sampled_windows": 0,
+      "updates": 0
+    },
+    "profile": "target",
+    "input_role": "shared_S0"
+  },
+  "expected_reference_updates": {
+    "references/S0.json": 0,
+    "jobs/train_replay/step20000.json": 20000
+  },
+  "expected_reference_origins": {
+    "references/S0.json": {
+      "input_role": "shared_S0"
+    },
+    "jobs/train_replay/step20000.json": {
+      "job": "train_replay",
+      "recipe": "acquisition"
+    }
+  }
+}

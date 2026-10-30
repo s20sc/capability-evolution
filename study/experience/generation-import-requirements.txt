@@ -1,0 +1,6 @@
+# Additional generation import dependencies, separate from the core tensor/simulator runtime.
+requests==2.32.3
+urllib3==2.8.0
+charset-normalizer==3.3.2
+idna==3.10
+certifi==2026.7.22

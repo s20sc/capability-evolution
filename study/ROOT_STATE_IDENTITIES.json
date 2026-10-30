@@ -1,0 +1,19 @@
+{
+  "states": {
+    "shared_S0": {
+      "sha256": "beaed4023dafa1bceb704b565e64b2338214b6c05b30a652ce68420cac8cbe2c",
+      "bytes": 8392329,
+      "original_as_run_sha256": "33ed6ac0570b77f47581d6c3f80498b526142302b3d32a875d8ce7e268b3e124"
+    },
+    "Square100000": {
+      "sha256": "89461eec91fa96f1376737b1d051edec9460eaa903ccf776cba924b743564af8",
+      "bytes": 24157324,
+      "original_as_run_sha256": "e0375f0410efdbf43b2b1c18b07e82c5d4247fa220554ab127ece01be2711a8e"
+    },
+    "D101000": {
+      "sha256": "635edb03d3afdb3574277f039054d67a80d540c79999536c5d10d51617b14e25",
+      "bytes": 24158239,
+      "original_as_run_sha256": "d8ea2d6027ebfc58f65af538ec63bc547a007c58e109e30a29d2ab27ae665868"
+    }
+  }
+}

@@ -1,0 +1,1727 @@
+{
+  "profiles": {
+    "source-preparation": {
+      "caps": {
+        "action_attempts": 0,
+        "action_returns": 0,
+        "environment_constructors": 1,
+        "explicit_resets": 24,
+        "reset_to_attempts": 3000,
+        "xml_reload_attempts": 10
+      },
+      "wall_seconds": 600,
+      "native_task": {
+        "actuator_tolerance": 1e-09,
+        "case_seconds": 20,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "dataset_sha256": "afc1fc1bd72193d1fd89c689b738cb9eb1a17352217aea2a2e029ccc49eefcbd",
+        "decoder_mode": "argmax",
+        "decoder_sha256": "36c393c21b92934d9ff3ded5131e4f2ab224ea6089f9566aad8c2aba001d2e45",
+        "deployment": "CPU GMM argmax component mean;RNN reset each scene;float32 native observations;native action clipping;hold5/horizon400;no XML or state restore",
+        "environment_name": "NutAssemblySquare",
+        "environment_source_sha256": "142c6d8cc8ee02f686188fad271de5084e68dc16d386ae307bee1e469550f755",
+        "helper_sha256": "58eb5b076b0105fe280923642505950cd15ba0f621f8104acaca23e2f609aea0",
+        "horizon": 400,
+        "mujoco_version": "2.3.2",
+        "pairing_sha256": "40fb66bfe5d86d8957a01e69c07235e26a49b71a987f321542385e223d471d37",
+        "runner_sha256": "4e25edd5ff5b604c9e5a61076c09f187a8dfe0cf3dcae65deb974325fa300762",
+        "success_hold": 5,
+        "timestep": 0.002,
+        "workspace_xyz": [
+          [
+            -0.6,
+            0.6
+          ],
+          [
+            -0.7,
+            0.7
+          ],
+          [
+            0.75,
+            1.4
+          ]
+        ],
+        "dataset_role": "metadata_Square"
+      },
+      "learning_ids": [
+        "demo_1",
+        "demo_10",
+        "demo_100",
+        "demo_101",
+        "demo_102",
+        "demo_104",
+        "demo_106",
+        "demo_109",
+        "demo_11",
+        "demo_110",
+        "demo_112",
+        "demo_113",
+        "demo_114",
+        "demo_116",
+        "demo_118",
+        "demo_119",
+        "demo_12",
+        "demo_120",
+        "demo_121",
+        "demo_123",
+        "demo_124",
+        "demo_126",
+        "demo_127",
+        "demo_129",
+        "demo_13",
+        "demo_130",
+        "demo_132",
+        "demo_133",
+        "demo_134",
+        "demo_135",
+        "demo_136",
+        "demo_137",
+        "demo_138",
+        "demo_139",
+        "demo_140",
+        "demo_141",
+        "demo_142",
+        "demo_143",
+        "demo_144",
+        "demo_145",
+        "demo_146",
+        "demo_147",
+        "demo_148",
+        "demo_149",
+        "demo_15",
+        "demo_150",
+        "demo_151",
+        "demo_152",
+        "demo_153",
+        "demo_154",
+        "demo_156",
+        "demo_157",
+        "demo_159",
+        "demo_16",
+        "demo_160",
+        "demo_161",
+        "demo_162",
+        "demo_163",
+        "demo_164",
+        "demo_165",
+        "demo_166",
+        "demo_167",
+        "demo_169",
+        "demo_17",
+        "demo_170",
+        "demo_171",
+        "demo_172",
+        "demo_173",
+        "demo_174",
+        "demo_175",
+        "demo_177",
+        "demo_178",
+        "demo_179",
+        "demo_18",
+        "demo_181",
+        "demo_182",
+        "demo_183",
+        "demo_184",
+        "demo_186",
+        "demo_187",
+        "demo_188",
+        "demo_189",
+        "demo_19",
+        "demo_192",
+        "demo_193",
+        "demo_194",
+        "demo_195",
+        "demo_196",
+        "demo_198",
+        "demo_199",
+        "demo_2",
+        "demo_20",
+        "demo_22",
+        "demo_24",
+        "demo_25",
+        "demo_26",
+        "demo_28",
+        "demo_29",
+        "demo_3",
+        "demo_30",
+        "demo_31",
+        "demo_33",
+        "demo_34",
+        "demo_37",
+        "demo_38",
+        "demo_39",
+        "demo_4",
+        "demo_40",
+        "demo_41",
+        "demo_42",
+        "demo_43",
+        "demo_46",
+        "demo_47",
+        "demo_48",
+        "demo_50",
+        "demo_51",
+        "demo_52",
+        "demo_53",
+        "demo_54",
+        "demo_55",
+        "demo_57",
+        "demo_58",
+        "demo_59",
+        "demo_60",
+        "demo_61",
+        "demo_62",
+        "demo_63",
+        "demo_65",
+        "demo_66",
+        "demo_67",
+        "demo_68",
+        "demo_69",
+        "demo_70",
+        "demo_71",
+        "demo_73",
+        "demo_74",
+        "demo_75",
+        "demo_76",
+        "demo_77",
+        "demo_78",
+        "demo_8",
+        "demo_80",
+        "demo_81",
+        "demo_82",
+        "demo_83",
+        "demo_84",
+        "demo_85",
+        "demo_86",
+        "demo_87",
+        "demo_88",
+        "demo_89",
+        "demo_9",
+        "demo_90",
+        "demo_91",
+        "demo_92",
+        "demo_94",
+        "demo_95",
+        "demo_97",
+        "demo_98",
+        "demo_99"
+      ],
+      "internal_dev_ids": [
+        "demo_107",
+        "demo_108",
+        "demo_115",
+        "demo_117",
+        "demo_122",
+        "demo_128",
+        "demo_158",
+        "demo_185",
+        "demo_190",
+        "demo_197",
+        "demo_23",
+        "demo_35",
+        "demo_45",
+        "demo_49",
+        "demo_6",
+        "demo_64",
+        "demo_7",
+        "demo_72",
+        "demo_79",
+        "demo_96"
+      ],
+      "source_commit": "c0fbff22ba40060f05a917a80817f3f5c20731e7",
+      "input_roles": {
+        "lowdim": {
+          "role": "metadata_Square",
+          "bytes": 52999352,
+          "sha256": "afc1fc1bd72193d1fd89c689b738cb9eb1a17352217aea2a2e029ccc49eefcbd"
+        },
+        "raw": {
+          "role": "raw_Square",
+          "bytes": 59715254,
+          "sha256": "53f202c7d6dfc91a4a30964ed7ce63ecd8a4f67818fa02cf0d251e6aeddfc586"
+        }
+      },
+      "external_sources": [
+        {
+          "relative": "robosuite/controllers/base_controller.py",
+          "sha256": "61f99a2daeb4eb6e39bfb996d94c5a5689ef3bc771d030d070193ea56d6a8332"
+        },
+        {
+          "relative": "robosuite/controllers/osc.py",
+          "sha256": "cfa62a0e719bc53ef0c701efa66f7b3e2272d4fca2150ec73c05bb145eba85cb"
+        },
+        {
+          "relative": "robosuite/environments/base.py",
+          "sha256": "60eab4afd3dc95b4ac4cf0659fb9afe6360161912a4ac6931efe86ce1e1de519"
+        },
+        {
+          "relative": "robosuite/environments/manipulation/manipulation_env.py",
+          "sha256": "13375356b4ab98bea62dce25b002b137c58669bfba77f0db84cf04c04a4cc457"
+        },
+        {
+          "relative": "robosuite/environments/manipulation/nut_assembly.py",
+          "sha256": "142c6d8cc8ee02f686188fad271de5084e68dc16d386ae307bee1e469550f755"
+        },
+        {
+          "relative": "robosuite/environments/manipulation/pick_place.py",
+          "sha256": "26dcb1dfb5289cbe4c2cff10e4a7562939e67d9fa341eccabbabe456a2ad0e7e"
+        },
+        {
+          "relative": "robosuite/environments/manipulation/tool_hang.py",
+          "sha256": "da87623a6067bb6efd9714cfff0a61dce2107ad46356eb549810259d03e04ac0"
+        },
+        {
+          "relative": "robosuite/models/assets/grippers/panda_gripper.xml",
+          "sha256": "d9d68123909d6910488310d0fae4e358ed4ac831c6d0957f3e30893a5412baac"
+        },
+        {
+          "relative": "robosuite/models/robots/manipulators/manipulator_model.py",
+          "sha256": "ac21ce0b004a1ee93cb8b728c00b9c18c38ecabb2dedca370de80602ad26f059"
+        },
+        {
+          "relative": "robosuite/robots/robot.py",
+          "sha256": "7a3a98eb75b4e7cb1b822a918d0c693d441356279a8e796cfc02eb1fd5963f23"
+        },
+        {
+          "relative": "robosuite/robots/single_arm.py",
+          "sha256": "38237d7b68c876b413f0df811b135ca3b2fb91061c011696baab07db5e87fa14"
+        },
+        {
+          "relative": "robosuite/utils/transform_utils.py",
+          "sha256": "1c2317895733449883b56af0decefb3529649b3a7779dc2ef3ed00816bb25bb0"
+        },
+        {
+          "relative": "robomimic/algo/algo.py",
+          "sha256": "d15dd0c501f6c715d8614887b04bc5ece9084d39d1e7cbc07de9ee9b5b93fe3e"
+        },
+        {
+          "relative": "robomimic/algo/bc.py",
+          "sha256": "c74971d3da941e01fe0cfe97b5aebc6cddb9b8f7dbe13c2947fb5063e5765f42"
+        },
+        {
+          "relative": "robomimic/config/bc_config.py",
+          "sha256": "daff093a4f0eb63d01a29ce176bd881674b2ebd49bf7081b6ffd77eaae9a28f5"
+        },
+        {
+          "relative": "robomimic/models/policy_nets.py",
+          "sha256": "8b74798ed8651ba19208dd8aed6250d03d78a5e28837254d57642be9ce944892"
+        },
+        {
+          "relative": "robomimic/scripts/generate_paper_configs.py",
+          "sha256": "34df666cb6953c29815eb69541a2ed26986437c5d8e3ca81775d109643740a55"
+        },
+        {
+          "relative": "robomimic/__init__.py",
+          "sha256": "a1b4e1487b5d0dcea8e7684f5da53526cd108f91bfc09a00cdc1eaea72ddaade"
+        },
+        {
+          "relative": "robomimic/algo/__init__.py",
+          "sha256": "52a111eb49f0fdbf37ca99bd5e074a0b2dce02229cbd10312214b1329a70f587"
+        },
+        {
+          "relative": "robomimic/algo/algo.py",
+          "sha256": "d15dd0c501f6c715d8614887b04bc5ece9084d39d1e7cbc07de9ee9b5b93fe3e"
+        },
+        {
+          "relative": "robomimic/algo/bc.py",
+          "sha256": "c74971d3da941e01fe0cfe97b5aebc6cddb9b8f7dbe13c2947fb5063e5765f42"
+        },
+        {
+          "relative": "robomimic/config/__init__.py",
+          "sha256": "8c5c91a9c88bd254266e4fdcec19780e37c51d42cf2f6881356e7fad07287af0"
+        },
+        {
+          "relative": "robomimic/config/bc_config.py",
+          "sha256": "daff093a4f0eb63d01a29ce176bd881674b2ebd49bf7081b6ffd77eaae9a28f5"
+        },
+        {
+          "relative": "robomimic/models/policy_nets.py",
+          "sha256": "8b74798ed8651ba19208dd8aed6250d03d78a5e28837254d57642be9ce944892"
+        },
+        {
+          "relative": "robomimic/utils/obs_utils.py",
+          "sha256": "b20278330ad8283a21886a4e79c457e31d0d1d599b5895010be1099a2c94c6e6"
+        },
+        {
+          "relative": "robomimic/utils/torch_utils.py",
+          "sha256": "a536c2c8525cbf32bb52c40dba55e0e912c1abbac75331465ccd411c0de23d67"
+        },
+        {
+          "relative": "robomimic/envs/env_robosuite.py",
+          "sha256": "092934171fdb86842e3d6f19c20f21bc9dc05350910f06acfda85feaa5ad100a"
+        }
+      ]
+    },
+    "target": {
+      "caps": {
+        "action_attempts": 1600,
+        "action_returns": 1600,
+        "environment_constructors": 4,
+        "explicit_resets": 4,
+        "reset_to_attempts": 0,
+        "xml_reload_attempts": 0
+      },
+      "wall_seconds": 180,
+      "native_task": {
+        "actuator_tolerance": 1e-09,
+        "case_seconds": 20,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "dataset_sha256": "afc1fc1bd72193d1fd89c689b738cb9eb1a17352217aea2a2e029ccc49eefcbd",
+        "decoder_mode": "argmax",
+        "decoder_sha256": "36c393c21b92934d9ff3ded5131e4f2ab224ea6089f9566aad8c2aba001d2e45",
+        "deployment": "MimicGen source controller plus at most 5 fixed-terminal-pose hold actions; original hold5/horizon400",
+        "environment_name": "NutAssemblySquare",
+        "environment_source_sha256": "142c6d8cc8ee02f686188fad271de5084e68dc16d386ae307bee1e469550f755",
+        "helper_sha256": "58eb5b076b0105fe280923642505950cd15ba0f621f8104acaca23e2f609aea0",
+        "horizon": 400,
+        "mujoco_version": "2.3.2",
+        "pairing_sha256": "40fb66bfe5d86d8957a01e69c07235e26a49b71a987f321542385e223d471d37",
+        "runner_sha256": "4e25edd5ff5b604c9e5a61076c09f187a8dfe0cf3dcae65deb974325fa300762",
+        "success_hold": 5,
+        "timestep": 0.002,
+        "workspace_xyz": [
+          [
+            -0.6,
+            0.6
+          ],
+          [
+            -0.7,
+            0.7
+          ],
+          [
+            0.75,
+            1.4
+          ]
+        ],
+        "dataset_role": "metadata_Square"
+      },
+      "learning_ids": [
+        "demo_1",
+        "demo_10",
+        "demo_100",
+        "demo_101",
+        "demo_102",
+        "demo_104",
+        "demo_106",
+        "demo_109",
+        "demo_11",
+        "demo_110",
+        "demo_112",
+        "demo_113",
+        "demo_114",
+        "demo_116",
+        "demo_118",
+        "demo_119",
+        "demo_12",
+        "demo_120",
+        "demo_121",
+        "demo_123",
+        "demo_124",
+        "demo_126",
+        "demo_127",
+        "demo_129",
+        "demo_13",
+        "demo_130",
+        "demo_132",
+        "demo_133",
+        "demo_134",
+        "demo_135",
+        "demo_136",
+        "demo_137",
+        "demo_138",
+        "demo_139",
+        "demo_140",
+        "demo_141",
+        "demo_142",
+        "demo_143",
+        "demo_144",
+        "demo_145",
+        "demo_146",
+        "demo_147",
+        "demo_148",
+        "demo_149",
+        "demo_15",
+        "demo_150",
+        "demo_151",
+        "demo_152",
+        "demo_153",
+        "demo_154",
+        "demo_156",
+        "demo_157",
+        "demo_159",
+        "demo_16",
+        "demo_160",
+        "demo_161",
+        "demo_162",
+        "demo_163",
+        "demo_164",
+        "demo_165",
+        "demo_166",
+        "demo_167",
+        "demo_169",
+        "demo_17",
+        "demo_170",
+        "demo_171",
+        "demo_172",
+        "demo_173",
+        "demo_174",
+        "demo_175",
+        "demo_177",
+        "demo_178",
+        "demo_179",
+        "demo_18",
+        "demo_181",
+        "demo_182",
+        "demo_183",
+        "demo_184",
+        "demo_186",
+        "demo_187",
+        "demo_188",
+        "demo_189",
+        "demo_19",
+        "demo_192",
+        "demo_193",
+        "demo_194",
+        "demo_195",
+        "demo_196",
+        "demo_198",
+        "demo_199",
+        "demo_2",
+        "demo_20",
+        "demo_22",
+        "demo_24",
+        "demo_25",
+        "demo_26",
+        "demo_28",
+        "demo_29",
+        "demo_3",
+        "demo_30",
+        "demo_31",
+        "demo_33",
+        "demo_34",
+        "demo_37",
+        "demo_38",
+        "demo_39",
+        "demo_4",
+        "demo_40",
+        "demo_41",
+        "demo_42",
+        "demo_43",
+        "demo_46",
+        "demo_47",
+        "demo_48",
+        "demo_50",
+        "demo_51",
+        "demo_52",
+        "demo_53",
+        "demo_54",
+        "demo_55",
+        "demo_57",
+        "demo_58",
+        "demo_59",
+        "demo_60",
+        "demo_61",
+        "demo_62",
+        "demo_63",
+        "demo_65",
+        "demo_66",
+        "demo_67",
+        "demo_68",
+        "demo_69",
+        "demo_70",
+        "demo_71",
+        "demo_73",
+        "demo_74",
+        "demo_75",
+        "demo_76",
+        "demo_77",
+        "demo_78",
+        "demo_8",
+        "demo_80",
+        "demo_81",
+        "demo_82",
+        "demo_83",
+        "demo_84",
+        "demo_85",
+        "demo_86",
+        "demo_87",
+        "demo_88",
+        "demo_89",
+        "demo_9",
+        "demo_90",
+        "demo_91",
+        "demo_92",
+        "demo_94",
+        "demo_95",
+        "demo_97",
+        "demo_98",
+        "demo_99"
+      ],
+      "internal_dev_ids": [
+        "demo_107",
+        "demo_108",
+        "demo_115",
+        "demo_117",
+        "demo_122",
+        "demo_128",
+        "demo_158",
+        "demo_185",
+        "demo_190",
+        "demo_197",
+        "demo_23",
+        "demo_35",
+        "demo_45",
+        "demo_49",
+        "demo_6",
+        "demo_64",
+        "demo_7",
+        "demo_72",
+        "demo_79",
+        "demo_96"
+      ],
+      "source_commit": "c0fbff22ba40060f05a917a80817f3f5c20731e7",
+      "terminal_extension": {
+        "counts_inside_original_horizon": true,
+        "gripper": "last actually applied gripper action",
+        "max_steps": 5,
+        "pose": "actual end-effector pose at generator return; held fixed throughout extension"
+      },
+      "seeds": [
+        351594620,
+        1619882337,
+        1068969187,
+        847811185
+      ],
+      "input_roles": {
+        "lowdim": {
+          "role": "metadata_Square",
+          "bytes": 52999352,
+          "sha256": "afc1fc1bd72193d1fd89c689b738cb9eb1a17352217aea2a2e029ccc49eefcbd"
+        },
+        "prepared_source": {
+          "role": "prepared_source",
+          "bytes": 931112,
+          "sha256": "365a667664a8f9818ffd00d43351de7cc85928f55b56b03ff19587a1a581fe93"
+        }
+      },
+      "external_sources": [
+        {
+          "relative": "robosuite/controllers/base_controller.py",
+          "sha256": "61f99a2daeb4eb6e39bfb996d94c5a5689ef3bc771d030d070193ea56d6a8332"
+        },
+        {
+          "relative": "robosuite/controllers/osc.py",
+          "sha256": "cfa62a0e719bc53ef0c701efa66f7b3e2272d4fca2150ec73c05bb145eba85cb"
+        },
+        {
+          "relative": "robosuite/environments/base.py",
+          "sha256": "60eab4afd3dc95b4ac4cf0659fb9afe6360161912a4ac6931efe86ce1e1de519"
+        },
+        {
+          "relative": "robosuite/environments/manipulation/manipulation_env.py",
+          "sha256": "13375356b4ab98bea62dce25b002b137c58669bfba77f0db84cf04c04a4cc457"
+        },
+        {
+          "relative": "robosuite/environments/manipulation/nut_assembly.py",
+          "sha256": "142c6d8cc8ee02f686188fad271de5084e68dc16d386ae307bee1e469550f755"
+        },
+        {
+          "relative": "robosuite/environments/manipulation/pick_place.py",
+          "sha256": "26dcb1dfb5289cbe4c2cff10e4a7562939e67d9fa341eccabbabe456a2ad0e7e"
+        },
+        {
+          "relative": "robosuite/environments/manipulation/tool_hang.py",
+          "sha256": "da87623a6067bb6efd9714cfff0a61dce2107ad46356eb549810259d03e04ac0"
+        },
+        {
+          "relative": "robosuite/models/assets/grippers/panda_gripper.xml",
+          "sha256": "d9d68123909d6910488310d0fae4e358ed4ac831c6d0957f3e30893a5412baac"
+        },
+        {
+          "relative": "robosuite/models/robots/manipulators/manipulator_model.py",
+          "sha256": "ac21ce0b004a1ee93cb8b728c00b9c18c38ecabb2dedca370de80602ad26f059"
+        },
+        {
+          "relative": "robosuite/robots/robot.py",
+          "sha256": "7a3a98eb75b4e7cb1b822a918d0c693d441356279a8e796cfc02eb1fd5963f23"
+        },
+        {
+          "relative": "robosuite/robots/single_arm.py",
+          "sha256": "38237d7b68c876b413f0df811b135ca3b2fb91061c011696baab07db5e87fa14"
+        },
+        {
+          "relative": "robosuite/utils/transform_utils.py",
+          "sha256": "1c2317895733449883b56af0decefb3529649b3a7779dc2ef3ed00816bb25bb0"
+        },
+        {
+          "relative": "robomimic/algo/algo.py",
+          "sha256": "d15dd0c501f6c715d8614887b04bc5ece9084d39d1e7cbc07de9ee9b5b93fe3e"
+        },
+        {
+          "relative": "robomimic/algo/bc.py",
+          "sha256": "c74971d3da941e01fe0cfe97b5aebc6cddb9b8f7dbe13c2947fb5063e5765f42"
+        },
+        {
+          "relative": "robomimic/config/bc_config.py",
+          "sha256": "daff093a4f0eb63d01a29ce176bd881674b2ebd49bf7081b6ffd77eaae9a28f5"
+        },
+        {
+          "relative": "robomimic/models/policy_nets.py",
+          "sha256": "8b74798ed8651ba19208dd8aed6250d03d78a5e28837254d57642be9ce944892"
+        },
+        {
+          "relative": "robomimic/scripts/generate_paper_configs.py",
+          "sha256": "34df666cb6953c29815eb69541a2ed26986437c5d8e3ca81775d109643740a55"
+        },
+        {
+          "relative": "robomimic/__init__.py",
+          "sha256": "a1b4e1487b5d0dcea8e7684f5da53526cd108f91bfc09a00cdc1eaea72ddaade"
+        },
+        {
+          "relative": "robomimic/algo/__init__.py",
+          "sha256": "52a111eb49f0fdbf37ca99bd5e074a0b2dce02229cbd10312214b1329a70f587"
+        },
+        {
+          "relative": "robomimic/algo/algo.py",
+          "sha256": "d15dd0c501f6c715d8614887b04bc5ece9084d39d1e7cbc07de9ee9b5b93fe3e"
+        },
+        {
+          "relative": "robomimic/algo/bc.py",
+          "sha256": "c74971d3da941e01fe0cfe97b5aebc6cddb9b8f7dbe13c2947fb5063e5765f42"
+        },
+        {
+          "relative": "robomimic/config/__init__.py",
+          "sha256": "8c5c91a9c88bd254266e4fdcec19780e37c51d42cf2f6881356e7fad07287af0"
+        },
+        {
+          "relative": "robomimic/config/bc_config.py",
+          "sha256": "daff093a4f0eb63d01a29ce176bd881674b2ebd49bf7081b6ffd77eaae9a28f5"
+        },
+        {
+          "relative": "robomimic/models/policy_nets.py",
+          "sha256": "8b74798ed8651ba19208dd8aed6250d03d78a5e28837254d57642be9ce944892"
+        },
+        {
+          "relative": "robomimic/utils/obs_utils.py",
+          "sha256": "b20278330ad8283a21886a4e79c457e31d0d1d599b5895010be1099a2c94c6e6"
+        },
+        {
+          "relative": "robomimic/utils/torch_utils.py",
+          "sha256": "a536c2c8525cbf32bb52c40dba55e0e912c1abbac75331465ccd411c0de23d67"
+        },
+        {
+          "relative": "robomimic/envs/env_robosuite.py",
+          "sha256": "092934171fdb86842e3d6f19c20f21bc9dc05350910f06acfda85feaa5ad100a"
+        }
+      ]
+    },
+    "correction": {
+      "caps": {
+        "action_attempts": 2000,
+        "action_returns": 2000,
+        "environment_constructors": 5,
+        "explicit_resets": 5,
+        "reset_to_attempts": 0,
+        "xml_reload_attempts": 0
+      },
+      "wall_seconds": 180,
+      "native_task": {
+        "actuator_tolerance": 1e-09,
+        "case_seconds": 20,
+        "compiled_limits": {
+          "actuator_ctrllimited": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "actuator_ctrlrange": [
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -80.0,
+              80.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              -12.0,
+              12.0
+            ],
+            [
+              0.0,
+              0.04
+            ],
+            [
+              -0.04,
+              0.0
+            ]
+          ],
+          "actuator_forcelimited": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "actuator_forcerange": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -20.0,
+              20.0
+            ],
+            [
+              -20.0,
+              20.0
+            ]
+          ],
+          "actuator_names": [
+            "robot0_torq_j1",
+            "robot0_torq_j2",
+            "robot0_torq_j3",
+            "robot0_torq_j4",
+            "robot0_torq_j5",
+            "robot0_torq_j6",
+            "robot0_torq_j7",
+            "gripper0_gripper_finger_joint1",
+            "gripper0_gripper_finger_joint2"
+          ]
+        },
+        "dataset_sha256": "afc1fc1bd72193d1fd89c689b738cb9eb1a17352217aea2a2e029ccc49eefcbd",
+        "decoder_mode": "argmax",
+        "decoder_sha256": "36c393c21b92934d9ff3ded5131e4f2ab224ea6089f9566aad8c2aba001d2e45",
+        "deployment": "MimicGen source controller plus at most 5 fixed-terminal-pose hold actions; original hold5/horizon400",
+        "environment_name": "NutAssemblySquare",
+        "environment_source_sha256": "142c6d8cc8ee02f686188fad271de5084e68dc16d386ae307bee1e469550f755",
+        "helper_sha256": "58eb5b076b0105fe280923642505950cd15ba0f621f8104acaca23e2f609aea0",
+        "horizon": 400,
+        "mujoco_version": "2.3.2",
+        "pairing_sha256": "40fb66bfe5d86d8957a01e69c07235e26a49b71a987f321542385e223d471d37",
+        "runner_sha256": "4e25edd5ff5b604c9e5a61076c09f187a8dfe0cf3dcae65deb974325fa300762",
+        "success_hold": 5,
+        "timestep": 0.002,
+        "workspace_xyz": [
+          [
+            -0.6,
+            0.6
+          ],
+          [
+            -0.7,
+            0.7
+          ],
+          [
+            0.75,
+            1.4
+          ]
+        ],
+        "dataset_role": "metadata_Square"
+      },
+      "learning_ids": [
+        "demo_1",
+        "demo_10",
+        "demo_100",
+        "demo_101",
+        "demo_102",
+        "demo_104",
+        "demo_106",
+        "demo_109",
+        "demo_11",
+        "demo_110",
+        "demo_112",
+        "demo_113",
+        "demo_114",
+        "demo_116",
+        "demo_118",
+        "demo_119",
+        "demo_12",
+        "demo_120",
+        "demo_121",
+        "demo_123",
+        "demo_124",
+        "demo_126",
+        "demo_127",
+        "demo_129",
+        "demo_13",
+        "demo_130",
+        "demo_132",
+        "demo_133",
+        "demo_134",
+        "demo_135",
+        "demo_136",
+        "demo_137",
+        "demo_138",
+        "demo_139",
+        "demo_140",
+        "demo_141",
+        "demo_142",
+        "demo_143",
+        "demo_144",
+        "demo_145",
+        "demo_146",
+        "demo_147",
+        "demo_148",
+        "demo_149",
+        "demo_15",
+        "demo_150",
+        "demo_151",
+        "demo_152",
+        "demo_153",
+        "demo_154",
+        "demo_156",
+        "demo_157",
+        "demo_159",
+        "demo_16",
+        "demo_160",
+        "demo_161",
+        "demo_162",
+        "demo_163",
+        "demo_164",
+        "demo_165",
+        "demo_166",
+        "demo_167",
+        "demo_169",
+        "demo_17",
+        "demo_170",
+        "demo_171",
+        "demo_172",
+        "demo_173",
+        "demo_174",
+        "demo_175",
+        "demo_177",
+        "demo_178",
+        "demo_179",
+        "demo_18",
+        "demo_181",
+        "demo_182",
+        "demo_183",
+        "demo_184",
+        "demo_186",
+        "demo_187",
+        "demo_188",
+        "demo_189",
+        "demo_19",
+        "demo_192",
+        "demo_193",
+        "demo_194",
+        "demo_195",
+        "demo_196",
+        "demo_198",
+        "demo_199",
+        "demo_2",
+        "demo_20",
+        "demo_22",
+        "demo_24",
+        "demo_25",
+        "demo_26",
+        "demo_28",
+        "demo_29",
+        "demo_3",
+        "demo_30",
+        "demo_31",
+        "demo_33",
+        "demo_34",
+        "demo_37",
+        "demo_38",
+        "demo_39",
+        "demo_4",
+        "demo_40",
+        "demo_41",
+        "demo_42",
+        "demo_43",
+        "demo_46",
+        "demo_47",
+        "demo_48",
+        "demo_50",
+        "demo_51",
+        "demo_52",
+        "demo_53",
+        "demo_54",
+        "demo_55",
+        "demo_57",
+        "demo_58",
+        "demo_59",
+        "demo_60",
+        "demo_61",
+        "demo_62",
+        "demo_63",
+        "demo_65",
+        "demo_66",
+        "demo_67",
+        "demo_68",
+        "demo_69",
+        "demo_70",
+        "demo_71",
+        "demo_73",
+        "demo_74",
+        "demo_75",
+        "demo_76",
+        "demo_77",
+        "demo_78",
+        "demo_8",
+        "demo_80",
+        "demo_81",
+        "demo_82",
+        "demo_83",
+        "demo_84",
+        "demo_85",
+        "demo_86",
+        "demo_87",
+        "demo_88",
+        "demo_89",
+        "demo_9",
+        "demo_90",
+        "demo_91",
+        "demo_92",
+        "demo_94",
+        "demo_95",
+        "demo_97",
+        "demo_98",
+        "demo_99"
+      ],
+      "internal_dev_ids": [
+        "demo_107",
+        "demo_108",
+        "demo_115",
+        "demo_117",
+        "demo_122",
+        "demo_128",
+        "demo_158",
+        "demo_185",
+        "demo_190",
+        "demo_197",
+        "demo_23",
+        "demo_35",
+        "demo_45",
+        "demo_49",
+        "demo_6",
+        "demo_64",
+        "demo_7",
+        "demo_72",
+        "demo_79",
+        "demo_96"
+      ],
+      "source_commit": "c0fbff22ba40060f05a917a80817f3f5c20731e7",
+      "terminal_extension": {
+        "counts_inside_original_horizon": true,
+        "gripper": "last actually applied gripper action",
+        "max_steps": 5,
+        "pose": "actual end-effector pose at generator return; held fixed throughout extension"
+      },
+      "seeds": [
+        62001,
+        62002,
+        62003,
+        62004,
+        62005
+      ],
+      "input_roles": {
+        "lowdim": {
+          "role": "metadata_Square",
+          "bytes": 52999352,
+          "sha256": "afc1fc1bd72193d1fd89c689b738cb9eb1a17352217aea2a2e029ccc49eefcbd"
+        },
+        "prepared_source": {
+          "role": "prepared_source",
+          "bytes": 931112,
+          "sha256": "365a667664a8f9818ffd00d43351de7cc85928f55b56b03ff19587a1a581fe93"
+        }
+      },
+      "external_sources": [
+        {
+          "relative": "robosuite/controllers/base_controller.py",
+          "sha256": "61f99a2daeb4eb6e39bfb996d94c5a5689ef3bc771d030d070193ea56d6a8332"
+        },
+        {
+          "relative": "robosuite/controllers/osc.py",
+          "sha256": "cfa62a0e719bc53ef0c701efa66f7b3e2272d4fca2150ec73c05bb145eba85cb"
+        },
+        {
+          "relative": "robosuite/environments/base.py",
+          "sha256": "60eab4afd3dc95b4ac4cf0659fb9afe6360161912a4ac6931efe86ce1e1de519"
+        },
+        {
+          "relative": "robosuite/environments/manipulation/manipulation_env.py",
+          "sha256": "13375356b4ab98bea62dce25b002b137c58669bfba77f0db84cf04c04a4cc457"
+        },
+        {
+          "relative": "robosuite/environments/manipulation/nut_assembly.py",
+          "sha256": "142c6d8cc8ee02f686188fad271de5084e68dc16d386ae307bee1e469550f755"
+        },
+        {
+          "relative": "robosuite/environments/manipulation/pick_place.py",
+          "sha256": "26dcb1dfb5289cbe4c2cff10e4a7562939e67d9fa341eccabbabe456a2ad0e7e"
+        },
+        {
+          "relative": "robosuite/environments/manipulation/tool_hang.py",
+          "sha256": "da87623a6067bb6efd9714cfff0a61dce2107ad46356eb549810259d03e04ac0"
+        },
+        {
+          "relative": "robosuite/models/assets/grippers/panda_gripper.xml",
+          "sha256": "d9d68123909d6910488310d0fae4e358ed4ac831c6d0957f3e30893a5412baac"
+        },
+        {
+          "relative": "robosuite/models/robots/manipulators/manipulator_model.py",
+          "sha256": "ac21ce0b004a1ee93cb8b728c00b9c18c38ecabb2dedca370de80602ad26f059"
+        },
+        {
+          "relative": "robosuite/robots/robot.py",
+          "sha256": "7a3a98eb75b4e7cb1b822a918d0c693d441356279a8e796cfc02eb1fd5963f23"
+        },
+        {
+          "relative": "robosuite/robots/single_arm.py",
+          "sha256": "38237d7b68c876b413f0df811b135ca3b2fb91061c011696baab07db5e87fa14"
+        },
+        {
+          "relative": "robosuite/utils/transform_utils.py",
+          "sha256": "1c2317895733449883b56af0decefb3529649b3a7779dc2ef3ed00816bb25bb0"
+        },
+        {
+          "relative": "robomimic/algo/algo.py",
+          "sha256": "d15dd0c501f6c715d8614887b04bc5ece9084d39d1e7cbc07de9ee9b5b93fe3e"
+        },
+        {
+          "relative": "robomimic/algo/bc.py",
+          "sha256": "c74971d3da941e01fe0cfe97b5aebc6cddb9b8f7dbe13c2947fb5063e5765f42"
+        },
+        {
+          "relative": "robomimic/config/bc_config.py",
+          "sha256": "daff093a4f0eb63d01a29ce176bd881674b2ebd49bf7081b6ffd77eaae9a28f5"
+        },
+        {
+          "relative": "robomimic/models/policy_nets.py",
+          "sha256": "8b74798ed8651ba19208dd8aed6250d03d78a5e28837254d57642be9ce944892"
+        },
+        {
+          "relative": "robomimic/scripts/generate_paper_configs.py",
+          "sha256": "34df666cb6953c29815eb69541a2ed26986437c5d8e3ca81775d109643740a55"
+        },
+        {
+          "relative": "robomimic/__init__.py",
+          "sha256": "a1b4e1487b5d0dcea8e7684f5da53526cd108f91bfc09a00cdc1eaea72ddaade"
+        },
+        {
+          "relative": "robomimic/algo/__init__.py",
+          "sha256": "52a111eb49f0fdbf37ca99bd5e074a0b2dce02229cbd10312214b1329a70f587"
+        },
+        {
+          "relative": "robomimic/algo/algo.py",
+          "sha256": "d15dd0c501f6c715d8614887b04bc5ece9084d39d1e7cbc07de9ee9b5b93fe3e"
+        },
+        {
+          "relative": "robomimic/algo/bc.py",
+          "sha256": "c74971d3da941e01fe0cfe97b5aebc6cddb9b8f7dbe13c2947fb5063e5765f42"
+        },
+        {
+          "relative": "robomimic/config/__init__.py",
+          "sha256": "8c5c91a9c88bd254266e4fdcec19780e37c51d42cf2f6881356e7fad07287af0"
+        },
+        {
+          "relative": "robomimic/config/bc_config.py",
+          "sha256": "daff093a4f0eb63d01a29ce176bd881674b2ebd49bf7081b6ffd77eaae9a28f5"
+        },
+        {
+          "relative": "robomimic/models/policy_nets.py",
+          "sha256": "8b74798ed8651ba19208dd8aed6250d03d78a5e28837254d57642be9ce944892"
+        },
+        {
+          "relative": "robomimic/utils/obs_utils.py",
+          "sha256": "b20278330ad8283a21886a4e79c457e31d0d1d599b5895010be1099a2c94c6e6"
+        },
+        {
+          "relative": "robomimic/utils/torch_utils.py",
+          "sha256": "a536c2c8525cbf32bb52c40dba55e0e912c1abbac75331465ccd411c0de23d67"
+        },
+        {
+          "relative": "robomimic/envs/env_robosuite.py",
+          "sha256": "092934171fdb86842e3d6f19c20f21bc9dc05350910f06acfda85feaa5ad100a"
+        }
+      ]
+    }
+  },
+  "correction_packaging": {
+    "acquisition_seeds": [
+      62001,
+      62002,
+      62003,
+      62004,
+      62005
+    ],
+    "arms": {
+      "C0": {
+        "seeds": [],
+        "source": "none"
+      },
+      "LP": {
+        "seeds": [
+          62001,
+          62003,
+          62005
+        ],
+        "source": "P"
+      },
+      "FP": {
+        "seeds": [
+          62001,
+          62002,
+          62004
+        ],
+        "source": "P"
+      },
+      "LG": {
+        "seeds": [
+          62001,
+          62003,
+          62005
+        ],
+        "source": "G"
+      },
+      "FG": {
+        "seeds": [
+          62001,
+          62002,
+          62004
+        ],
+        "source": "G"
+      }
+    },
+    "parent_logs": {
+      "62001": {
+        "sha256": "e742df356699c6c4ee0a58724678a7637c502fc2986a7daab4d23580d4e603a9",
+        "initial_state_sha256": "eab62f7c65db1d6e7564db21cadf6eb02536913ec90c1d729046c7ef2a497139"
+      },
+      "62002": {
+        "sha256": "ca8d435b60b33f410338cc786b0410e4fb2062fe72234106103103f5b1b7e85b",
+        "initial_state_sha256": "3c6c0eab21ecacea3954fcb85fdc5c3a0196e8c940c112d60295e30e4c852551"
+      },
+      "62003": {
+        "sha256": "2423aa0b841dda50b284c9f283b9ca9b829c7a81a6219289b36606edeb2e2244",
+        "initial_state_sha256": "beb943d79ead730ee184fc68a3c78c0cb3ace127fe28e2ff8df55a446cff9138"
+      },
+      "62004": {
+        "sha256": "75c0d719602edb37a0aaaacab3dd258f232bfb69bf367624203c01276df32f41",
+        "initial_state_sha256": "72c86dcbb53d910426f86587230807214b6fe453e9708b4c457e50b5bce4f767"
+      },
+      "62005": {
+        "sha256": "2b189256d114625f2f12d8a5676c456660c43e129c162df7fa810bc1171a65fc",
+        "initial_state_sha256": "e679afbb89c2b84634e9b45eeda1170c57586c0657fa83c1fb6cc531655d4375"
+      }
+    }
+  },
+  "mimicgen_files": {
+    "mimicgen/__init__.py": {
+      "bytes": 8009,
+      "sha256": "e88d4ba352b62c5cd9c27bd555a8bbe0553d097fb5f557200e03746b8ec44ff7"
+    },
+    "mimicgen/configs/config.py": {
+      "bytes": 7866,
+      "sha256": "318749ca8a2641a0382ce0fe8a4dd38906decbf79647c2910c9e9298c13ff339"
+    },
+    "mimicgen/configs/robosuite.py": {
+      "bytes": 25658,
+      "sha256": "77b8be7b58befdeff27b5d408a38a437df942814b8a4347896e31e45b6d7cd24"
+    },
+    "mimicgen/configs/task_spec.py": {
+      "bytes": 5778,
+      "sha256": "38179a607f46f9368f97962b283740d9f33d41af4a1a4b215c78c372eb64d2d3"
+    },
+    "mimicgen/configs/__init__.py": {
+      "bytes": 334,
+      "sha256": "e936e59a375131d41c7c17aaf466f60e80f94c559af0c4994b20db68c7cb0560"
+    },
+    "mimicgen/datagen/datagen_info.py": {
+      "bytes": 3213,
+      "sha256": "b236efbade9497458caf0dcb406cada60c07db42b57d6fb097b1526f0f349ef7"
+    },
+    "mimicgen/datagen/data_generator.py": {
+      "bytes": 19677,
+      "sha256": "8be4f024ee4845be33308bc97643823873682f88e65ec9061b5f85c769e40c3a"
+    },
+    "mimicgen/datagen/selection_strategy.py": {
+      "bytes": 11870,
+      "sha256": "867116a679c9084eac4557d95665614106305199f76b00b17c7de29a8a2c7309"
+    },
+    "mimicgen/datagen/waypoint.py": {
+      "bytes": 15547,
+      "sha256": "6ab8a761a8a3ebcf8375be3d617ff00982f36d1413c1ce1fdaf09581d4843b4b"
+    },
+    "mimicgen/datagen/__init__.py": {
+      "bytes": 151,
+      "sha256": "0a0a405c9764f02af887a162ce384ae57325120b053998b2104c9527973000ef"
+    },
+    "mimicgen/envs/__init__.py": {
+      "bytes": 151,
+      "sha256": "0a0a405c9764f02af887a162ce384ae57325120b053998b2104c9527973000ef"
+    },
+    "mimicgen/env_interfaces/base.py": {
+      "bytes": 7394,
+      "sha256": "964c4947f55824284b17297eb28a642104fb8b266b186bf503523d90b15fe03f"
+    },
+    "mimicgen/env_interfaces/robosuite.py": {
+      "bytes": 32728,
+      "sha256": "d07c6eb7c16262e2396beb0222b5a9cf74c10ea917eee1c22c7da3e6c2e0fbae"
+    },
+    "mimicgen/env_interfaces/__init__.py": {
+      "bytes": 151,
+      "sha256": "0a0a405c9764f02af887a162ce384ae57325120b053998b2104c9527973000ef"
+    },
+    "mimicgen/models/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mimicgen/scripts/annotate_subtasks.py": {
+      "bytes": 15299,
+      "sha256": "a7f175886a6e1e3c7cf12fec94ed2828aa8e67f993fad04798f30753f5144ca4"
+    },
+    "mimicgen/scripts/demo_random_action.py": {
+      "bytes": 2681,
+      "sha256": "8fe748ff089126a31b93771adb6672f8a9542de65bba3f91b01aaeaeb0fd9e15"
+    },
+    "mimicgen/scripts/download_datasets.py": {
+      "bytes": 3334,
+      "sha256": "af345dd23e53aafdc5ff75699e765dafe9d994d36213db3d1bba786017b0272f"
+    },
+    "mimicgen/scripts/generate_config_templates.py": {
+      "bytes": 1291,
+      "sha256": "9abe7aedebfcf7235da2de1efa8b320450599ad089112894ea28e89bd13c5075"
+    },
+    "mimicgen/scripts/generate_core_configs.py": {
+      "bytes": 13979,
+      "sha256": "6a88f4e78e481e746ee23c4d3e9dd6205e2486e200905acff4227f493854c601"
+    },
+    "mimicgen/scripts/generate_core_training_configs.py": {
+      "bytes": 10859,
+      "sha256": "7918cfd36db1ce7e898aebc3f092e1b16f7e158a5ac7b02f573ad1209cc64ffc"
+    },
+    "mimicgen/scripts/generate_dataset.py": {
+      "bytes": 25403,
+      "sha256": "f99258f4de314a8b5c8e23ac560e3bf3c3d85c2f66b68b059bb4d3c950c0d451"
+    },
+    "mimicgen/scripts/generate_robot_transfer_configs.py": {
+      "bytes": 7188,
+      "sha256": "88ea2f8cef3274e4cda193511451fe0b22dbdf0d991db277e4a29f162981f7c0"
+    },
+    "mimicgen/scripts/generate_robot_transfer_training_configs.py": {
+      "bytes": 7646,
+      "sha256": "22adc6d83c20e49d951746216f62219af9aabf9a02abe9ca7cf061d138287d2d"
+    },
+    "mimicgen/scripts/generate_training_configs_for_public_datasets.py": {
+      "bytes": 10911,
+      "sha256": "9023c04fa4b6a98f151cbf961a3ada256353e42e7d68d529242352dbdb1d8c50"
+    },
+    "mimicgen/scripts/get_reset_videos.py": {
+      "bytes": 6080,
+      "sha256": "2e77c36c38b0134618fe8b9391d15945a47c06202ea60f4ce90af6a48ace6e28"
+    },
+    "mimicgen/scripts/get_source_info.py": {
+      "bytes": 2012,
+      "sha256": "0fb29a7c2ff8ddd0a11dd2737d3c5ea2708c73821a7e753d80f64525a04ed643"
+    },
+    "mimicgen/scripts/merge_hdf5.py": {
+      "bytes": 3550,
+      "sha256": "d778163bdc64771a226729ab8a3e017862677a7793cb0ea2cfb27eadc158d4ff"
+    },
+    "mimicgen/scripts/prepare_src_dataset.py": {
+      "bytes": 9032,
+      "sha256": "ede7ec9ed4c0b34d783b38237e2492d2fb992f98e78d40d74ac8dfd78eb8a3b4"
+    },
+    "mimicgen/scripts/visualize_subtasks.py": {
+      "bytes": 12872,
+      "sha256": "2dee7b9d3de251c84753094a561e4e706f7e45b047613f1889797c70029e525f"
+    },
+    "mimicgen/scripts/__init__.py": {
+      "bytes": 151,
+      "sha256": "0a0a405c9764f02af887a162ce384ae57325120b053998b2104c9527973000ef"
+    },
+    "mimicgen/utils/config_utils.py": {
+      "bytes": 15364,
+      "sha256": "444045aba0f1f0c045ad5df8ad6695eac1538437c2896241b03cac6657854600"
+    },
+    "mimicgen/utils/file_utils.py": {
+      "bytes": 21213,
+      "sha256": "1490bf847be33c29b07465c1dc6d8b4b1e1be3e7381e344a366dee202052641e"
+    },
+    "mimicgen/utils/misc_utils.py": {
+      "bytes": 8000,
+      "sha256": "885a66af6c360d060c827fef2955bcedb2d33d124ab1cf3280c6bd5cc2fbb29f"
+    },
+    "mimicgen/utils/pose_utils.py": {
+      "bytes": 10264,
+      "sha256": "0e8205788bb064a995725cffd0fc6dc55e36015a149a311fa916b36e4ced2bf0"
+    },
+    "mimicgen/utils/robomimic_utils.py": {
+      "bytes": 5706,
+      "sha256": "0b3496c738b31eb4be4bfe5613fee1a912de3f60e6c5e3fdb9f87245cb219780"
+    },
+    "mimicgen/utils/__init__.py": {
+      "bytes": 151,
+      "sha256": "0a0a405c9764f02af887a162ce384ae57325120b053998b2104c9527973000ef"
+    },
+    "mimicgen/envs/robosuite/coffee.py": {
+      "bytes": 55893,
+      "sha256": "20146cd7cc9f294f6e66d5cc3258819b4e1dac3b8e4c00afeb62c35f49d39e67"
+    },
+    "mimicgen/envs/robosuite/hammer_cleanup.py": {
+      "bytes": 17934,
+      "sha256": "7a7d5d010563d86bf6195d84bcf5f337d8bed57875f54b008e3fddbacb70916b"
+    },
+    "mimicgen/envs/robosuite/kitchen.py": {
+      "bytes": 19303,
+      "sha256": "f8029a1eeeae76a44be4d0aae54e997de66ff9c5017dc38ec68d9fafbe27b7d8"
+    },
+    "mimicgen/envs/robosuite/mug_cleanup.py": {
+      "bytes": 29389,
+      "sha256": "884b8a83fcb644e4bf0df8dfbab77e5ffd22d4e492840558123300abef6e6160"
+    },
+    "mimicgen/envs/robosuite/nut_assembly.py": {
+      "bytes": 16498,
+      "sha256": "8f4ae89edea9fefec663fa70f58097d8a428fbf0414d0eb2faafd2680252697d"
+    },
+    "mimicgen/envs/robosuite/pick_place.py": {
+      "bytes": 631,
+      "sha256": "372717606062bc5c65ae82b9eefc8411942da122a3096ab802dbfa557f411597"
+    },
+    "mimicgen/envs/robosuite/single_arm_env_mg.py": {
+      "bytes": 4632,
+      "sha256": "933a4e2f6cfb3560f49a980599a40d0b929269027c7e185b33a93f3c93ee6999"
+    },
+    "mimicgen/envs/robosuite/stack.py": {
+      "bytes": 20442,
+      "sha256": "14ded24b4a87953afc7728b7d9e8f0309d5c5e8b7a8ebf11552b0673f7baf51b"
+    },
+    "mimicgen/envs/robosuite/threading.py": {
+      "bytes": 24963,
+      "sha256": "1361e26112350b48da53c4d011f089b10409984136a3271b1710b5e3dd18763b"
+    },
+    "mimicgen/envs/robosuite/three_piece_assembly.py": {
+      "bytes": 37840,
+      "sha256": "40bd5a4956bbdde5c194b5ff87309d98172a12ada7eb548cb206e86fcf418eba"
+    },
+    "mimicgen/envs/robosuite/__init__.py": {
+      "bytes": 151,
+      "sha256": "0a0a405c9764f02af887a162ce384ae57325120b053998b2104c9527973000ef"
+    },
+    "mimicgen/exps/templates/robosuite/square.json": {
+      "bytes": 2193,
+      "sha256": "c10ae2ae94271787d3b3bff5bdfe2b1c0284b501c9b2b1bff24fc2467b295f10"
+    },
+    "mimicgen/models/robosuite/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mimicgen/models/robosuite/objects/xml_objects.py": {
+      "bytes": 8065,
+      "sha256": "d2c9138461c12f94124abeeed67a7fc3202b2b7efb494c1b4b9c1a7c33c52d40"
+    },
+    "mimicgen/models/robosuite/objects/__init__.py": {
+      "bytes": 235,
+      "sha256": "99d5d6a3545df2ecc998c12bd1d47ffb39d95cc0c767d53fdfba2c46d1e7dbcc"
+    },
+    "mimicgen/models/robosuite/objects/composite/box_pattern_object.py": {
+      "bytes": 4130,
+      "sha256": "e491dd29c6d81b1ad6c625995561c582a387e7c5b4865b896c34c28d35028715"
+    },
+    "mimicgen/models/robosuite/objects/composite/hollow_cylinder.py": {
+      "bytes": 5460,
+      "sha256": "a5bd79191d5d0cf53a15d7584f780737a782b168e29d1a3e2b944a31750a783b"
+    },
+    "mimicgen/models/robosuite/objects/composite/needle.py": {
+      "bytes": 3262,
+      "sha256": "816793277a01a543c1ad01c0ca737b1c63d7edac87016367873e1a66067aaf16"
+    },
+    "mimicgen/models/robosuite/objects/composite/ring_tripod.py": {
+      "bytes": 7055,
+      "sha256": "18564b6c78be0004c0e3f8c16e1ffb3119d37b3827df7944704e0083e8a62148"
+    },
+    "mimicgen/models/robosuite/objects/composite/__init__.py": {
+      "bytes": 326,
+      "sha256": "4eb240b996e6856b4d9272872a19b4ec6399a444dc89aaa50d8b50d405b643d1"
+    },
+    "mimicgen/models/robosuite/objects/composite_body/coffee_machine.py": {
+      "bytes": 6088,
+      "sha256": "5cd69ce2e399e0a1abfc234a441a2438e42fab40b6fee4e25d7548d12778422b"
+    },
+    "mimicgen/models/robosuite/objects/composite_body/cup.py": {
+      "bytes": 4629,
+      "sha256": "1e979823cef4193d1b3fe77c88dd275068d06b4e3aae9de1d6c4d71001ee973f"
+    },
+    "mimicgen/models/robosuite/objects/composite_body/__init__.py": {
+      "bytes": 227,
+      "sha256": "c486e267af43f6b641e21e32e4c3ff75fd3cdbdbf72934999fe7a1faf857805a"
+    },
+    "LICENSE": {
+      "bytes": 4042,
+      "sha256": "c61872e27a1c33a016491dfd9145211deb46230ec4e94338e022df23ea81b9b5"
+    }
+  }
+}
